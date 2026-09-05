@@ -1,0 +1,10 @@
+{
+  "name": "positional-logic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/generate-site.mjs",
+    "check": "node tools/validate-site.mjs"
+  }
+}

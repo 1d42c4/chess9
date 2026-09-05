@@ -1,0 +1,4086 @@
+{
+  "sourceFolder": "positional",
+  "repository": "https://github.com/knightway8/chess9",
+  "website": "https://knightway8.github.io/chess9/",
+  "originalFileCount": 509,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sourceBytes": 66,
+      "uploadedBytes": 66,
+      "sourceSha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "uploadedSha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "modified": false
+    },
+    {
+      "path": ".nojekyll",
+      "sourceBytes": 0,
+      "uploadedBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "uploadedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "path": "index.html",
+      "sourceBytes": 181603,
+      "uploadedBytes": 181603,
+      "sourceSha256": "4a1f98126ece08b723708ea5a37315bbbbc02b1698a01623d33fe1fef72c20a7",
+      "uploadedSha256": "4a1f98126ece08b723708ea5a37315bbbbc02b1698a01623d33fe1fef72c20a7",
+      "modified": false
+    },
+    {
+      "path": "lesson-001.html",
+      "sourceBytes": 15171,
+      "uploadedBytes": 15171,
+      "sourceSha256": "913966d073b542c39ea3dd0b7d72c97276273a053f3cd956b308eaef8af767b4",
+      "uploadedSha256": "913966d073b542c39ea3dd0b7d72c97276273a053f3cd956b308eaef8af767b4",
+      "modified": false
+    },
+    {
+      "path": "lesson-002.html",
+      "sourceBytes": 15190,
+      "uploadedBytes": 15190,
+      "sourceSha256": "feb273d238a8bb35218f3103bcf66efb090bf7fea2a85a411c44283aefa795a4",
+      "uploadedSha256": "feb273d238a8bb35218f3103bcf66efb090bf7fea2a85a411c44283aefa795a4",
+      "modified": false
+    },
+    {
+      "path": "lesson-003.html",
+      "sourceBytes": 15290,
+      "uploadedBytes": 15290,
+      "sourceSha256": "8c76a8fe3a8501ca70d6b1003e87d2fa958b76ac091d4a3051914acc07d58bae",
+      "uploadedSha256": "8c76a8fe3a8501ca70d6b1003e87d2fa958b76ac091d4a3051914acc07d58bae",
+      "modified": false
+    },
+    {
+      "path": "lesson-004.html",
+      "sourceBytes": 15220,
+      "uploadedBytes": 15220,
+      "sourceSha256": "5d9a9229aa60692e88ba6740f6b3d8916a44a485c0f42ff26c1d75fca72ec30e",
+      "uploadedSha256": "5d9a9229aa60692e88ba6740f6b3d8916a44a485c0f42ff26c1d75fca72ec30e",
+      "modified": false
+    },
+    {
+      "path": "lesson-005.html",
+      "sourceBytes": 15204,
+      "uploadedBytes": 15204,
+      "sourceSha256": "b35ce95b4ee1a72d6e1e216f739735e6aafa96eabea2af4694861e487d4a0ba8",
+      "uploadedSha256": "b35ce95b4ee1a72d6e1e216f739735e6aafa96eabea2af4694861e487d4a0ba8",
+      "modified": false
+    },
+    {
+      "path": "lesson-006.html",
+      "sourceBytes": 15237,
+      "uploadedBytes": 15237,
+      "sourceSha256": "46c7ae1ed0afdfd96e647e5ac44f5ae8096b18d91fc3e99646ae79c57ab6016b",
+      "uploadedSha256": "46c7ae1ed0afdfd96e647e5ac44f5ae8096b18d91fc3e99646ae79c57ab6016b",
+      "modified": false
+    },
+    {
+      "path": "lesson-007.html",
+      "sourceBytes": 15151,
+      "uploadedBytes": 15151,
+      "sourceSha256": "9fda85cc52d7dc38adfece58ecb954783c641ef9a366c7e519d3d07c46690429",
+      "uploadedSha256": "9fda85cc52d7dc38adfece58ecb954783c641ef9a366c7e519d3d07c46690429",
+      "modified": false
+    },
+    {
+      "path": "lesson-008.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "8bac567166902bd9b9f84d6b817f0b5d84970aa875154adf77b2397135ad8069",
+      "uploadedSha256": "8bac567166902bd9b9f84d6b817f0b5d84970aa875154adf77b2397135ad8069",
+      "modified": false
+    },
+    {
+      "path": "lesson-009.html",
+      "sourceBytes": 15168,
+      "uploadedBytes": 15168,
+      "sourceSha256": "4f3b71ab2754a06329d1405efeff47956f1f05ec2f5b7473990fba5130b773be",
+      "uploadedSha256": "4f3b71ab2754a06329d1405efeff47956f1f05ec2f5b7473990fba5130b773be",
+      "modified": false
+    },
+    {
+      "path": "lesson-010.html",
+      "sourceBytes": 15192,
+      "uploadedBytes": 15192,
+      "sourceSha256": "3f0b7bb8b421010e9931c7acfe0262733269ba790b5eb80a36abc57470440734",
+      "uploadedSha256": "3f0b7bb8b421010e9931c7acfe0262733269ba790b5eb80a36abc57470440734",
+      "modified": false
+    },
+    {
+      "path": "lesson-011.html",
+      "sourceBytes": 15123,
+      "uploadedBytes": 15123,
+      "sourceSha256": "0055c1ca284ae335815d82e04f7c1d5038df2a894bd16ba5264120f5f3b2b6ea",
+      "uploadedSha256": "0055c1ca284ae335815d82e04f7c1d5038df2a894bd16ba5264120f5f3b2b6ea",
+      "modified": false
+    },
+    {
+      "path": "lesson-012.html",
+      "sourceBytes": 15191,
+      "uploadedBytes": 15191,
+      "sourceSha256": "7fdf4b555565022a25279010763a122196cc7b8fd906750891b0728b7f6b987b",
+      "uploadedSha256": "7fdf4b555565022a25279010763a122196cc7b8fd906750891b0728b7f6b987b",
+      "modified": false
+    },
+    {
+      "path": "lesson-013.html",
+      "sourceBytes": 15150,
+      "uploadedBytes": 15150,
+      "sourceSha256": "37b0c53a825571dd2850e77de525023acf31b9670959b7685ba06d5a5eb1e87e",
+      "uploadedSha256": "37b0c53a825571dd2850e77de525023acf31b9670959b7685ba06d5a5eb1e87e",
+      "modified": false
+    },
+    {
+      "path": "lesson-014.html",
+      "sourceBytes": 15199,
+      "uploadedBytes": 15199,
+      "sourceSha256": "5a39ea058ddd7fe3154f1314d79c97145c33f12615b4fd60404fd43f446d14f5",
+      "uploadedSha256": "5a39ea058ddd7fe3154f1314d79c97145c33f12615b4fd60404fd43f446d14f5",
+      "modified": false
+    },
+    {
+      "path": "lesson-015.html",
+      "sourceBytes": 15040,
+      "uploadedBytes": 15040,
+      "sourceSha256": "8904cb5afa866ea926aaf9a428e7c288845566a907055ef6af4786f121003597",
+      "uploadedSha256": "8904cb5afa866ea926aaf9a428e7c288845566a907055ef6af4786f121003597",
+      "modified": false
+    },
+    {
+      "path": "lesson-016.html",
+      "sourceBytes": 15167,
+      "uploadedBytes": 15167,
+      "sourceSha256": "635c9e5038766f663806c2a84ac9b961257baace22aec1878b771884bc51d775",
+      "uploadedSha256": "635c9e5038766f663806c2a84ac9b961257baace22aec1878b771884bc51d775",
+      "modified": false
+    },
+    {
+      "path": "lesson-017.html",
+      "sourceBytes": 15112,
+      "uploadedBytes": 15112,
+      "sourceSha256": "1bc99874cc97e22364604dec8996c2a9703ca06adff4fb783bc188f23174747e",
+      "uploadedSha256": "1bc99874cc97e22364604dec8996c2a9703ca06adff4fb783bc188f23174747e",
+      "modified": false
+    },
+    {
+      "path": "lesson-018.html",
+      "sourceBytes": 15044,
+      "uploadedBytes": 15044,
+      "sourceSha256": "81481778bb17b93e5fde6b3d9ee5dc39062c4403c2f5fea28d28e76b8de38b01",
+      "uploadedSha256": "81481778bb17b93e5fde6b3d9ee5dc39062c4403c2f5fea28d28e76b8de38b01",
+      "modified": false
+    },
+    {
+      "path": "lesson-019.html",
+      "sourceBytes": 15207,
+      "uploadedBytes": 15207,
+      "sourceSha256": "b04f07f9ed214477f14fe8ccaa32c44d5405c89d837a5d7fe075e72bc179567b",
+      "uploadedSha256": "b04f07f9ed214477f14fe8ccaa32c44d5405c89d837a5d7fe075e72bc179567b",
+      "modified": false
+    },
+    {
+      "path": "lesson-020.html",
+      "sourceBytes": 15149,
+      "uploadedBytes": 15149,
+      "sourceSha256": "13ad04182f9c617b0b31610bdf8e27d3b75efd55f1b28f9a9e0e4341acbf7ff1",
+      "uploadedSha256": "13ad04182f9c617b0b31610bdf8e27d3b75efd55f1b28f9a9e0e4341acbf7ff1",
+      "modified": false
+    },
+    {
+      "path": "lesson-021.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "cbd4f4c5c18b7eb06849b1fc79c3dbdaba74dae946dd382f8271067c52629508",
+      "uploadedSha256": "cbd4f4c5c18b7eb06849b1fc79c3dbdaba74dae946dd382f8271067c52629508",
+      "modified": false
+    },
+    {
+      "path": "lesson-022.html",
+      "sourceBytes": 15034,
+      "uploadedBytes": 15034,
+      "sourceSha256": "b2528fc3980235bf87818f692653b6b4bb50b3fee263ffd438e26ac9b091be90",
+      "uploadedSha256": "b2528fc3980235bf87818f692653b6b4bb50b3fee263ffd438e26ac9b091be90",
+      "modified": false
+    },
+    {
+      "path": "lesson-023.html",
+      "sourceBytes": 15172,
+      "uploadedBytes": 15172,
+      "sourceSha256": "bf994188ce9042a5b8b073e0a0a87899e42131a4a9c515b35c94abd5fb38163c",
+      "uploadedSha256": "bf994188ce9042a5b8b073e0a0a87899e42131a4a9c515b35c94abd5fb38163c",
+      "modified": false
+    },
+    {
+      "path": "lesson-024.html",
+      "sourceBytes": 15057,
+      "uploadedBytes": 15057,
+      "sourceSha256": "5f014564c74f4cd7e220f1b5c021cced81bdd9c51e67aaf3758553196c45c82c",
+      "uploadedSha256": "5f014564c74f4cd7e220f1b5c021cced81bdd9c51e67aaf3758553196c45c82c",
+      "modified": false
+    },
+    {
+      "path": "lesson-025.html",
+      "sourceBytes": 15273,
+      "uploadedBytes": 15273,
+      "sourceSha256": "c9f40f01074c6292fd294ac9c25b60d03d5a919c6bca7dd6a0b5984be0a784e4",
+      "uploadedSha256": "c9f40f01074c6292fd294ac9c25b60d03d5a919c6bca7dd6a0b5984be0a784e4",
+      "modified": false
+    },
+    {
+      "path": "lesson-026.html",
+      "sourceBytes": 15175,
+      "uploadedBytes": 15175,
+      "sourceSha256": "eeec7682c9eaef1a3abc76be3603426ca86dfc21523e976aee464660ec0062d8",
+      "uploadedSha256": "eeec7682c9eaef1a3abc76be3603426ca86dfc21523e976aee464660ec0062d8",
+      "modified": false
+    },
+    {
+      "path": "lesson-027.html",
+      "sourceBytes": 15319,
+      "uploadedBytes": 15319,
+      "sourceSha256": "babba7e3e4647027398e91f73a9e8a037192e30c6c3cd9b8f2576a67c95a81fa",
+      "uploadedSha256": "babba7e3e4647027398e91f73a9e8a037192e30c6c3cd9b8f2576a67c95a81fa",
+      "modified": false
+    },
+    {
+      "path": "lesson-028.html",
+      "sourceBytes": 15240,
+      "uploadedBytes": 15240,
+      "sourceSha256": "123f5d5351b0302ce4c5ef166536dc8618f343a90fcf8a8f72a9a1e1e0b8043d",
+      "uploadedSha256": "123f5d5351b0302ce4c5ef166536dc8618f343a90fcf8a8f72a9a1e1e0b8043d",
+      "modified": false
+    },
+    {
+      "path": "lesson-029.html",
+      "sourceBytes": 15030,
+      "uploadedBytes": 15030,
+      "sourceSha256": "3cc137ca2e04af3ae9cd46a851d666601e3b67de615852ea5314292a0d168ea7",
+      "uploadedSha256": "3cc137ca2e04af3ae9cd46a851d666601e3b67de615852ea5314292a0d168ea7",
+      "modified": false
+    },
+    {
+      "path": "lesson-030.html",
+      "sourceBytes": 15225,
+      "uploadedBytes": 15225,
+      "sourceSha256": "b6833a14a088b61f62e125c622a9c18fb8ed858bc3fc7bfd4a05a2e9b5a795aa",
+      "uploadedSha256": "b6833a14a088b61f62e125c622a9c18fb8ed858bc3fc7bfd4a05a2e9b5a795aa",
+      "modified": false
+    },
+    {
+      "path": "lesson-031.html",
+      "sourceBytes": 15130,
+      "uploadedBytes": 15130,
+      "sourceSha256": "f52bcde9e434a9ac1583200a678917711573467fdff58344be5ea51832c423ae",
+      "uploadedSha256": "f52bcde9e434a9ac1583200a678917711573467fdff58344be5ea51832c423ae",
+      "modified": false
+    },
+    {
+      "path": "lesson-032.html",
+      "sourceBytes": 15238,
+      "uploadedBytes": 15238,
+      "sourceSha256": "0a654d22380c7023a6c53ad725564f32f6e7fb7173563defd63bc7f4fffc1066",
+      "uploadedSha256": "0a654d22380c7023a6c53ad725564f32f6e7fb7173563defd63bc7f4fffc1066",
+      "modified": false
+    },
+    {
+      "path": "lesson-033.html",
+      "sourceBytes": 15109,
+      "uploadedBytes": 15109,
+      "sourceSha256": "2342f6b85841aba892110b0720c519967b3385787348c9271c5e5aaf909bd046",
+      "uploadedSha256": "2342f6b85841aba892110b0720c519967b3385787348c9271c5e5aaf909bd046",
+      "modified": false
+    },
+    {
+      "path": "lesson-034.html",
+      "sourceBytes": 15313,
+      "uploadedBytes": 15313,
+      "sourceSha256": "f9707e0709f3848cbdd761f2f0dbabfc048d386d3b608c6296209f3bb268edf3",
+      "uploadedSha256": "f9707e0709f3848cbdd761f2f0dbabfc048d386d3b608c6296209f3bb268edf3",
+      "modified": false
+    },
+    {
+      "path": "lesson-035.html",
+      "sourceBytes": 15187,
+      "uploadedBytes": 15187,
+      "sourceSha256": "68704d21022f1504f1e512e4a8534cbfd97030d8859582f43e9eb53eab7d1258",
+      "uploadedSha256": "68704d21022f1504f1e512e4a8534cbfd97030d8859582f43e9eb53eab7d1258",
+      "modified": false
+    },
+    {
+      "path": "lesson-036.html",
+      "sourceBytes": 15210,
+      "uploadedBytes": 15210,
+      "sourceSha256": "ea806a363e319c05af047bc34a1cab2ff0365766cffa7a8129c6798410b243c1",
+      "uploadedSha256": "ea806a363e319c05af047bc34a1cab2ff0365766cffa7a8129c6798410b243c1",
+      "modified": false
+    },
+    {
+      "path": "lesson-037.html",
+      "sourceBytes": 15336,
+      "uploadedBytes": 15336,
+      "sourceSha256": "6c8f432a4e39762e36b8d9ace3233fe0dcfa7b104e5266ed3ccc1eca8e239407",
+      "uploadedSha256": "6c8f432a4e39762e36b8d9ace3233fe0dcfa7b104e5266ed3ccc1eca8e239407",
+      "modified": false
+    },
+    {
+      "path": "lesson-038.html",
+      "sourceBytes": 15137,
+      "uploadedBytes": 15137,
+      "sourceSha256": "18ef1accaaa6f544512918305d6bc4a35d183a3f01ccf5d8e3cf9cb130026e55",
+      "uploadedSha256": "18ef1accaaa6f544512918305d6bc4a35d183a3f01ccf5d8e3cf9cb130026e55",
+      "modified": false
+    },
+    {
+      "path": "lesson-039.html",
+      "sourceBytes": 15307,
+      "uploadedBytes": 15307,
+      "sourceSha256": "ff61ad90e5b9bd9555b1e4b1a34789b1098b5047f3ed9d35d9e45e07c840f408",
+      "uploadedSha256": "ff61ad90e5b9bd9555b1e4b1a34789b1098b5047f3ed9d35d9e45e07c840f408",
+      "modified": false
+    },
+    {
+      "path": "lesson-040.html",
+      "sourceBytes": 15132,
+      "uploadedBytes": 15132,
+      "sourceSha256": "2c960dc5d6e635c4e7104982cd9d1314b67c75d2a155449b9749ac164f7e283a",
+      "uploadedSha256": "2c960dc5d6e635c4e7104982cd9d1314b67c75d2a155449b9749ac164f7e283a",
+      "modified": false
+    },
+    {
+      "path": "lesson-041.html",
+      "sourceBytes": 15378,
+      "uploadedBytes": 15378,
+      "sourceSha256": "638efd085a61c2b4e1c48f80aa718b78788ff2ea9d9b721d59c0871c13237a20",
+      "uploadedSha256": "638efd085a61c2b4e1c48f80aa718b78788ff2ea9d9b721d59c0871c13237a20",
+      "modified": false
+    },
+    {
+      "path": "lesson-042.html",
+      "sourceBytes": 15313,
+      "uploadedBytes": 15313,
+      "sourceSha256": "ea7c827d5e0ca0a91aa5ed87d2dace106c37f488169aebbfbc33e3c5625bfbc4",
+      "uploadedSha256": "ea7c827d5e0ca0a91aa5ed87d2dace106c37f488169aebbfbc33e3c5625bfbc4",
+      "modified": false
+    },
+    {
+      "path": "lesson-043.html",
+      "sourceBytes": 15227,
+      "uploadedBytes": 15227,
+      "sourceSha256": "13495608c9492bff93e20e841160b2899278684ffec9cd66057732e5706a891f",
+      "uploadedSha256": "13495608c9492bff93e20e841160b2899278684ffec9cd66057732e5706a891f",
+      "modified": false
+    },
+    {
+      "path": "lesson-044.html",
+      "sourceBytes": 15238,
+      "uploadedBytes": 15238,
+      "sourceSha256": "f75b9dbff3ead8eae3c3278f7bd1bd2c0c3684d8333116eb79c909049043b321",
+      "uploadedSha256": "f75b9dbff3ead8eae3c3278f7bd1bd2c0c3684d8333116eb79c909049043b321",
+      "modified": false
+    },
+    {
+      "path": "lesson-045.html",
+      "sourceBytes": 15390,
+      "uploadedBytes": 15390,
+      "sourceSha256": "220a5f39b2615af3624bd2c7df8be5f3d7ffee5361e877213ad854635fedb31d",
+      "uploadedSha256": "220a5f39b2615af3624bd2c7df8be5f3d7ffee5361e877213ad854635fedb31d",
+      "modified": false
+    },
+    {
+      "path": "lesson-046.html",
+      "sourceBytes": 15209,
+      "uploadedBytes": 15209,
+      "sourceSha256": "021e70da053d64e5823b62d32377fd2c2f4eaad328fa137a66721eb385953bc4",
+      "uploadedSha256": "021e70da053d64e5823b62d32377fd2c2f4eaad328fa137a66721eb385953bc4",
+      "modified": false
+    },
+    {
+      "path": "lesson-047.html",
+      "sourceBytes": 15148,
+      "uploadedBytes": 15148,
+      "sourceSha256": "be60f43bcd90c578d834ebce67a9a159b19b6f751742aadb0bfd8d5c21a4bf62",
+      "uploadedSha256": "be60f43bcd90c578d834ebce67a9a159b19b6f751742aadb0bfd8d5c21a4bf62",
+      "modified": false
+    },
+    {
+      "path": "lesson-048.html",
+      "sourceBytes": 15152,
+      "uploadedBytes": 15152,
+      "sourceSha256": "828e6cf98d0ba3eb0a65c1782a2f5c1c5d7b454538474b64811a15ecfe47569f",
+      "uploadedSha256": "828e6cf98d0ba3eb0a65c1782a2f5c1c5d7b454538474b64811a15ecfe47569f",
+      "modified": false
+    },
+    {
+      "path": "lesson-049.html",
+      "sourceBytes": 15135,
+      "uploadedBytes": 15135,
+      "sourceSha256": "5f54a5adea66cce89fe5c52889fe33005ce8624d6f81bddb7848f7d5150fe8fe",
+      "uploadedSha256": "5f54a5adea66cce89fe5c52889fe33005ce8624d6f81bddb7848f7d5150fe8fe",
+      "modified": false
+    },
+    {
+      "path": "lesson-050.html",
+      "sourceBytes": 15347,
+      "uploadedBytes": 15347,
+      "sourceSha256": "bf322f777ab1273b0d8fcd6feefa3f1ff37336a0adb1b56d1446a6a7f0c63d92",
+      "uploadedSha256": "bf322f777ab1273b0d8fcd6feefa3f1ff37336a0adb1b56d1446a6a7f0c63d92",
+      "modified": false
+    },
+    {
+      "path": "lesson-051.html",
+      "sourceBytes": 15204,
+      "uploadedBytes": 15204,
+      "sourceSha256": "23d0b815cf7667bcbb5337b4db35a526eef92916c53f4494f7275a8067705795",
+      "uploadedSha256": "23d0b815cf7667bcbb5337b4db35a526eef92916c53f4494f7275a8067705795",
+      "modified": false
+    },
+    {
+      "path": "lesson-052.html",
+      "sourceBytes": 15179,
+      "uploadedBytes": 15179,
+      "sourceSha256": "3ce14a8680895f989c8aaea3768c57c730d9b64a9b0a8b23c84341106f0a1b76",
+      "uploadedSha256": "3ce14a8680895f989c8aaea3768c57c730d9b64a9b0a8b23c84341106f0a1b76",
+      "modified": false
+    },
+    {
+      "path": "lesson-053.html",
+      "sourceBytes": 15271,
+      "uploadedBytes": 15271,
+      "sourceSha256": "9e21e06dc8542a03d9c1d3cf4ded973b7d98335177fd1cf11f0aa8c26d1dc129",
+      "uploadedSha256": "9e21e06dc8542a03d9c1d3cf4ded973b7d98335177fd1cf11f0aa8c26d1dc129",
+      "modified": false
+    },
+    {
+      "path": "lesson-054.html",
+      "sourceBytes": 15235,
+      "uploadedBytes": 15235,
+      "sourceSha256": "62948b994a4f822e70643952a90cdc8893198a42e4d872a46671968c57829ca9",
+      "uploadedSha256": "62948b994a4f822e70643952a90cdc8893198a42e4d872a46671968c57829ca9",
+      "modified": false
+    },
+    {
+      "path": "lesson-055.html",
+      "sourceBytes": 15289,
+      "uploadedBytes": 15289,
+      "sourceSha256": "f14965a4dece4735e20488ebc878a2d19eafe149ed8e995b00bb695e14ce6161",
+      "uploadedSha256": "f14965a4dece4735e20488ebc878a2d19eafe149ed8e995b00bb695e14ce6161",
+      "modified": false
+    },
+    {
+      "path": "lesson-056.html",
+      "sourceBytes": 15239,
+      "uploadedBytes": 15239,
+      "sourceSha256": "e7d6d9fb3dd80e305ea6a99fb8cb67095b9d0069d4c0601398fbc871eeeb636b",
+      "uploadedSha256": "e7d6d9fb3dd80e305ea6a99fb8cb67095b9d0069d4c0601398fbc871eeeb636b",
+      "modified": false
+    },
+    {
+      "path": "lesson-057.html",
+      "sourceBytes": 15162,
+      "uploadedBytes": 15162,
+      "sourceSha256": "5ec91f64e856c30f94e4b5800ff92f55019705e1a44091f1f041686497b48573",
+      "uploadedSha256": "5ec91f64e856c30f94e4b5800ff92f55019705e1a44091f1f041686497b48573",
+      "modified": false
+    },
+    {
+      "path": "lesson-058.html",
+      "sourceBytes": 15125,
+      "uploadedBytes": 15125,
+      "sourceSha256": "7dc53d88e8062d3ada1722bdfbdc96d5f7c4659c533e64ebd6f9fc7b4fed8247",
+      "uploadedSha256": "7dc53d88e8062d3ada1722bdfbdc96d5f7c4659c533e64ebd6f9fc7b4fed8247",
+      "modified": false
+    },
+    {
+      "path": "lesson-059.html",
+      "sourceBytes": 15121,
+      "uploadedBytes": 15121,
+      "sourceSha256": "6da7f3ae393c54423188dbc067af3c576751339f819f8aae0456e1563740ff90",
+      "uploadedSha256": "6da7f3ae393c54423188dbc067af3c576751339f819f8aae0456e1563740ff90",
+      "modified": false
+    },
+    {
+      "path": "lesson-060.html",
+      "sourceBytes": 15191,
+      "uploadedBytes": 15191,
+      "sourceSha256": "465c6ab35380e4d2da4c6630b6cf21f202565820b84d193bc27b807cbc4b59e5",
+      "uploadedSha256": "465c6ab35380e4d2da4c6630b6cf21f202565820b84d193bc27b807cbc4b59e5",
+      "modified": false
+    },
+    {
+      "path": "lesson-061.html",
+      "sourceBytes": 15181,
+      "uploadedBytes": 15181,
+      "sourceSha256": "186faa041d5382d334acf1fdbcadb368f88594dfbd42f64eb540e92b224b30b1",
+      "uploadedSha256": "186faa041d5382d334acf1fdbcadb368f88594dfbd42f64eb540e92b224b30b1",
+      "modified": false
+    },
+    {
+      "path": "lesson-062.html",
+      "sourceBytes": 15238,
+      "uploadedBytes": 15238,
+      "sourceSha256": "a88ad966530e0612905a3baa96117d5ebd24f1c031ec0369cf52116a74f54781",
+      "uploadedSha256": "a88ad966530e0612905a3baa96117d5ebd24f1c031ec0369cf52116a74f54781",
+      "modified": false
+    },
+    {
+      "path": "lesson-063.html",
+      "sourceBytes": 15141,
+      "uploadedBytes": 15141,
+      "sourceSha256": "5e74c3bc37e2f28ae8f5ace50742c95fd6f34e94ad594ba8642d0ab48ccbebb7",
+      "uploadedSha256": "5e74c3bc37e2f28ae8f5ace50742c95fd6f34e94ad594ba8642d0ab48ccbebb7",
+      "modified": false
+    },
+    {
+      "path": "lesson-064.html",
+      "sourceBytes": 15224,
+      "uploadedBytes": 15224,
+      "sourceSha256": "279b1237b65fff71afef9aaf23828c4c31e6c8abb208fac809980d20561c5f51",
+      "uploadedSha256": "279b1237b65fff71afef9aaf23828c4c31e6c8abb208fac809980d20561c5f51",
+      "modified": false
+    },
+    {
+      "path": "lesson-065.html",
+      "sourceBytes": 15012,
+      "uploadedBytes": 15012,
+      "sourceSha256": "aed84e85a3ae7ba13926390d004923465d4e2d90b3d2799c43be515a3dd75286",
+      "uploadedSha256": "aed84e85a3ae7ba13926390d004923465d4e2d90b3d2799c43be515a3dd75286",
+      "modified": false
+    },
+    {
+      "path": "lesson-066.html",
+      "sourceBytes": 15174,
+      "uploadedBytes": 15174,
+      "sourceSha256": "b837cfd315170efb3283a6fe76e2ad486e5894bfc07a04b627c60ad6b483d1f4",
+      "uploadedSha256": "b837cfd315170efb3283a6fe76e2ad486e5894bfc07a04b627c60ad6b483d1f4",
+      "modified": false
+    },
+    {
+      "path": "lesson-067.html",
+      "sourceBytes": 15145,
+      "uploadedBytes": 15145,
+      "sourceSha256": "2813e5674941bb609395fa45f61e4ae8b9e6f8e1981073c462c463635d209dd7",
+      "uploadedSha256": "2813e5674941bb609395fa45f61e4ae8b9e6f8e1981073c462c463635d209dd7",
+      "modified": false
+    },
+    {
+      "path": "lesson-068.html",
+      "sourceBytes": 15026,
+      "uploadedBytes": 15026,
+      "sourceSha256": "414f38f5362bfce52ee6612723bb6955749e31addaeb5cc1672fb4cc04f92f34",
+      "uploadedSha256": "414f38f5362bfce52ee6612723bb6955749e31addaeb5cc1672fb4cc04f92f34",
+      "modified": false
+    },
+    {
+      "path": "lesson-069.html",
+      "sourceBytes": 15222,
+      "uploadedBytes": 15222,
+      "sourceSha256": "0a30e8d078b35da87fb036d14f62db705b174f62cbfa0f0ca79eb6fca6cda73f",
+      "uploadedSha256": "0a30e8d078b35da87fb036d14f62db705b174f62cbfa0f0ca79eb6fca6cda73f",
+      "modified": false
+    },
+    {
+      "path": "lesson-070.html",
+      "sourceBytes": 15097,
+      "uploadedBytes": 15097,
+      "sourceSha256": "0dc7589f39bdae81fb5656e8f7a7d74f9fad43aea41b9f16d1b1207ad935acc2",
+      "uploadedSha256": "0dc7589f39bdae81fb5656e8f7a7d74f9fad43aea41b9f16d1b1207ad935acc2",
+      "modified": false
+    },
+    {
+      "path": "lesson-071.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "71ba8349a14cd22a1b06aa06577bc9a9d6efe75b58882b5d8d6b459ffff1c489",
+      "uploadedSha256": "71ba8349a14cd22a1b06aa06577bc9a9d6efe75b58882b5d8d6b459ffff1c489",
+      "modified": false
+    },
+    {
+      "path": "lesson-072.html",
+      "sourceBytes": 15048,
+      "uploadedBytes": 15048,
+      "sourceSha256": "dd0ea2df041cb66bf6540666bff1ae68758ef7e2231ae7b876f04c48c9ab499e",
+      "uploadedSha256": "dd0ea2df041cb66bf6540666bff1ae68758ef7e2231ae7b876f04c48c9ab499e",
+      "modified": false
+    },
+    {
+      "path": "lesson-073.html",
+      "sourceBytes": 15192,
+      "uploadedBytes": 15192,
+      "sourceSha256": "0903904e73b1c81bcebf5a0278250e17776cae232f294f40fe8c4940dae93772",
+      "uploadedSha256": "0903904e73b1c81bcebf5a0278250e17776cae232f294f40fe8c4940dae93772",
+      "modified": false
+    },
+    {
+      "path": "lesson-074.html",
+      "sourceBytes": 15081,
+      "uploadedBytes": 15081,
+      "sourceSha256": "225eb6976b92f460c49b9c6c414ed91f593e27d3bc61a90991a6fdaaa2d10e6c",
+      "uploadedSha256": "225eb6976b92f460c49b9c6c414ed91f593e27d3bc61a90991a6fdaaa2d10e6c",
+      "modified": false
+    },
+    {
+      "path": "lesson-075.html",
+      "sourceBytes": 15311,
+      "uploadedBytes": 15311,
+      "sourceSha256": "88a60892d592b9c0f38b40135b5b1a0ccb8428b3016e50cc8ec960ba65d8f172",
+      "uploadedSha256": "88a60892d592b9c0f38b40135b5b1a0ccb8428b3016e50cc8ec960ba65d8f172",
+      "modified": false
+    },
+    {
+      "path": "lesson-076.html",
+      "sourceBytes": 15214,
+      "uploadedBytes": 15214,
+      "sourceSha256": "b442ff00230ca5e76c9895a6ae70f4ebd533175b1ab981818d56ab1f21e8551b",
+      "uploadedSha256": "b442ff00230ca5e76c9895a6ae70f4ebd533175b1ab981818d56ab1f21e8551b",
+      "modified": false
+    },
+    {
+      "path": "lesson-077.html",
+      "sourceBytes": 15354,
+      "uploadedBytes": 15354,
+      "sourceSha256": "4cc2a4701fa27457422313478e7b5119b1c19883fc3e95528c218a09efe583c1",
+      "uploadedSha256": "4cc2a4701fa27457422313478e7b5119b1c19883fc3e95528c218a09efe583c1",
+      "modified": false
+    },
+    {
+      "path": "lesson-078.html",
+      "sourceBytes": 15252,
+      "uploadedBytes": 15252,
+      "sourceSha256": "6e8ab2c60d2994c1fe545c9d9958d2aaad7fccdf81836c8e7dc641f1da2486b1",
+      "uploadedSha256": "6e8ab2c60d2994c1fe545c9d9958d2aaad7fccdf81836c8e7dc641f1da2486b1",
+      "modified": false
+    },
+    {
+      "path": "lesson-079.html",
+      "sourceBytes": 15050,
+      "uploadedBytes": 15050,
+      "sourceSha256": "7a28545b0b9c192857b8de341655466339595b204e46e55b8b9ebe25451aebec",
+      "uploadedSha256": "7a28545b0b9c192857b8de341655466339595b204e46e55b8b9ebe25451aebec",
+      "modified": false
+    },
+    {
+      "path": "lesson-080.html",
+      "sourceBytes": 15188,
+      "uploadedBytes": 15188,
+      "sourceSha256": "a9d2d120209312b4bfd38308725738fecdbcb5f22e384579cb01bb92fa6029f8",
+      "uploadedSha256": "a9d2d120209312b4bfd38308725738fecdbcb5f22e384579cb01bb92fa6029f8",
+      "modified": false
+    },
+    {
+      "path": "lesson-081.html",
+      "sourceBytes": 15100,
+      "uploadedBytes": 15100,
+      "sourceSha256": "5233b3f0ce0398daf64e00fa8ab72a7c765c0e3d93118d119bf830d570cebcf0",
+      "uploadedSha256": "5233b3f0ce0398daf64e00fa8ab72a7c765c0e3d93118d119bf830d570cebcf0",
+      "modified": false
+    },
+    {
+      "path": "lesson-082.html",
+      "sourceBytes": 15240,
+      "uploadedBytes": 15240,
+      "sourceSha256": "b310a9a86dcecd182924a3ad3259e6d9031026736494cdd9088816976363c80e",
+      "uploadedSha256": "b310a9a86dcecd182924a3ad3259e6d9031026736494cdd9088816976363c80e",
+      "modified": false
+    },
+    {
+      "path": "lesson-083.html",
+      "sourceBytes": 15159,
+      "uploadedBytes": 15159,
+      "sourceSha256": "d5bdf80bb69b03dabbe419c4cb359ddfa0791cc9b154e1c0f53cc6a2fe9b3116",
+      "uploadedSha256": "d5bdf80bb69b03dabbe419c4cb359ddfa0791cc9b154e1c0f53cc6a2fe9b3116",
+      "modified": false
+    },
+    {
+      "path": "lesson-084.html",
+      "sourceBytes": 15329,
+      "uploadedBytes": 15329,
+      "sourceSha256": "d025ade7b248983d10a4ac77b30f2d1c7bb76c4dfe2582b5b897bb0435b4f31d",
+      "uploadedSha256": "d025ade7b248983d10a4ac77b30f2d1c7bb76c4dfe2582b5b897bb0435b4f31d",
+      "modified": false
+    },
+    {
+      "path": "lesson-085.html",
+      "sourceBytes": 15145,
+      "uploadedBytes": 15145,
+      "sourceSha256": "651ec8c8027a4093404e296365b6559c48e5534fa8f25e1a573ca91eadee386e",
+      "uploadedSha256": "651ec8c8027a4093404e296365b6559c48e5534fa8f25e1a573ca91eadee386e",
+      "modified": false
+    },
+    {
+      "path": "lesson-086.html",
+      "sourceBytes": 15214,
+      "uploadedBytes": 15214,
+      "sourceSha256": "1326e10163d2344f1a03238b56fea29c096f4abfebc7413b7d47b4fdd5f771fe",
+      "uploadedSha256": "1326e10163d2344f1a03238b56fea29c096f4abfebc7413b7d47b4fdd5f771fe",
+      "modified": false
+    },
+    {
+      "path": "lesson-087.html",
+      "sourceBytes": 15377,
+      "uploadedBytes": 15377,
+      "sourceSha256": "60a59c2d2cbb77cc5e123210fe0926169883fdd6845c3ce97e3c02397f24437d",
+      "uploadedSha256": "60a59c2d2cbb77cc5e123210fe0926169883fdd6845c3ce97e3c02397f24437d",
+      "modified": false
+    },
+    {
+      "path": "lesson-088.html",
+      "sourceBytes": 15142,
+      "uploadedBytes": 15142,
+      "sourceSha256": "bb520c4bff9082acf393a7a4b6f0cd048587533127780c22834a38a33aa26439",
+      "uploadedSha256": "bb520c4bff9082acf393a7a4b6f0cd048587533127780c22834a38a33aa26439",
+      "modified": false
+    },
+    {
+      "path": "lesson-089.html",
+      "sourceBytes": 15359,
+      "uploadedBytes": 15359,
+      "sourceSha256": "215411af6e79c5c507ae9cfe2349e8634725c040a071888b91689116fc478537",
+      "uploadedSha256": "215411af6e79c5c507ae9cfe2349e8634725c040a071888b91689116fc478537",
+      "modified": false
+    },
+    {
+      "path": "lesson-090.html",
+      "sourceBytes": 15159,
+      "uploadedBytes": 15159,
+      "sourceSha256": "5178414edf82c399f3c9fa52969016901f2e91ab778179cb684bebd81c99b310",
+      "uploadedSha256": "5178414edf82c399f3c9fa52969016901f2e91ab778179cb684bebd81c99b310",
+      "modified": false
+    },
+    {
+      "path": "lesson-091.html",
+      "sourceBytes": 15429,
+      "uploadedBytes": 15429,
+      "sourceSha256": "e609236c2ac78484658ec8166e24d5f161c7b7486d2d520a41ae7baa672ece06",
+      "uploadedSha256": "e609236c2ac78484658ec8166e24d5f161c7b7486d2d520a41ae7baa672ece06",
+      "modified": false
+    },
+    {
+      "path": "lesson-092.html",
+      "sourceBytes": 15355,
+      "uploadedBytes": 15355,
+      "sourceSha256": "9107961a78db20378b9b6f3b4dbca84481c8e1da474de16a365d69e7e89f8f04",
+      "uploadedSha256": "9107961a78db20378b9b6f3b4dbca84481c8e1da474de16a365d69e7e89f8f04",
+      "modified": false
+    },
+    {
+      "path": "lesson-093.html",
+      "sourceBytes": 15241,
+      "uploadedBytes": 15241,
+      "sourceSha256": "aafe2d718534f631ec883d690a638d16fb50df5acffc0bb94cb469c7aac78aee",
+      "uploadedSha256": "aafe2d718534f631ec883d690a638d16fb50df5acffc0bb94cb469c7aac78aee",
+      "modified": false
+    },
+    {
+      "path": "lesson-094.html",
+      "sourceBytes": 15174,
+      "uploadedBytes": 15174,
+      "sourceSha256": "23934b52e0bc6d2fe167ecbdb43f7ca0bf0991a4fcc13fe8a779e58012847dc5",
+      "uploadedSha256": "23934b52e0bc6d2fe167ecbdb43f7ca0bf0991a4fcc13fe8a779e58012847dc5",
+      "modified": false
+    },
+    {
+      "path": "lesson-095.html",
+      "sourceBytes": 15450,
+      "uploadedBytes": 15450,
+      "sourceSha256": "cb2a342774928e61b612f4016fc66fbded40691685628dc43a5b58f70766e482",
+      "uploadedSha256": "cb2a342774928e61b612f4016fc66fbded40691685628dc43a5b58f70766e482",
+      "modified": false
+    },
+    {
+      "path": "lesson-096.html",
+      "sourceBytes": 15174,
+      "uploadedBytes": 15174,
+      "sourceSha256": "74628918917d9f51cba1a548e67bfbdf39d54830631041b7f5d92c1432eb0a06",
+      "uploadedSha256": "74628918917d9f51cba1a548e67bfbdf39d54830631041b7f5d92c1432eb0a06",
+      "modified": false
+    },
+    {
+      "path": "lesson-097.html",
+      "sourceBytes": 15172,
+      "uploadedBytes": 15172,
+      "sourceSha256": "a3181a320b6e858829c2ddda7013a5fb5c30a95c6ec29f8bc447a441c44cdf0f",
+      "uploadedSha256": "a3181a320b6e858829c2ddda7013a5fb5c30a95c6ec29f8bc447a441c44cdf0f",
+      "modified": false
+    },
+    {
+      "path": "lesson-098.html",
+      "sourceBytes": 15163,
+      "uploadedBytes": 15163,
+      "sourceSha256": "2b6b2699c291b3528e86b98ff4aa44dea8ad594ddad33948eba515928fc4555e",
+      "uploadedSha256": "2b6b2699c291b3528e86b98ff4aa44dea8ad594ddad33948eba515928fc4555e",
+      "modified": false
+    },
+    {
+      "path": "lesson-099.html",
+      "sourceBytes": 15139,
+      "uploadedBytes": 15139,
+      "sourceSha256": "c2607fca953bb71c8679607c29cf15885b26b8d798cabf2c075f0517b136c5e3",
+      "uploadedSha256": "c2607fca953bb71c8679607c29cf15885b26b8d798cabf2c075f0517b136c5e3",
+      "modified": false
+    },
+    {
+      "path": "lesson-100.html",
+      "sourceBytes": 15409,
+      "uploadedBytes": 15409,
+      "sourceSha256": "867894e823aba2e8ffd9ae74ec3bf4057c8673957fa28dcd174ddf6487a71e60",
+      "uploadedSha256": "867894e823aba2e8ffd9ae74ec3bf4057c8673957fa28dcd174ddf6487a71e60",
+      "modified": false
+    },
+    {
+      "path": "lesson-101.html",
+      "sourceBytes": 15153,
+      "uploadedBytes": 15153,
+      "sourceSha256": "de219cb6cb5ea3e15a4fc3405c40908fc32e07241056511bf3f4468037b5496a",
+      "uploadedSha256": "de219cb6cb5ea3e15a4fc3405c40908fc32e07241056511bf3f4468037b5496a",
+      "modified": false
+    },
+    {
+      "path": "lesson-102.html",
+      "sourceBytes": 15134,
+      "uploadedBytes": 15134,
+      "sourceSha256": "823d076922b798b6f81821bd6e072eaabd0bf028406758d033a18a36205c07a7",
+      "uploadedSha256": "823d076922b798b6f81821bd6e072eaabd0bf028406758d033a18a36205c07a7",
+      "modified": false
+    },
+    {
+      "path": "lesson-103.html",
+      "sourceBytes": 15302,
+      "uploadedBytes": 15302,
+      "sourceSha256": "38befff5549c019b06fd241557e76b25f21d0583446243cb635f2ec7cca9e88e",
+      "uploadedSha256": "38befff5549c019b06fd241557e76b25f21d0583446243cb635f2ec7cca9e88e",
+      "modified": false
+    },
+    {
+      "path": "lesson-104.html",
+      "sourceBytes": 15158,
+      "uploadedBytes": 15158,
+      "sourceSha256": "56dc5fc095febcc7f4dda1efd3af7bdc98dfd1eeff925258f9ac1b5235a0247e",
+      "uploadedSha256": "56dc5fc095febcc7f4dda1efd3af7bdc98dfd1eeff925258f9ac1b5235a0247e",
+      "modified": false
+    },
+    {
+      "path": "lesson-105.html",
+      "sourceBytes": 15200,
+      "uploadedBytes": 15200,
+      "sourceSha256": "269c6b6b081e8ce3cec31e28caddc9c8a0d72c5cbeb0ab5609d9660a0cdb9f14",
+      "uploadedSha256": "269c6b6b081e8ce3cec31e28caddc9c8a0d72c5cbeb0ab5609d9660a0cdb9f14",
+      "modified": false
+    },
+    {
+      "path": "lesson-106.html",
+      "sourceBytes": 15200,
+      "uploadedBytes": 15200,
+      "sourceSha256": "6f7a25385707ca5e9b19392be11f4d20f1ac6593a52a8cc4b64e463cebc39b24",
+      "uploadedSha256": "6f7a25385707ca5e9b19392be11f4d20f1ac6593a52a8cc4b64e463cebc39b24",
+      "modified": false
+    },
+    {
+      "path": "lesson-107.html",
+      "sourceBytes": 15141,
+      "uploadedBytes": 15141,
+      "sourceSha256": "69aad1c5f398dd39d4e3376c78d452784fffd3715d8da46c89b68426b31f6e72",
+      "uploadedSha256": "69aad1c5f398dd39d4e3376c78d452784fffd3715d8da46c89b68426b31f6e72",
+      "modified": false
+    },
+    {
+      "path": "lesson-108.html",
+      "sourceBytes": 15132,
+      "uploadedBytes": 15132,
+      "sourceSha256": "955c9e8f84f1b10e61aa1152ae8be1473bf8764be92eef3627d7e980ad747bfd",
+      "uploadedSha256": "955c9e8f84f1b10e61aa1152ae8be1473bf8764be92eef3627d7e980ad747bfd",
+      "modified": false
+    },
+    {
+      "path": "lesson-109.html",
+      "sourceBytes": 15130,
+      "uploadedBytes": 15130,
+      "sourceSha256": "2c70039b739e4a1c78d8f7d4fa77404b18be4fbc228ed7bbf43481d89954948c",
+      "uploadedSha256": "2c70039b739e4a1c78d8f7d4fa77404b18be4fbc228ed7bbf43481d89954948c",
+      "modified": false
+    },
+    {
+      "path": "lesson-110.html",
+      "sourceBytes": 15200,
+      "uploadedBytes": 15200,
+      "sourceSha256": "f7ed3de7d88e4db48bb84985d66cb48b93f486211e5c027f45784cd07bd5c17c",
+      "uploadedSha256": "f7ed3de7d88e4db48bb84985d66cb48b93f486211e5c027f45784cd07bd5c17c",
+      "modified": false
+    },
+    {
+      "path": "lesson-111.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "1d35f9adc4c098b85285ee78f1b54c2e65ae4477941e88fe2f413739f4d6e22c",
+      "uploadedSha256": "1d35f9adc4c098b85285ee78f1b54c2e65ae4477941e88fe2f413739f4d6e22c",
+      "modified": false
+    },
+    {
+      "path": "lesson-112.html",
+      "sourceBytes": 15257,
+      "uploadedBytes": 15257,
+      "sourceSha256": "9f87befcdded660cf8d319b87fada63c24584078398dfb2a4a5e9ed5d1f25ac9",
+      "uploadedSha256": "9f87befcdded660cf8d319b87fada63c24584078398dfb2a4a5e9ed5d1f25ac9",
+      "modified": false
+    },
+    {
+      "path": "lesson-113.html",
+      "sourceBytes": 15120,
+      "uploadedBytes": 15120,
+      "sourceSha256": "d27ff21549d9ba5364ed74d8d8308b0451cf2a85ed836970fe5f9a780471c169",
+      "uploadedSha256": "d27ff21549d9ba5364ed74d8d8308b0451cf2a85ed836970fe5f9a780471c169",
+      "modified": false
+    },
+    {
+      "path": "lesson-114.html",
+      "sourceBytes": 15177,
+      "uploadedBytes": 15177,
+      "sourceSha256": "b26d1c03951fcb23ca98828423233b8b75c27748d52c83db59eca669d0d7b49e",
+      "uploadedSha256": "b26d1c03951fcb23ca98828423233b8b75c27748d52c83db59eca669d0d7b49e",
+      "modified": false
+    },
+    {
+      "path": "lesson-115.html",
+      "sourceBytes": 15051,
+      "uploadedBytes": 15051,
+      "sourceSha256": "adf10695e5ff12de96387b9cfc912f7058bab4cdc1207e46cdc0186ac6349175",
+      "uploadedSha256": "adf10695e5ff12de96387b9cfc912f7058bab4cdc1207e46cdc0186ac6349175",
+      "modified": false
+    },
+    {
+      "path": "lesson-116.html",
+      "sourceBytes": 15165,
+      "uploadedBytes": 15165,
+      "sourceSha256": "3fc0a4e892db9798b76cc07892fe1870a34785ba61437e4d2544d94b28ba4576",
+      "uploadedSha256": "3fc0a4e892db9798b76cc07892fe1870a34785ba61437e4d2544d94b28ba4576",
+      "modified": false
+    },
+    {
+      "path": "lesson-117.html",
+      "sourceBytes": 15152,
+      "uploadedBytes": 15152,
+      "sourceSha256": "9bd2d050e6ec3d877d3d5a29949a52627799b419771b7b4c77a4f77a4e8f8c72",
+      "uploadedSha256": "9bd2d050e6ec3d877d3d5a29949a52627799b419771b7b4c77a4f77a4e8f8c72",
+      "modified": false
+    },
+    {
+      "path": "lesson-118.html",
+      "sourceBytes": 15041,
+      "uploadedBytes": 15041,
+      "sourceSha256": "4266537e6a281d7752cbe79ae906e212ee57d19e9f23612e498f5e4e4aa31ded",
+      "uploadedSha256": "4266537e6a281d7752cbe79ae906e212ee57d19e9f23612e498f5e4e4aa31ded",
+      "modified": false
+    },
+    {
+      "path": "lesson-119.html",
+      "sourceBytes": 15237,
+      "uploadedBytes": 15237,
+      "sourceSha256": "4a1c24df9226149d6375742e1944d47773e8d3239918c684ef70f04b17967041",
+      "uploadedSha256": "4a1c24df9226149d6375742e1944d47773e8d3239918c684ef70f04b17967041",
+      "modified": false
+    },
+    {
+      "path": "lesson-120.html",
+      "sourceBytes": 15124,
+      "uploadedBytes": 15124,
+      "sourceSha256": "f45192724e1802a60c5baa8ec3beb3dee2ff8804e4593cb1b902a487148c53b3",
+      "uploadedSha256": "f45192724e1802a60c5baa8ec3beb3dee2ff8804e4593cb1b902a487148c53b3",
+      "modified": false
+    },
+    {
+      "path": "lesson-121.html",
+      "sourceBytes": 15151,
+      "uploadedBytes": 15151,
+      "sourceSha256": "b9d584e6e452d1136d3bd1f5fa9fa23fa91a7ce250bd255d633ea168bfb2155c",
+      "uploadedSha256": "b9d584e6e452d1136d3bd1f5fa9fa23fa91a7ce250bd255d633ea168bfb2155c",
+      "modified": false
+    },
+    {
+      "path": "lesson-122.html",
+      "sourceBytes": 15073,
+      "uploadedBytes": 15073,
+      "sourceSha256": "0bdd224236756306b67eca89bb1c963fce4a96043686f6a5c23e7d2216549af1",
+      "uploadedSha256": "0bdd224236756306b67eca89bb1c963fce4a96043686f6a5c23e7d2216549af1",
+      "modified": false
+    },
+    {
+      "path": "lesson-123.html",
+      "sourceBytes": 15167,
+      "uploadedBytes": 15167,
+      "sourceSha256": "54492ca36a1f405ad4048a922b14702fd852e1ff06eaac10e970e76d16c7547e",
+      "uploadedSha256": "54492ca36a1f405ad4048a922b14702fd852e1ff06eaac10e970e76d16c7547e",
+      "modified": false
+    },
+    {
+      "path": "lesson-124.html",
+      "sourceBytes": 15068,
+      "uploadedBytes": 15068,
+      "sourceSha256": "627a0920057e73c99857d25ed11182ccfdf57cc5934833da2cb7bdf0ad5bcdc9",
+      "uploadedSha256": "627a0920057e73c99857d25ed11182ccfdf57cc5934833da2cb7bdf0ad5bcdc9",
+      "modified": false
+    },
+    {
+      "path": "lesson-125.html",
+      "sourceBytes": 15284,
+      "uploadedBytes": 15284,
+      "sourceSha256": "dd3cc69da330e2df158ef3ef85cc4ee3bba7a628080fb072c27336b936958b03",
+      "uploadedSha256": "dd3cc69da330e2df158ef3ef85cc4ee3bba7a628080fb072c27336b936958b03",
+      "modified": false
+    },
+    {
+      "path": "lesson-126.html",
+      "sourceBytes": 15147,
+      "uploadedBytes": 15147,
+      "sourceSha256": "4eafffd318c11a445a216259e084f64d183cf7a8de7ec87fff1990f833e0df77",
+      "uploadedSha256": "4eafffd318c11a445a216259e084f64d183cf7a8de7ec87fff1990f833e0df77",
+      "modified": false
+    },
+    {
+      "path": "lesson-127.html",
+      "sourceBytes": 15339,
+      "uploadedBytes": 15339,
+      "sourceSha256": "7dd23f13c25e22295b25e3de87b2b54c12721f6fcb0e159f4dbc6db143312bec",
+      "uploadedSha256": "7dd23f13c25e22295b25e3de87b2b54c12721f6fcb0e159f4dbc6db143312bec",
+      "modified": false
+    },
+    {
+      "path": "lesson-128.html",
+      "sourceBytes": 15247,
+      "uploadedBytes": 15247,
+      "sourceSha256": "0b51e1f633a0bc87b1d10ac5fcebd5bdceb1b26450aba687cc620caf5d271363",
+      "uploadedSha256": "0b51e1f633a0bc87b1d10ac5fcebd5bdceb1b26450aba687cc620caf5d271363",
+      "modified": false
+    },
+    {
+      "path": "lesson-129.html",
+      "sourceBytes": 15099,
+      "uploadedBytes": 15099,
+      "sourceSha256": "b4a670f54ca830a1112c975fc1f1693b299cfb6e7101504e3275213d985d660c",
+      "uploadedSha256": "b4a670f54ca830a1112c975fc1f1693b299cfb6e7101504e3275213d985d660c",
+      "modified": false
+    },
+    {
+      "path": "lesson-130.html",
+      "sourceBytes": 15235,
+      "uploadedBytes": 15235,
+      "sourceSha256": "4866686d69f6af90ff5d9a60fd4de93581f92fa127aa9d2e8c2ee2020c4cda9a",
+      "uploadedSha256": "4866686d69f6af90ff5d9a60fd4de93581f92fa127aa9d2e8c2ee2020c4cda9a",
+      "modified": false
+    },
+    {
+      "path": "lesson-131.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "10a274de0da7c5a650fd7780594d0830761f6d72c243eb98e199bfedfbe5ab9e",
+      "uploadedSha256": "10a274de0da7c5a650fd7780594d0830761f6d72c243eb98e199bfedfbe5ab9e",
+      "modified": false
+    },
+    {
+      "path": "lesson-132.html",
+      "sourceBytes": 15257,
+      "uploadedBytes": 15257,
+      "sourceSha256": "8f4e07ef10c55262a5b0acb65aab2b0e267807ca6fee0ab6c224e1a4ac659995",
+      "uploadedSha256": "8f4e07ef10c55262a5b0acb65aab2b0e267807ca6fee0ab6c224e1a4ac659995",
+      "modified": false
+    },
+    {
+      "path": "lesson-133.html",
+      "sourceBytes": 15080,
+      "uploadedBytes": 15080,
+      "sourceSha256": "7f36039e1ef415fd454b5241d3a42c47b299af2bd6017d9f79cb74caae466061",
+      "uploadedSha256": "7f36039e1ef415fd454b5241d3a42c47b299af2bd6017d9f79cb74caae466061",
+      "modified": false
+    },
+    {
+      "path": "lesson-134.html",
+      "sourceBytes": 15288,
+      "uploadedBytes": 15288,
+      "sourceSha256": "392c8fd08c91cf210a0ad55e164f46be368ca8d30b17b28eb13278e13f79eb5a",
+      "uploadedSha256": "392c8fd08c91cf210a0ad55e164f46be368ca8d30b17b28eb13278e13f79eb5a",
+      "modified": false
+    },
+    {
+      "path": "lesson-135.html",
+      "sourceBytes": 15162,
+      "uploadedBytes": 15162,
+      "sourceSha256": "04342270ce520f1a9f9cbcf22db989a844c325084a03a57ad70eb65f40826abc",
+      "uploadedSha256": "04342270ce520f1a9f9cbcf22db989a844c325084a03a57ad70eb65f40826abc",
+      "modified": false
+    },
+    {
+      "path": "lesson-136.html",
+      "sourceBytes": 15203,
+      "uploadedBytes": 15203,
+      "sourceSha256": "69f01dec5daece1cf54a69fc9ab9e71724407c24913cb6e59d09bc6df462d60b",
+      "uploadedSha256": "69f01dec5daece1cf54a69fc9ab9e71724407c24913cb6e59d09bc6df462d60b",
+      "modified": false
+    },
+    {
+      "path": "lesson-137.html",
+      "sourceBytes": 15324,
+      "uploadedBytes": 15324,
+      "sourceSha256": "7d5599ae9aa476ffd2295a0f7e794303ac283d4e6b01a9ae5235d8d0c895ba14",
+      "uploadedSha256": "7d5599ae9aa476ffd2295a0f7e794303ac283d4e6b01a9ae5235d8d0c895ba14",
+      "modified": false
+    },
+    {
+      "path": "lesson-138.html",
+      "sourceBytes": 15101,
+      "uploadedBytes": 15101,
+      "sourceSha256": "cc6cc4514b824dbbe26cbc19c82340b1873cf52e2057708c41c22dbb26e773b4",
+      "uploadedSha256": "cc6cc4514b824dbbe26cbc19c82340b1873cf52e2057708c41c22dbb26e773b4",
+      "modified": false
+    },
+    {
+      "path": "lesson-139.html",
+      "sourceBytes": 15302,
+      "uploadedBytes": 15302,
+      "sourceSha256": "ac3e3710ddb1ed73670d8abdc44b056771d1bfe49eb2beb2bf8035a7b05607a3",
+      "uploadedSha256": "ac3e3710ddb1ed73670d8abdc44b056771d1bfe49eb2beb2bf8035a7b05607a3",
+      "modified": false
+    },
+    {
+      "path": "lesson-140.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "729d0fb6883f37bbda3c109608ae6e65bfc0c9b1e145b478ccdd34d1a007e933",
+      "uploadedSha256": "729d0fb6883f37bbda3c109608ae6e65bfc0c9b1e145b478ccdd34d1a007e933",
+      "modified": false
+    },
+    {
+      "path": "lesson-141.html",
+      "sourceBytes": 15360,
+      "uploadedBytes": 15360,
+      "sourceSha256": "caa6ce2fde451c817c3913e3f206419069d2e7a79dbebc75d687bb711ba77135",
+      "uploadedSha256": "caa6ce2fde451c817c3913e3f206419069d2e7a79dbebc75d687bb711ba77135",
+      "modified": false
+    },
+    {
+      "path": "lesson-142.html",
+      "sourceBytes": 15320,
+      "uploadedBytes": 15320,
+      "sourceSha256": "e95e7a6dd67499554306a15f005d52512bcb6a28a3fed3092e5cf7d19cb9dc42",
+      "uploadedSha256": "e95e7a6dd67499554306a15f005d52512bcb6a28a3fed3092e5cf7d19cb9dc42",
+      "modified": false
+    },
+    {
+      "path": "lesson-143.html",
+      "sourceBytes": 15234,
+      "uploadedBytes": 15234,
+      "sourceSha256": "b57cd97852952b3ab75cdcc21db29658836800a8ac25f7fa07f1c07fecfedf72",
+      "uploadedSha256": "b57cd97852952b3ab75cdcc21db29658836800a8ac25f7fa07f1c07fecfedf72",
+      "modified": false
+    },
+    {
+      "path": "lesson-144.html",
+      "sourceBytes": 15167,
+      "uploadedBytes": 15167,
+      "sourceSha256": "3eb8c2391956a4b3dd5608a1018a86acd624ac607f49329ff28a954cbb978b62",
+      "uploadedSha256": "3eb8c2391956a4b3dd5608a1018a86acd624ac607f49329ff28a954cbb978b62",
+      "modified": false
+    },
+    {
+      "path": "lesson-145.html",
+      "sourceBytes": 15359,
+      "uploadedBytes": 15359,
+      "sourceSha256": "2a4946d137afc0461c0f4b1f8b538598e7ceb3d122896a856e6521a3093ee8a1",
+      "uploadedSha256": "2a4946d137afc0461c0f4b1f8b538598e7ceb3d122896a856e6521a3093ee8a1",
+      "modified": false
+    },
+    {
+      "path": "lesson-146.html",
+      "sourceBytes": 15183,
+      "uploadedBytes": 15183,
+      "sourceSha256": "3fd9bb48a6a5e4f8635317b83998b1a3e67f536f3acf170d1d2186a2c783d27b",
+      "uploadedSha256": "3fd9bb48a6a5e4f8635317b83998b1a3e67f536f3acf170d1d2186a2c783d27b",
+      "modified": false
+    },
+    {
+      "path": "lesson-147.html",
+      "sourceBytes": 15137,
+      "uploadedBytes": 15137,
+      "sourceSha256": "e8afa4da0bd3c04da0ce820949805aafaa94cd20d71bedddb8583b76b0b85f7a",
+      "uploadedSha256": "e8afa4da0bd3c04da0ce820949805aafaa94cd20d71bedddb8583b76b0b85f7a",
+      "modified": false
+    },
+    {
+      "path": "lesson-148.html",
+      "sourceBytes": 15170,
+      "uploadedBytes": 15170,
+      "sourceSha256": "42f90f2596742eafaf12f1bb6ad5ed5ea6e5b8bf112eeb428aa0ba57971c6abe",
+      "uploadedSha256": "42f90f2596742eafaf12f1bb6ad5ed5ea6e5b8bf112eeb428aa0ba57971c6abe",
+      "modified": false
+    },
+    {
+      "path": "lesson-149.html",
+      "sourceBytes": 15166,
+      "uploadedBytes": 15166,
+      "sourceSha256": "fc1b79ffe47576f39b20aa51f03c871e251690f18554ae599f6d5cc4a07e5cdf",
+      "uploadedSha256": "fc1b79ffe47576f39b20aa51f03c871e251690f18554ae599f6d5cc4a07e5cdf",
+      "modified": false
+    },
+    {
+      "path": "lesson-150.html",
+      "sourceBytes": 15334,
+      "uploadedBytes": 15334,
+      "sourceSha256": "45494721aba830965118e604de5b14fcda83082647f0e76ffab2d4ff3258afbb",
+      "uploadedSha256": "45494721aba830965118e604de5b14fcda83082647f0e76ffab2d4ff3258afbb",
+      "modified": false
+    },
+    {
+      "path": "lesson-151.html",
+      "sourceBytes": 15141,
+      "uploadedBytes": 15141,
+      "sourceSha256": "8d39d99f488db25aaf1c7b2716ca6fa67930e220a80b590edb53dbd9fce27600",
+      "uploadedSha256": "8d39d99f488db25aaf1c7b2716ca6fa67930e220a80b590edb53dbd9fce27600",
+      "modified": false
+    },
+    {
+      "path": "lesson-152.html",
+      "sourceBytes": 15144,
+      "uploadedBytes": 15144,
+      "sourceSha256": "9d89b53fcfdbbd111f5933b4391ea42332dfa154d0611bacd47b02f1516a1546",
+      "uploadedSha256": "9d89b53fcfdbbd111f5933b4391ea42332dfa154d0611bacd47b02f1516a1546",
+      "modified": false
+    },
+    {
+      "path": "lesson-153.html",
+      "sourceBytes": 15262,
+      "uploadedBytes": 15262,
+      "sourceSha256": "f2103ee59d893ebcb7362b97478a77f56cdf2bf80c5317a9183e8a823d6f7c4e",
+      "uploadedSha256": "f2103ee59d893ebcb7362b97478a77f56cdf2bf80c5317a9183e8a823d6f7c4e",
+      "modified": false
+    },
+    {
+      "path": "lesson-154.html",
+      "sourceBytes": 15156,
+      "uploadedBytes": 15156,
+      "sourceSha256": "228ca40a88eb89bb55d2458174428d61f5675f479d95b5cece4646c96aeceb24",
+      "uploadedSha256": "228ca40a88eb89bb55d2458174428d61f5675f479d95b5cece4646c96aeceb24",
+      "modified": false
+    },
+    {
+      "path": "lesson-155.html",
+      "sourceBytes": 15198,
+      "uploadedBytes": 15198,
+      "sourceSha256": "1f61310f9f432073a9bc2173cdec5714bb4b73fa2ce8b4262928c34d041df55d",
+      "uploadedSha256": "1f61310f9f432073a9bc2173cdec5714bb4b73fa2ce8b4262928c34d041df55d",
+      "modified": false
+    },
+    {
+      "path": "lesson-156.html",
+      "sourceBytes": 15191,
+      "uploadedBytes": 15191,
+      "sourceSha256": "936884a226984a76abfdf3689b658ac4744441f2d29d563d127701ca8505bc57",
+      "uploadedSha256": "936884a226984a76abfdf3689b658ac4744441f2d29d563d127701ca8505bc57",
+      "modified": false
+    },
+    {
+      "path": "lesson-157.html",
+      "sourceBytes": 15135,
+      "uploadedBytes": 15135,
+      "sourceSha256": "e5c8c5000b597b266860792f9fac3b0808e9016b2ea386a49bd4b58f2760d2b0",
+      "uploadedSha256": "e5c8c5000b597b266860792f9fac3b0808e9016b2ea386a49bd4b58f2760d2b0",
+      "modified": false
+    },
+    {
+      "path": "lesson-158.html",
+      "sourceBytes": 15120,
+      "uploadedBytes": 15120,
+      "sourceSha256": "d734fb9424ccb6f38c273d11c5bb720650ff2cc248f0c253241cf6232a6006ee",
+      "uploadedSha256": "d734fb9424ccb6f38c273d11c5bb720650ff2cc248f0c253241cf6232a6006ee",
+      "modified": false
+    },
+    {
+      "path": "lesson-159.html",
+      "sourceBytes": 15112,
+      "uploadedBytes": 15112,
+      "sourceSha256": "e6b9552f80098d2ac6f7d547f1500336599e80b31ad858bad922d03d3b3c81ab",
+      "uploadedSha256": "e6b9552f80098d2ac6f7d547f1500336599e80b31ad858bad922d03d3b3c81ab",
+      "modified": false
+    },
+    {
+      "path": "lesson-160.html",
+      "sourceBytes": 15168,
+      "uploadedBytes": 15168,
+      "sourceSha256": "bf10bf90bde463143e63504b69ea9f8b5e5cdb2717f1ee18c53a1712fcc07da4",
+      "uploadedSha256": "bf10bf90bde463143e63504b69ea9f8b5e5cdb2717f1ee18c53a1712fcc07da4",
+      "modified": false
+    },
+    {
+      "path": "lesson-161.html",
+      "sourceBytes": 15119,
+      "uploadedBytes": 15119,
+      "sourceSha256": "dce0636438250f22e393ee160a8a2e7a62c14eddadc574d267b0053f9f9597e6",
+      "uploadedSha256": "dce0636438250f22e393ee160a8a2e7a62c14eddadc574d267b0053f9f9597e6",
+      "modified": false
+    },
+    {
+      "path": "lesson-162.html",
+      "sourceBytes": 15225,
+      "uploadedBytes": 15225,
+      "sourceSha256": "720f3b0240e3d79258b231221fb81cc3cfebfc28b34e84e8c38f67632d9a7938",
+      "uploadedSha256": "720f3b0240e3d79258b231221fb81cc3cfebfc28b34e84e8c38f67632d9a7938",
+      "modified": false
+    },
+    {
+      "path": "lesson-163.html",
+      "sourceBytes": 15104,
+      "uploadedBytes": 15104,
+      "sourceSha256": "cfa4f92cd21b9ced6d7bb56ea235bbb8bbe86daebcd03cc908989169c2ac40de",
+      "uploadedSha256": "cfa4f92cd21b9ced6d7bb56ea235bbb8bbe86daebcd03cc908989169c2ac40de",
+      "modified": false
+    },
+    {
+      "path": "lesson-164.html",
+      "sourceBytes": 15153,
+      "uploadedBytes": 15153,
+      "sourceSha256": "c83a6015a14dddce81ece37a9564b4a57b51482410f45f86a3b6dd8a3af43d80",
+      "uploadedSha256": "c83a6015a14dddce81ece37a9564b4a57b51482410f45f86a3b6dd8a3af43d80",
+      "modified": false
+    },
+    {
+      "path": "lesson-165.html",
+      "sourceBytes": 15020,
+      "uploadedBytes": 15020,
+      "sourceSha256": "614c54f83e058a926c00a259211df3744e1806be8c7f98c3d24f6f8d088be11b",
+      "uploadedSha256": "614c54f83e058a926c00a259211df3744e1806be8c7f98c3d24f6f8d088be11b",
+      "modified": false
+    },
+    {
+      "path": "lesson-166.html",
+      "sourceBytes": 15141,
+      "uploadedBytes": 15141,
+      "sourceSha256": "6f03acad8a9e1f8a3c8c0bb55475b039c8108fd40c3c6609e4e5ea28403fee86",
+      "uploadedSha256": "6f03acad8a9e1f8a3c8c0bb55475b039c8108fd40c3c6609e4e5ea28403fee86",
+      "modified": false
+    },
+    {
+      "path": "lesson-167.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "e92b7da2a1f2cea06884380070db0abf99245b6249f317d00dc8b4393084979a",
+      "uploadedSha256": "e92b7da2a1f2cea06884380070db0abf99245b6249f317d00dc8b4393084979a",
+      "modified": false
+    },
+    {
+      "path": "lesson-168.html",
+      "sourceBytes": 15030,
+      "uploadedBytes": 15030,
+      "sourceSha256": "5ac75a9e869372b590873815a2fbfb063167d1c77eaf33d4965731958064274f",
+      "uploadedSha256": "5ac75a9e869372b590873815a2fbfb063167d1c77eaf33d4965731958064274f",
+      "modified": false
+    },
+    {
+      "path": "lesson-169.html",
+      "sourceBytes": 15185,
+      "uploadedBytes": 15185,
+      "sourceSha256": "5d6987d9755fb6a45d302f40e25cb69cd75c5c01707460933e81070cd060fed5",
+      "uploadedSha256": "5d6987d9755fb6a45d302f40e25cb69cd75c5c01707460933e81070cd060fed5",
+      "modified": false
+    },
+    {
+      "path": "lesson-170.html",
+      "sourceBytes": 15095,
+      "uploadedBytes": 15095,
+      "sourceSha256": "f35e83826812c55bf4a13417e064a9211250516280569afc9e1a6303c5fcc2ad",
+      "uploadedSha256": "f35e83826812c55bf4a13417e064a9211250516280569afc9e1a6303c5fcc2ad",
+      "modified": false
+    },
+    {
+      "path": "lesson-171.html",
+      "sourceBytes": 15114,
+      "uploadedBytes": 15114,
+      "sourceSha256": "1c4b54ae0764cf674380be82077f9accc2302a9f9fbb487a25426c70dd564ea2",
+      "uploadedSha256": "1c4b54ae0764cf674380be82077f9accc2302a9f9fbb487a25426c70dd564ea2",
+      "modified": false
+    },
+    {
+      "path": "lesson-172.html",
+      "sourceBytes": 15056,
+      "uploadedBytes": 15056,
+      "sourceSha256": "259b1a2006b0914b13b7b2faed0c1a7e4161546c60028859bdeedc00a18b7973",
+      "uploadedSha256": "259b1a2006b0914b13b7b2faed0c1a7e4161546c60028859bdeedc00a18b7973",
+      "modified": false
+    },
+    {
+      "path": "lesson-173.html",
+      "sourceBytes": 15144,
+      "uploadedBytes": 15144,
+      "sourceSha256": "298c0cce358451f8511b0bff3f1dd0764f792143484dd1bf724fec3acb3e6c76",
+      "uploadedSha256": "298c0cce358451f8511b0bff3f1dd0764f792143484dd1bf724fec3acb3e6c76",
+      "modified": false
+    },
+    {
+      "path": "lesson-174.html",
+      "sourceBytes": 15055,
+      "uploadedBytes": 15055,
+      "sourceSha256": "04ded5cfc0e30d7bc348723694a23d2979bf0eececf2ec0a9e838bee74537d34",
+      "uploadedSha256": "04ded5cfc0e30d7bc348723694a23d2979bf0eececf2ec0a9e838bee74537d34",
+      "modified": false
+    },
+    {
+      "path": "lesson-175.html",
+      "sourceBytes": 15253,
+      "uploadedBytes": 15253,
+      "sourceSha256": "23d269fe33bbca764932cf88d5a32063608a59be25519eda2edbdbddc741948c",
+      "uploadedSha256": "23d269fe33bbca764932cf88d5a32063608a59be25519eda2edbdbddc741948c",
+      "modified": false
+    },
+    {
+      "path": "lesson-176.html",
+      "sourceBytes": 15143,
+      "uploadedBytes": 15143,
+      "sourceSha256": "5b4b4abe308ab94ced4245ba2971c165ccebf3e863a2f2d31dcb28db66a5b5f2",
+      "uploadedSha256": "5b4b4abe308ab94ced4245ba2971c165ccebf3e863a2f2d31dcb28db66a5b5f2",
+      "modified": false
+    },
+    {
+      "path": "lesson-177.html",
+      "sourceBytes": 15301,
+      "uploadedBytes": 15301,
+      "sourceSha256": "bb3d625adb752be977ed4a364750820bf83bfa0fed9f27e664fb5f43f65b79c3",
+      "uploadedSha256": "bb3d625adb752be977ed4a364750820bf83bfa0fed9f27e664fb5f43f65b79c3",
+      "modified": false
+    },
+    {
+      "path": "lesson-178.html",
+      "sourceBytes": 15212,
+      "uploadedBytes": 15212,
+      "sourceSha256": "49a62c3bc2f1551af84d6be383b5cd087ba8504aeab9a61feabcd4c8ab584239",
+      "uploadedSha256": "49a62c3bc2f1551af84d6be383b5cd087ba8504aeab9a61feabcd4c8ab584239",
+      "modified": false
+    },
+    {
+      "path": "lesson-179.html",
+      "sourceBytes": 15048,
+      "uploadedBytes": 15048,
+      "sourceSha256": "a5f9d9c8f71b77e171a6eca401a21a6d4d3e4985d4ed93659a42e2fa40a15fee",
+      "uploadedSha256": "a5f9d9c8f71b77e171a6eca401a21a6d4d3e4985d4ed93659a42e2fa40a15fee",
+      "modified": false
+    },
+    {
+      "path": "lesson-180.html",
+      "sourceBytes": 15199,
+      "uploadedBytes": 15199,
+      "sourceSha256": "a90fdb58e950a297fd23c4c4d9cb3da311b14ffd077b1d763460c57c8dc57e3e",
+      "uploadedSha256": "a90fdb58e950a297fd23c4c4d9cb3da311b14ffd077b1d763460c57c8dc57e3e",
+      "modified": false
+    },
+    {
+      "path": "lesson-181.html",
+      "sourceBytes": 15116,
+      "uploadedBytes": 15116,
+      "sourceSha256": "d66649a8474443f33736f0ac7216008f6d2a5ff64b2503a075003d566c1ad322",
+      "uploadedSha256": "d66649a8474443f33736f0ac7216008f6d2a5ff64b2503a075003d566c1ad322",
+      "modified": false
+    },
+    {
+      "path": "lesson-182.html",
+      "sourceBytes": 15210,
+      "uploadedBytes": 15210,
+      "sourceSha256": "f861e381234a97553ec4e9a775c0f08b6533a12c02322dbcd6e1893bc690ea93",
+      "uploadedSha256": "f861e381234a97553ec4e9a775c0f08b6533a12c02322dbcd6e1893bc690ea93",
+      "modified": false
+    },
+    {
+      "path": "lesson-183.html",
+      "sourceBytes": 15083,
+      "uploadedBytes": 15083,
+      "sourceSha256": "8edd7f97b74557b14ecc6330f081af65e07fd971b7358856bd7eab3c2e117785",
+      "uploadedSha256": "8edd7f97b74557b14ecc6330f081af65e07fd971b7358856bd7eab3c2e117785",
+      "modified": false
+    },
+    {
+      "path": "lesson-184.html",
+      "sourceBytes": 15267,
+      "uploadedBytes": 15267,
+      "sourceSha256": "a89a783273a128f5084c0ba8c9df1e4fe6349c46883a1eac43656aef12dc3d21",
+      "uploadedSha256": "a89a783273a128f5084c0ba8c9df1e4fe6349c46883a1eac43656aef12dc3d21",
+      "modified": false
+    },
+    {
+      "path": "lesson-185.html",
+      "sourceBytes": 15131,
+      "uploadedBytes": 15131,
+      "sourceSha256": "8681075838892eb0c7ab36250d48389d522b384905df2f3f40f72ce15df59c64",
+      "uploadedSha256": "8681075838892eb0c7ab36250d48389d522b384905df2f3f40f72ce15df59c64",
+      "modified": false
+    },
+    {
+      "path": "lesson-186.html",
+      "sourceBytes": 15172,
+      "uploadedBytes": 15172,
+      "sourceSha256": "685bbfe5ca3d7bbf8cb6a14fa0d4a7827286c05b2a5ddb77f6a0451eabd28260",
+      "uploadedSha256": "685bbfe5ca3d7bbf8cb6a14fa0d4a7827286c05b2a5ddb77f6a0451eabd28260",
+      "modified": false
+    },
+    {
+      "path": "lesson-187.html",
+      "sourceBytes": 15292,
+      "uploadedBytes": 15292,
+      "sourceSha256": "d0ff29dc8fca6fb5753e2bcbf9f8a9cc5b43c3c144c9a878b75dc40cd6ed4490",
+      "uploadedSha256": "d0ff29dc8fca6fb5753e2bcbf9f8a9cc5b43c3c144c9a878b75dc40cd6ed4490",
+      "modified": false
+    },
+    {
+      "path": "lesson-188.html",
+      "sourceBytes": 15091,
+      "uploadedBytes": 15091,
+      "sourceSha256": "5d5b9d38ab7cc505259a3123f5a491a1213815367a25b8c8359df88de149dbd7",
+      "uploadedSha256": "5d5b9d38ab7cc505259a3123f5a491a1213815367a25b8c8359df88de149dbd7",
+      "modified": false
+    },
+    {
+      "path": "lesson-189.html",
+      "sourceBytes": 15277,
+      "uploadedBytes": 15277,
+      "sourceSha256": "2cc4cf1b23738c442d2cfbf320748a47e3422e5284f7d388f32206b0fe4d662a",
+      "uploadedSha256": "2cc4cf1b23738c442d2cfbf320748a47e3422e5284f7d388f32206b0fe4d662a",
+      "modified": false
+    },
+    {
+      "path": "lesson-190.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "4c8b4ba5412fcbcc5140f7699c18ede9a0106f5367efde892d5227dd7acc531a",
+      "uploadedSha256": "4c8b4ba5412fcbcc5140f7699c18ede9a0106f5367efde892d5227dd7acc531a",
+      "modified": false
+    },
+    {
+      "path": "lesson-191.html",
+      "sourceBytes": 15324,
+      "uploadedBytes": 15324,
+      "sourceSha256": "adb4a968bc8fd4a4b54958fd258f533ab14cd973ac6ff09c81abf78e1371eb96",
+      "uploadedSha256": "adb4a968bc8fd4a4b54958fd258f533ab14cd973ac6ff09c81abf78e1371eb96",
+      "modified": false
+    },
+    {
+      "path": "lesson-192.html",
+      "sourceBytes": 15275,
+      "uploadedBytes": 15275,
+      "sourceSha256": "9768b0d62411029531c359d668b07c4832a43279fafcd9b2459edc27b5936bab",
+      "uploadedSha256": "9768b0d62411029531c359d668b07c4832a43279fafcd9b2459edc27b5936bab",
+      "modified": false
+    },
+    {
+      "path": "lesson-193.html",
+      "sourceBytes": 15199,
+      "uploadedBytes": 15199,
+      "sourceSha256": "9e837ef7f0712f1291e8eae3e5bd641bf88f30f12f5b1fea2cbfadc8608e2065",
+      "uploadedSha256": "9e837ef7f0712f1291e8eae3e5bd641bf88f30f12f5b1fea2cbfadc8608e2065",
+      "modified": false
+    },
+    {
+      "path": "lesson-194.html",
+      "sourceBytes": 15152,
+      "uploadedBytes": 15152,
+      "sourceSha256": "e211087038ae17f37b8c53f520b85ea87c95db89daf14fd94df9be0d053569af",
+      "uploadedSha256": "e211087038ae17f37b8c53f520b85ea87c95db89daf14fd94df9be0d053569af",
+      "modified": false
+    },
+    {
+      "path": "lesson-195.html",
+      "sourceBytes": 15334,
+      "uploadedBytes": 15334,
+      "sourceSha256": "9fe208cce727982c024f84fff9a891d3ea940943c2c1d824ec53dbaeda297c9c",
+      "uploadedSha256": "9fe208cce727982c024f84fff9a891d3ea940943c2c1d824ec53dbaeda297c9c",
+      "modified": false
+    },
+    {
+      "path": "lesson-196.html",
+      "sourceBytes": 15165,
+      "uploadedBytes": 15165,
+      "sourceSha256": "955b70e79702781118810fae7e3751870c4c956ed22f9ca051b7d51fc531e4f5",
+      "uploadedSha256": "955b70e79702781118810fae7e3751870c4c956ed22f9ca051b7d51fc531e4f5",
+      "modified": false
+    },
+    {
+      "path": "lesson-197.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "4857b72db502676e01328c2ab8fc9177f76f771f243fb228cad4dbe1d8f5b560",
+      "uploadedSha256": "4857b72db502676e01328c2ab8fc9177f76f771f243fb228cad4dbe1d8f5b560",
+      "modified": false
+    },
+    {
+      "path": "lesson-198.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "005f6a43d5b129b5b9ba5c5e5f7dcffcc57c34e44ef25674a187e948d45efeb7",
+      "uploadedSha256": "005f6a43d5b129b5b9ba5c5e5f7dcffcc57c34e44ef25674a187e948d45efeb7",
+      "modified": false
+    },
+    {
+      "path": "lesson-199.html",
+      "sourceBytes": 15125,
+      "uploadedBytes": 15125,
+      "sourceSha256": "3baecc8fefaf1a37f5068f7dc50be1667bdb450ac6874fb8a2c20820a876bcee",
+      "uploadedSha256": "3baecc8fefaf1a37f5068f7dc50be1667bdb450ac6874fb8a2c20820a876bcee",
+      "modified": false
+    },
+    {
+      "path": "lesson-200.html",
+      "sourceBytes": 15312,
+      "uploadedBytes": 15312,
+      "sourceSha256": "6014e046f1bc5c89249308ad1c383761676cd967b1d7d3b39afbe5f3579e0a37",
+      "uploadedSha256": "6014e046f1bc5c89249308ad1c383761676cd967b1d7d3b39afbe5f3579e0a37",
+      "modified": false
+    },
+    {
+      "path": "lesson-201.html",
+      "sourceBytes": 15087,
+      "uploadedBytes": 15087,
+      "sourceSha256": "b8ce3828e8502785f0c02f983f70f16f77db05c7c2b2def5c076eb685fd99bd1",
+      "uploadedSha256": "b8ce3828e8502785f0c02f983f70f16f77db05c7c2b2def5c076eb685fd99bd1",
+      "modified": false
+    },
+    {
+      "path": "lesson-202.html",
+      "sourceBytes": 15063,
+      "uploadedBytes": 15063,
+      "sourceSha256": "5f1b14c36323c722bf5f590913f27cda87292542fd29a8c2ff79f56d201ecf42",
+      "uploadedSha256": "5f1b14c36323c722bf5f590913f27cda87292542fd29a8c2ff79f56d201ecf42",
+      "modified": false
+    },
+    {
+      "path": "lesson-203.html",
+      "sourceBytes": 15203,
+      "uploadedBytes": 15203,
+      "sourceSha256": "fd60b7eeee5fd938863752496fda9e596cb5255e9314db83000216278d377c0a",
+      "uploadedSha256": "fd60b7eeee5fd938863752496fda9e596cb5255e9314db83000216278d377c0a",
+      "modified": false
+    },
+    {
+      "path": "lesson-204.html",
+      "sourceBytes": 15109,
+      "uploadedBytes": 15109,
+      "sourceSha256": "c5c7b76b3daa1f3ab65d6ccd8c1a8797acc8fac87fdf22a15fb7064d8df89c1a",
+      "uploadedSha256": "c5c7b76b3daa1f3ab65d6ccd8c1a8797acc8fac87fdf22a15fb7064d8df89c1a",
+      "modified": false
+    },
+    {
+      "path": "lesson-205.html",
+      "sourceBytes": 15156,
+      "uploadedBytes": 15156,
+      "sourceSha256": "ac7123530a339de345abe0310c7b36060a929bd7031e5abc555dd23d91a10f69",
+      "uploadedSha256": "ac7123530a339de345abe0310c7b36060a929bd7031e5abc555dd23d91a10f69",
+      "modified": false
+    },
+    {
+      "path": "lesson-206.html",
+      "sourceBytes": 15096,
+      "uploadedBytes": 15096,
+      "sourceSha256": "14f2e3bc8d9b4b4467b0569fa6efe29f2506040538dd7f38e02d07602c5aa1b7",
+      "uploadedSha256": "14f2e3bc8d9b4b4467b0569fa6efe29f2506040538dd7f38e02d07602c5aa1b7",
+      "modified": false
+    },
+    {
+      "path": "lesson-207.html",
+      "sourceBytes": 15056,
+      "uploadedBytes": 15056,
+      "sourceSha256": "4271d9de5f42199967bf216da5375426c441e0117087a28b8baa2778aff8a850",
+      "uploadedSha256": "4271d9de5f42199967bf216da5375426c441e0117087a28b8baa2778aff8a850",
+      "modified": false
+    },
+    {
+      "path": "lesson-208.html",
+      "sourceBytes": 15031,
+      "uploadedBytes": 15031,
+      "sourceSha256": "0c5bb574c2be33e7d137aaa394217236b685a29bb4d129553b089679e382d712",
+      "uploadedSha256": "0c5bb574c2be33e7d137aaa394217236b685a29bb4d129553b089679e382d712",
+      "modified": false
+    },
+    {
+      "path": "lesson-209.html",
+      "sourceBytes": 15045,
+      "uploadedBytes": 15045,
+      "sourceSha256": "faa340ed5f5277a47298208b93e5b811c52bea4b2b99f9f0959536620cdf0b05",
+      "uploadedSha256": "faa340ed5f5277a47298208b93e5b811c52bea4b2b99f9f0959536620cdf0b05",
+      "modified": false
+    },
+    {
+      "path": "lesson-210.html",
+      "sourceBytes": 15102,
+      "uploadedBytes": 15102,
+      "sourceSha256": "1034b3b07568d1db2dacc09070672a47fe1263cf6ed1819e66b070602edb9789",
+      "uploadedSha256": "1034b3b07568d1db2dacc09070672a47fe1263cf6ed1819e66b070602edb9789",
+      "modified": false
+    },
+    {
+      "path": "lesson-211.html",
+      "sourceBytes": 15072,
+      "uploadedBytes": 15072,
+      "sourceSha256": "31cd9a234689d19fbdea9457e3b531c8aa5d326bbf76624013a42e113f99c9e1",
+      "uploadedSha256": "31cd9a234689d19fbdea9457e3b531c8aa5d326bbf76624013a42e113f99c9e1",
+      "modified": false
+    },
+    {
+      "path": "lesson-212.html",
+      "sourceBytes": 15152,
+      "uploadedBytes": 15152,
+      "sourceSha256": "f470389b5b70b81efe97dab10b3934aee8ea5e69846cb067cce1d06e73673b42",
+      "uploadedSha256": "f470389b5b70b81efe97dab10b3934aee8ea5e69846cb067cce1d06e73673b42",
+      "modified": false
+    },
+    {
+      "path": "lesson-213.html",
+      "sourceBytes": 15049,
+      "uploadedBytes": 15049,
+      "sourceSha256": "24845e993218e7610840424fb813e72629c8fb5a81314e3f3ef6ee7d4af04915",
+      "uploadedSha256": "24845e993218e7610840424fb813e72629c8fb5a81314e3f3ef6ee7d4af04915",
+      "modified": false
+    },
+    {
+      "path": "lesson-214.html",
+      "sourceBytes": 15105,
+      "uploadedBytes": 15105,
+      "sourceSha256": "33f16843d153b73600a410884cfa0a8d72d3312c2c51179b85a60b8c6a2715ac",
+      "uploadedSha256": "33f16843d153b73600a410884cfa0a8d72d3312c2c51179b85a60b8c6a2715ac",
+      "modified": false
+    },
+    {
+      "path": "lesson-215.html",
+      "sourceBytes": 14946,
+      "uploadedBytes": 14946,
+      "sourceSha256": "516f87641bdd54e05edfdecbff2536aa602a1ed0d2dbc3397ddedb557ea23ec0",
+      "uploadedSha256": "516f87641bdd54e05edfdecbff2536aa602a1ed0d2dbc3397ddedb557ea23ec0",
+      "modified": false
+    },
+    {
+      "path": "lesson-216.html",
+      "sourceBytes": 15082,
+      "uploadedBytes": 15082,
+      "sourceSha256": "d09321bd12f61711f0d50a1d1a22033e8eeeaded1a088343ecd097a1b6b47cc6",
+      "uploadedSha256": "d09321bd12f61711f0d50a1d1a22033e8eeeaded1a088343ecd097a1b6b47cc6",
+      "modified": false
+    },
+    {
+      "path": "lesson-217.html",
+      "sourceBytes": 15062,
+      "uploadedBytes": 15062,
+      "sourceSha256": "64065d96b19baf62dabd1cf72e41bf98ef130bdbb1cd51c43cc6a8d0d8ed5e84",
+      "uploadedSha256": "64065d96b19baf62dabd1cf72e41bf98ef130bdbb1cd51c43cc6a8d0d8ed5e84",
+      "modified": false
+    },
+    {
+      "path": "lesson-218.html",
+      "sourceBytes": 14953,
+      "uploadedBytes": 14953,
+      "sourceSha256": "2902b1b85d3030ad7a69eead5e841e937eb6c44767a96767df1d968fc4b098c8",
+      "uploadedSha256": "2902b1b85d3030ad7a69eead5e841e937eb6c44767a96767df1d968fc4b098c8",
+      "modified": false
+    },
+    {
+      "path": "lesson-219.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "ed422ca9a28e3d7c3da308d687d22964c8251a8db36460a587d4c3ba9f4bdf27",
+      "uploadedSha256": "ed422ca9a28e3d7c3da308d687d22964c8251a8db36460a587d4c3ba9f4bdf27",
+      "modified": false
+    },
+    {
+      "path": "lesson-220.html",
+      "sourceBytes": 15011,
+      "uploadedBytes": 15011,
+      "sourceSha256": "3793fa5c286ba33b16fb0a9610458e5e4cce8de8e090278328310125a6299101",
+      "uploadedSha256": "3793fa5c286ba33b16fb0a9610458e5e4cce8de8e090278328310125a6299101",
+      "modified": false
+    },
+    {
+      "path": "lesson-221.html",
+      "sourceBytes": 15056,
+      "uploadedBytes": 15056,
+      "sourceSha256": "e72228579b85f4695a3a136e9555ff0b7092b095eeca1f9bb4d9c9e0956dc012",
+      "uploadedSha256": "e72228579b85f4695a3a136e9555ff0b7092b095eeca1f9bb4d9c9e0956dc012",
+      "modified": false
+    },
+    {
+      "path": "lesson-222.html",
+      "sourceBytes": 14992,
+      "uploadedBytes": 14992,
+      "sourceSha256": "9048e0b1ae2324cc6e974dc6be708155284a0dd250dafe9864bb7913382c170f",
+      "uploadedSha256": "9048e0b1ae2324cc6e974dc6be708155284a0dd250dafe9864bb7913382c170f",
+      "modified": false
+    },
+    {
+      "path": "lesson-223.html",
+      "sourceBytes": 15075,
+      "uploadedBytes": 15075,
+      "sourceSha256": "6a9d2d50626a232e496ba1709c027300b0351586eb38baad016f3ebfb4e5185d",
+      "uploadedSha256": "6a9d2d50626a232e496ba1709c027300b0351586eb38baad016f3ebfb4e5185d",
+      "modified": false
+    },
+    {
+      "path": "lesson-224.html",
+      "sourceBytes": 14998,
+      "uploadedBytes": 14998,
+      "sourceSha256": "165369dcd1dab4377fd75bb760e112d24188156bca14c74a9ada3fd771a006aa",
+      "uploadedSha256": "165369dcd1dab4377fd75bb760e112d24188156bca14c74a9ada3fd771a006aa",
+      "modified": false
+    },
+    {
+      "path": "lesson-225.html",
+      "sourceBytes": 15162,
+      "uploadedBytes": 15162,
+      "sourceSha256": "45e1655a9a38d3d50eda4b40fbca64e82a6542fd6213f3a7e29bc24fc2e8d5bb",
+      "uploadedSha256": "45e1655a9a38d3d50eda4b40fbca64e82a6542fd6213f3a7e29bc24fc2e8d5bb",
+      "modified": false
+    },
+    {
+      "path": "lesson-226.html",
+      "sourceBytes": 15105,
+      "uploadedBytes": 15105,
+      "sourceSha256": "fd05e241535c3eb6cc3ac9e81dcaba66bf36f178e91877276aae92a32bd4e482",
+      "uploadedSha256": "fd05e241535c3eb6cc3ac9e81dcaba66bf36f178e91877276aae92a32bd4e482",
+      "modified": false
+    },
+    {
+      "path": "lesson-227.html",
+      "sourceBytes": 15235,
+      "uploadedBytes": 15235,
+      "sourceSha256": "51252a96ed5f30d1e0c35ea2c72e1d77953ff8bb7fbed1673d00c04f84858948",
+      "uploadedSha256": "51252a96ed5f30d1e0c35ea2c72e1d77953ff8bb7fbed1673d00c04f84858948",
+      "modified": false
+    },
+    {
+      "path": "lesson-228.html",
+      "sourceBytes": 15108,
+      "uploadedBytes": 15108,
+      "sourceSha256": "9e3359ead10882b23d39e1d9d6e8417fa9f13892d3d5435fe649fa40e7c50d1e",
+      "uploadedSha256": "9e3359ead10882b23d39e1d9d6e8417fa9f13892d3d5435fe649fa40e7c50d1e",
+      "modified": false
+    },
+    {
+      "path": "lesson-229.html",
+      "sourceBytes": 15011,
+      "uploadedBytes": 15011,
+      "sourceSha256": "4b5ec4d9be8eef7a25776c4634a06e5998bd10984d3d9a763eff6a88b35c43db",
+      "uploadedSha256": "4b5ec4d9be8eef7a25776c4634a06e5998bd10984d3d9a763eff6a88b35c43db",
+      "modified": false
+    },
+    {
+      "path": "lesson-230.html",
+      "sourceBytes": 15122,
+      "uploadedBytes": 15122,
+      "sourceSha256": "b7c75f4ba1c57ce8da1b22ec8bae0cb7a7867ed09358ce88df7f1559856d42c3",
+      "uploadedSha256": "b7c75f4ba1c57ce8da1b22ec8bae0cb7a7867ed09358ce88df7f1559856d42c3",
+      "modified": false
+    },
+    {
+      "path": "lesson-231.html",
+      "sourceBytes": 15050,
+      "uploadedBytes": 15050,
+      "sourceSha256": "3e539844e4c7ddc5114cd7a7ad9b3a11631e53b83dfba07988d195c16063722e",
+      "uploadedSha256": "3e539844e4c7ddc5114cd7a7ad9b3a11631e53b83dfba07988d195c16063722e",
+      "modified": false
+    },
+    {
+      "path": "lesson-232.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "f087a3b4dc0ad90d32c7a0df3e81ffa6b1c875fac793d653e2c360ff768f0f72",
+      "uploadedSha256": "f087a3b4dc0ad90d32c7a0df3e81ffa6b1c875fac793d653e2c360ff768f0f72",
+      "modified": false
+    },
+    {
+      "path": "lesson-233.html",
+      "sourceBytes": 15050,
+      "uploadedBytes": 15050,
+      "sourceSha256": "0ea6f0dd8b0cdad4643174acd73ba5cec7819ec7a6524fcd0b06163929c05ff9",
+      "uploadedSha256": "0ea6f0dd8b0cdad4643174acd73ba5cec7819ec7a6524fcd0b06163929c05ff9",
+      "modified": false
+    },
+    {
+      "path": "lesson-234.html",
+      "sourceBytes": 15208,
+      "uploadedBytes": 15208,
+      "sourceSha256": "866e7c07f7511ac882b05d36659499ae0e604ead42d8e426effe74ca43f7d171",
+      "uploadedSha256": "866e7c07f7511ac882b05d36659499ae0e604ead42d8e426effe74ca43f7d171",
+      "modified": false
+    },
+    {
+      "path": "lesson-235.html",
+      "sourceBytes": 15048,
+      "uploadedBytes": 15048,
+      "sourceSha256": "14572d902afc8ea6609572a3dc9d19ff45b191afc71ba69d3b666baf877f0c66",
+      "uploadedSha256": "14572d902afc8ea6609572a3dc9d19ff45b191afc71ba69d3b666baf877f0c66",
+      "modified": false
+    },
+    {
+      "path": "lesson-236.html",
+      "sourceBytes": 15136,
+      "uploadedBytes": 15136,
+      "sourceSha256": "af89fd3d0b76acbb560a3ab7e3a9ab4ea8a3b00dd1e12275b27190d9393bc240",
+      "uploadedSha256": "af89fd3d0b76acbb560a3ab7e3a9ab4ea8a3b00dd1e12275b27190d9393bc240",
+      "modified": false
+    },
+    {
+      "path": "lesson-237.html",
+      "sourceBytes": 15218,
+      "uploadedBytes": 15218,
+      "sourceSha256": "ca1ae0a9f1ae100d7d34d96104b1de2919222417eb43a64b16091ff677d6a909",
+      "uploadedSha256": "ca1ae0a9f1ae100d7d34d96104b1de2919222417eb43a64b16091ff677d6a909",
+      "modified": false
+    },
+    {
+      "path": "lesson-238.html",
+      "sourceBytes": 15025,
+      "uploadedBytes": 15025,
+      "sourceSha256": "914379b96511b9223cc22a50bb2e63a80b3075d3920b03aa306b9c551adf08a9",
+      "uploadedSha256": "914379b96511b9223cc22a50bb2e63a80b3075d3920b03aa306b9c551adf08a9",
+      "modified": false
+    },
+    {
+      "path": "lesson-239.html",
+      "sourceBytes": 15213,
+      "uploadedBytes": 15213,
+      "sourceSha256": "996a719103c0a52c6bd8b4d11a6109ec220a42873abedb38f6acb3fb5c357078",
+      "uploadedSha256": "996a719103c0a52c6bd8b4d11a6109ec220a42873abedb38f6acb3fb5c357078",
+      "modified": false
+    },
+    {
+      "path": "lesson-240.html",
+      "sourceBytes": 15046,
+      "uploadedBytes": 15046,
+      "sourceSha256": "d9f21f90dd8d02575782f52c37ebb3be3b5aa72c2cf095841050fbbed1ac07da",
+      "uploadedSha256": "d9f21f90dd8d02575782f52c37ebb3be3b5aa72c2cf095841050fbbed1ac07da",
+      "modified": false
+    },
+    {
+      "path": "lesson-241.html",
+      "sourceBytes": 15280,
+      "uploadedBytes": 15280,
+      "sourceSha256": "a93db0b9b693ac6e4c1a8f530ee5fbfd57fed2135907ddad2eefc7f04a526cd0",
+      "uploadedSha256": "a93db0b9b693ac6e4c1a8f530ee5fbfd57fed2135907ddad2eefc7f04a526cd0",
+      "modified": false
+    },
+    {
+      "path": "lesson-242.html",
+      "sourceBytes": 15205,
+      "uploadedBytes": 15205,
+      "sourceSha256": "021eddfb1a75cf9ff3b0a19b48f4b70e123ba816e8e7c546783c42b8f1a821b3",
+      "uploadedSha256": "021eddfb1a75cf9ff3b0a19b48f4b70e123ba816e8e7c546783c42b8f1a821b3",
+      "modified": false
+    },
+    {
+      "path": "lesson-243.html",
+      "sourceBytes": 15118,
+      "uploadedBytes": 15118,
+      "sourceSha256": "870f4f9173963f60d2da7998b10378f7b6ab5d7a624a16219ccfa4ac152d76eb",
+      "uploadedSha256": "870f4f9173963f60d2da7998b10378f7b6ab5d7a624a16219ccfa4ac152d76eb",
+      "modified": false
+    },
+    {
+      "path": "lesson-244.html",
+      "sourceBytes": 15070,
+      "uploadedBytes": 15070,
+      "sourceSha256": "8ce0d0e583db890b8b15638d98b9a5c48ed0b66dbe8d350edf50fbfcfee211a6",
+      "uploadedSha256": "8ce0d0e583db890b8b15638d98b9a5c48ed0b66dbe8d350edf50fbfcfee211a6",
+      "modified": false
+    },
+    {
+      "path": "lesson-245.html",
+      "sourceBytes": 15283,
+      "uploadedBytes": 15283,
+      "sourceSha256": "b3379ecbd5d6ba67595054eab03437de4628184ad70fa4211bf46a8db7887f42",
+      "uploadedSha256": "b3379ecbd5d6ba67595054eab03437de4628184ad70fa4211bf46a8db7887f42",
+      "modified": false
+    },
+    {
+      "path": "lesson-246.html",
+      "sourceBytes": 15083,
+      "uploadedBytes": 15083,
+      "sourceSha256": "ca56c3886a46b7545c153bb444aa4507830ca79cdcb299a0f5842215bbc978fe",
+      "uploadedSha256": "ca56c3886a46b7545c153bb444aa4507830ca79cdcb299a0f5842215bbc978fe",
+      "modified": false
+    },
+    {
+      "path": "lesson-247.html",
+      "sourceBytes": 15088,
+      "uploadedBytes": 15088,
+      "sourceSha256": "e1db125ef87531371de3ffce3f304c287de49e8ad65663dae8995ea0b45f1219",
+      "uploadedSha256": "e1db125ef87531371de3ffce3f304c287de49e8ad65663dae8995ea0b45f1219",
+      "modified": false
+    },
+    {
+      "path": "lesson-248.html",
+      "sourceBytes": 15079,
+      "uploadedBytes": 15079,
+      "sourceSha256": "9b64753b86425359b1a04e4d870416efff665a14f838c12f12563d3e79c64de4",
+      "uploadedSha256": "9b64753b86425359b1a04e4d870416efff665a14f838c12f12563d3e79c64de4",
+      "modified": false
+    },
+    {
+      "path": "lesson-249.html",
+      "sourceBytes": 15050,
+      "uploadedBytes": 15050,
+      "sourceSha256": "2e5272780ae13cf7a7b67d250336c0d9c273ceb25d1e97ed1f0e6ccf056642ae",
+      "uploadedSha256": "2e5272780ae13cf7a7b67d250336c0d9c273ceb25d1e97ed1f0e6ccf056642ae",
+      "modified": false
+    },
+    {
+      "path": "lesson-250.html",
+      "sourceBytes": 15241,
+      "uploadedBytes": 15241,
+      "sourceSha256": "2fe8769e90e78a4287a50cdcdc0b61e28c5c87959d8aa2bc51c4307b30c3363a",
+      "uploadedSha256": "2fe8769e90e78a4287a50cdcdc0b61e28c5c87959d8aa2bc51c4307b30c3363a",
+      "modified": false
+    },
+    {
+      "path": "lesson-251.html",
+      "sourceBytes": 15144,
+      "uploadedBytes": 15144,
+      "sourceSha256": "5597694d40d65505d6b98a3bca9f8e1d78b9bf14d953e3aae9684cf291a5479a",
+      "uploadedSha256": "5597694d40d65505d6b98a3bca9f8e1d78b9bf14d953e3aae9684cf291a5479a",
+      "modified": false
+    },
+    {
+      "path": "lesson-252.html",
+      "sourceBytes": 15150,
+      "uploadedBytes": 15150,
+      "sourceSha256": "b2c6a4408ee6b0ef113f867f66b26caa68dd1a3496a8ef66086515f272aa15d8",
+      "uploadedSha256": "b2c6a4408ee6b0ef113f867f66b26caa68dd1a3496a8ef66086515f272aa15d8",
+      "modified": false
+    },
+    {
+      "path": "lesson-253.html",
+      "sourceBytes": 15262,
+      "uploadedBytes": 15262,
+      "sourceSha256": "1f758d96c14f35cedefae159a9f140033ffb976ea51d5f2fc836ff4436085742",
+      "uploadedSha256": "1f758d96c14f35cedefae159a9f140033ffb976ea51d5f2fc836ff4436085742",
+      "modified": false
+    },
+    {
+      "path": "lesson-254.html",
+      "sourceBytes": 15160,
+      "uploadedBytes": 15160,
+      "sourceSha256": "ded901249eac05b5f6c3acbbdc8e30d5ec96fed384771424fd4b305ea377cd0f",
+      "uploadedSha256": "ded901249eac05b5f6c3acbbdc8e30d5ec96fed384771424fd4b305ea377cd0f",
+      "modified": false
+    },
+    {
+      "path": "lesson-255.html",
+      "sourceBytes": 15213,
+      "uploadedBytes": 15213,
+      "sourceSha256": "d78d09238586e3ebfe376d12d4a095c24d3c940ef5b2d9d968d0d192611ddcdd",
+      "uploadedSha256": "d78d09238586e3ebfe376d12d4a095c24d3c940ef5b2d9d968d0d192611ddcdd",
+      "modified": false
+    },
+    {
+      "path": "lesson-256.html",
+      "sourceBytes": 15181,
+      "uploadedBytes": 15181,
+      "sourceSha256": "2a14b074571d69abf385cc27df07ef28cfacda8febcc42560275a2781949b563",
+      "uploadedSha256": "2a14b074571d69abf385cc27df07ef28cfacda8febcc42560275a2781949b563",
+      "modified": false
+    },
+    {
+      "path": "lesson-257.html",
+      "sourceBytes": 15127,
+      "uploadedBytes": 15127,
+      "sourceSha256": "11bdf475ed7b58d80fdd9466e32d510d874fc5bf10ce8d2d88a49a43f9d10fc3",
+      "uploadedSha256": "11bdf475ed7b58d80fdd9466e32d510d874fc5bf10ce8d2d88a49a43f9d10fc3",
+      "modified": false
+    },
+    {
+      "path": "lesson-258.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "1753ce90d2e0dd591b88082b98e68d78920bdd69c15317aa25707170258a62c0",
+      "uploadedSha256": "1753ce90d2e0dd591b88082b98e68d78920bdd69c15317aa25707170258a62c0",
+      "modified": false
+    },
+    {
+      "path": "lesson-259.html",
+      "sourceBytes": 15100,
+      "uploadedBytes": 15100,
+      "sourceSha256": "c2f2bb741b60b75c4523e3504026fa7111fc7cc15135927ab3ecc023a63e23e8",
+      "uploadedSha256": "c2f2bb741b60b75c4523e3504026fa7111fc7cc15135927ab3ecc023a63e23e8",
+      "modified": false
+    },
+    {
+      "path": "lesson-260.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "8b112aa42fbe6e796425adcf7d956cd9107fd904ac93444eff5a7ddd51d89f87",
+      "uploadedSha256": "8b112aa42fbe6e796425adcf7d956cd9107fd904ac93444eff5a7ddd51d89f87",
+      "modified": false
+    },
+    {
+      "path": "lesson-261.html",
+      "sourceBytes": 15121,
+      "uploadedBytes": 15121,
+      "sourceSha256": "4c10e1df78ffeb93fe72c587d71e4296ea3e99cbe91848f6fd584281e6a666d9",
+      "uploadedSha256": "4c10e1df78ffeb93fe72c587d71e4296ea3e99cbe91848f6fd584281e6a666d9",
+      "modified": false
+    },
+    {
+      "path": "lesson-262.html",
+      "sourceBytes": 15215,
+      "uploadedBytes": 15215,
+      "sourceSha256": "0d9eb6382c746491e68ee84792302bdac513f85509a40097c8b574060dbc82ae",
+      "uploadedSha256": "0d9eb6382c746491e68ee84792302bdac513f85509a40097c8b574060dbc82ae",
+      "modified": false
+    },
+    {
+      "path": "lesson-263.html",
+      "sourceBytes": 15100,
+      "uploadedBytes": 15100,
+      "sourceSha256": "ae9d52f9c9d753a39b501d5d09ec196f845fb61751d7732e28abcc1cc72f4929",
+      "uploadedSha256": "ae9d52f9c9d753a39b501d5d09ec196f845fb61751d7732e28abcc1cc72f4929",
+      "modified": false
+    },
+    {
+      "path": "lesson-264.html",
+      "sourceBytes": 15146,
+      "uploadedBytes": 15146,
+      "sourceSha256": "253a0c881ba6aebd6cb24a69c1d3375a7ad29487d4fd35eae60a381721639f0a",
+      "uploadedSha256": "253a0c881ba6aebd6cb24a69c1d3375a7ad29487d4fd35eae60a381721639f0a",
+      "modified": false
+    },
+    {
+      "path": "lesson-265.html",
+      "sourceBytes": 14997,
+      "uploadedBytes": 14997,
+      "sourceSha256": "84fa116963da865e9272c7841e0b9dba80e7bd365e02285f354eceb1ba58b9c7",
+      "uploadedSha256": "84fa116963da865e9272c7841e0b9dba80e7bd365e02285f354eceb1ba58b9c7",
+      "modified": false
+    },
+    {
+      "path": "lesson-266.html",
+      "sourceBytes": 15141,
+      "uploadedBytes": 15141,
+      "sourceSha256": "b2d01f5ae9f2de10aeb1b80b944fc2e57163c22a685299c3bb95a37eda2cdc04",
+      "uploadedSha256": "b2d01f5ae9f2de10aeb1b80b944fc2e57163c22a685299c3bb95a37eda2cdc04",
+      "modified": false
+    },
+    {
+      "path": "lesson-267.html",
+      "sourceBytes": 15091,
+      "uploadedBytes": 15091,
+      "sourceSha256": "5d9e831b6a0ae7fcdd0f82df3549a737ed43e4e1f7ec334185bbd67124c9580b",
+      "uploadedSha256": "5d9e831b6a0ae7fcdd0f82df3549a737ed43e4e1f7ec334185bbd67124c9580b",
+      "modified": false
+    },
+    {
+      "path": "lesson-268.html",
+      "sourceBytes": 15018,
+      "uploadedBytes": 15018,
+      "sourceSha256": "908394eaabbb0b5eac1290b6d2426cc069d58216ab08783a5ff7b52c57dff793",
+      "uploadedSha256": "908394eaabbb0b5eac1290b6d2426cc069d58216ab08783a5ff7b52c57dff793",
+      "modified": false
+    },
+    {
+      "path": "lesson-269.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "169a9d81edc133464d710add0eefcdb96f574008d51f46ef6bf36075f9df92f4",
+      "uploadedSha256": "169a9d81edc133464d710add0eefcdb96f574008d51f46ef6bf36075f9df92f4",
+      "modified": false
+    },
+    {
+      "path": "lesson-270.html",
+      "sourceBytes": 15070,
+      "uploadedBytes": 15070,
+      "sourceSha256": "b74582fed3fafde986f5faa6a1b49d3fa6159b9788d184fe2c4c60d240ae7a19",
+      "uploadedSha256": "b74582fed3fafde986f5faa6a1b49d3fa6159b9788d184fe2c4c60d240ae7a19",
+      "modified": false
+    },
+    {
+      "path": "lesson-271.html",
+      "sourceBytes": 15087,
+      "uploadedBytes": 15087,
+      "sourceSha256": "0009e335d83da190af1bf428df897709dad2aa0dbc1d9ca4457a3f9312662eab",
+      "uploadedSha256": "0009e335d83da190af1bf428df897709dad2aa0dbc1d9ca4457a3f9312662eab",
+      "modified": false
+    },
+    {
+      "path": "lesson-272.html",
+      "sourceBytes": 15043,
+      "uploadedBytes": 15043,
+      "sourceSha256": "a4de3e86f7247e52a3160f12c2bc09d0eb2516cf8c96e58559e5b8628aa14ece",
+      "uploadedSha256": "a4de3e86f7247e52a3160f12c2bc09d0eb2516cf8c96e58559e5b8628aa14ece",
+      "modified": false
+    },
+    {
+      "path": "lesson-273.html",
+      "sourceBytes": 15132,
+      "uploadedBytes": 15132,
+      "sourceSha256": "d5fbcd860a6b85cd8627350e9e7bc9177fa9095d912cb69ce0c421c2facbab52",
+      "uploadedSha256": "d5fbcd860a6b85cd8627350e9e7bc9177fa9095d912cb69ce0c421c2facbab52",
+      "modified": false
+    },
+    {
+      "path": "lesson-274.html",
+      "sourceBytes": 15051,
+      "uploadedBytes": 15051,
+      "sourceSha256": "906011d3a4534a80a51d7e6e8499a7213955a6afb30042c0263fa821a0725320",
+      "uploadedSha256": "906011d3a4534a80a51d7e6e8499a7213955a6afb30042c0263fa821a0725320",
+      "modified": false
+    },
+    {
+      "path": "lesson-275.html",
+      "sourceBytes": 15227,
+      "uploadedBytes": 15227,
+      "sourceSha256": "1d11b720d7384cdf23ef2aa4b1da73a166f31b0b6b11b64c62ee20ea9ec90d84",
+      "uploadedSha256": "1d11b720d7384cdf23ef2aa4b1da73a166f31b0b6b11b64c62ee20ea9ec90d84",
+      "modified": false
+    },
+    {
+      "path": "lesson-276.html",
+      "sourceBytes": 15150,
+      "uploadedBytes": 15150,
+      "sourceSha256": "f556e93f5b9388db52456e013ed44fc2731b48214e2d627afa9cecdb7a737c7b",
+      "uploadedSha256": "f556e93f5b9388db52456e013ed44fc2731b48214e2d627afa9cecdb7a737c7b",
+      "modified": false
+    },
+    {
+      "path": "lesson-277.html",
+      "sourceBytes": 15288,
+      "uploadedBytes": 15288,
+      "sourceSha256": "189960953496a0f995406f0c5abf9b0fb996dae25815fb73e43f4362146000c9",
+      "uploadedSha256": "189960953496a0f995406f0c5abf9b0fb996dae25815fb73e43f4362146000c9",
+      "modified": false
+    },
+    {
+      "path": "lesson-278.html",
+      "sourceBytes": 15187,
+      "uploadedBytes": 15187,
+      "sourceSha256": "ae621b2a06491f706bd849c0270e2bf31c02715c0bdba498a47e71260d1e1241",
+      "uploadedSha256": "ae621b2a06491f706bd849c0270e2bf31c02715c0bdba498a47e71260d1e1241",
+      "modified": false
+    },
+    {
+      "path": "lesson-279.html",
+      "sourceBytes": 15024,
+      "uploadedBytes": 15024,
+      "sourceSha256": "4066658bf2716e451a65dcdbe67dc1b19dd351dfc2c6916fa0deee3b8d72f11e",
+      "uploadedSha256": "4066658bf2716e451a65dcdbe67dc1b19dd351dfc2c6916fa0deee3b8d72f11e",
+      "modified": false
+    },
+    {
+      "path": "lesson-280.html",
+      "sourceBytes": 15185,
+      "uploadedBytes": 15185,
+      "sourceSha256": "be2fdd341e8b9ae1a7f93b160459c7f1c2c50df3344f612672bf65563ac3d53a",
+      "uploadedSha256": "be2fdd341e8b9ae1a7f93b160459c7f1c2c50df3344f612672bf65563ac3d53a",
+      "modified": false
+    },
+    {
+      "path": "lesson-281.html",
+      "sourceBytes": 15093,
+      "uploadedBytes": 15093,
+      "sourceSha256": "3edc7ec4c1fa0846167ce6ab983230ff61996f628b988c4ffc943709b481fd11",
+      "uploadedSha256": "3edc7ec4c1fa0846167ce6ab983230ff61996f628b988c4ffc943709b481fd11",
+      "modified": false
+    },
+    {
+      "path": "lesson-282.html",
+      "sourceBytes": 15188,
+      "uploadedBytes": 15188,
+      "sourceSha256": "2e02aa4f712bfe3cfca363da05b33d4b36e95a27cbbfc8ab4df895f30bd4b6ae",
+      "uploadedSha256": "2e02aa4f712bfe3cfca363da05b33d4b36e95a27cbbfc8ab4df895f30bd4b6ae",
+      "modified": false
+    },
+    {
+      "path": "lesson-283.html",
+      "sourceBytes": 15099,
+      "uploadedBytes": 15099,
+      "sourceSha256": "b955c67bd6629953907c3ca367242c73a4c6d1b1a9ea0b7df3455ed1e89828d0",
+      "uploadedSha256": "b955c67bd6629953907c3ca367242c73a4c6d1b1a9ea0b7df3455ed1e89828d0",
+      "modified": false
+    },
+    {
+      "path": "lesson-284.html",
+      "sourceBytes": 15265,
+      "uploadedBytes": 15265,
+      "sourceSha256": "a96eb352058046bf24aa799f30982da1773e4cf401b82b246af9ccbcb3f73307",
+      "uploadedSha256": "a96eb352058046bf24aa799f30982da1773e4cf401b82b246af9ccbcb3f73307",
+      "modified": false
+    },
+    {
+      "path": "lesson-285.html",
+      "sourceBytes": 15105,
+      "uploadedBytes": 15105,
+      "sourceSha256": "e920501b1981959a8de19ff226314fe64ed0c1d084bb2287f0ba16d38185400c",
+      "uploadedSha256": "e920501b1981959a8de19ff226314fe64ed0c1d084bb2287f0ba16d38185400c",
+      "modified": false
+    },
+    {
+      "path": "lesson-286.html",
+      "sourceBytes": 15179,
+      "uploadedBytes": 15179,
+      "sourceSha256": "0a4995018d239658ca826f0026445fd6c4a0a675013c8250d72ea32bb949a4ad",
+      "uploadedSha256": "0a4995018d239658ca826f0026445fd6c4a0a675013c8250d72ea32bb949a4ad",
+      "modified": false
+    },
+    {
+      "path": "lesson-287.html",
+      "sourceBytes": 15283,
+      "uploadedBytes": 15283,
+      "sourceSha256": "a5a35160f609709692cc067f45f97c911705423d0f431190b680ff4dda4ff244",
+      "uploadedSha256": "a5a35160f609709692cc067f45f97c911705423d0f431190b680ff4dda4ff244",
+      "modified": false
+    },
+    {
+      "path": "lesson-288.html",
+      "sourceBytes": 15086,
+      "uploadedBytes": 15086,
+      "sourceSha256": "1aae45769fa32c72e8b4cf244ab3615b39103ca3c2c9802f777f9289d90c8011",
+      "uploadedSha256": "1aae45769fa32c72e8b4cf244ab3615b39103ca3c2c9802f777f9289d90c8011",
+      "modified": false
+    },
+    {
+      "path": "lesson-289.html",
+      "sourceBytes": 15276,
+      "uploadedBytes": 15276,
+      "sourceSha256": "596098a4e0c2e379fbc251851c395aa87e417fd080bbac8dc29efd893087d9f4",
+      "uploadedSha256": "596098a4e0c2e379fbc251851c395aa87e417fd080bbac8dc29efd893087d9f4",
+      "modified": false
+    },
+    {
+      "path": "lesson-290.html",
+      "sourceBytes": 15099,
+      "uploadedBytes": 15099,
+      "sourceSha256": "5f2e6472bae95cfd4787523f175c6c9a6928112194267ab0562cbc7ddde2e800",
+      "uploadedSha256": "5f2e6472bae95cfd4787523f175c6c9a6928112194267ab0562cbc7ddde2e800",
+      "modified": false
+    },
+    {
+      "path": "lesson-291.html",
+      "sourceBytes": 15317,
+      "uploadedBytes": 15317,
+      "sourceSha256": "1c570b79ca7cd990a69538068484b2dd8e7bbec96b7be2ea6e9df60a95f05b3e",
+      "uploadedSha256": "1c570b79ca7cd990a69538068484b2dd8e7bbec96b7be2ea6e9df60a95f05b3e",
+      "modified": false
+    },
+    {
+      "path": "lesson-292.html",
+      "sourceBytes": 15248,
+      "uploadedBytes": 15248,
+      "sourceSha256": "4da2a733c4c498cb487eafb60e314bf84efcd78626384a1b3e31dc66a4cfea2f",
+      "uploadedSha256": "4da2a733c4c498cb487eafb60e314bf84efcd78626384a1b3e31dc66a4cfea2f",
+      "modified": false
+    },
+    {
+      "path": "lesson-293.html",
+      "sourceBytes": 15175,
+      "uploadedBytes": 15175,
+      "sourceSha256": "bf99523e13259a16b439a5b35e686b82bb6dcaeeddf77229a80b00fb7a2ccaef",
+      "uploadedSha256": "bf99523e13259a16b439a5b35e686b82bb6dcaeeddf77229a80b00fb7a2ccaef",
+      "modified": false
+    },
+    {
+      "path": "lesson-294.html",
+      "sourceBytes": 15137,
+      "uploadedBytes": 15137,
+      "sourceSha256": "619d31769e138ff6dde604766b9b63fcd7208de4e8f27445474ca8551a1da460",
+      "uploadedSha256": "619d31769e138ff6dde604766b9b63fcd7208de4e8f27445474ca8551a1da460",
+      "modified": false
+    },
+    {
+      "path": "lesson-295.html",
+      "sourceBytes": 15340,
+      "uploadedBytes": 15340,
+      "sourceSha256": "f899334283acd2e202763a47af9652b99b2c014af5ef9b16a71e4dcbcdd9bbb2",
+      "uploadedSha256": "f899334283acd2e202763a47af9652b99b2c014af5ef9b16a71e4dcbcdd9bbb2",
+      "modified": false
+    },
+    {
+      "path": "lesson-296.html",
+      "sourceBytes": 15164,
+      "uploadedBytes": 15164,
+      "sourceSha256": "e3eccab3e070fd7ece9fa3d69161f1420f2a31a584beb8bf22c2ed77a08468d6",
+      "uploadedSha256": "e3eccab3e070fd7ece9fa3d69161f1420f2a31a584beb8bf22c2ed77a08468d6",
+      "modified": false
+    },
+    {
+      "path": "lesson-297.html",
+      "sourceBytes": 15111,
+      "uploadedBytes": 15111,
+      "sourceSha256": "c507da6e20297101c74fbca9c1f9c58e2b436214c3ed5ea8ecef34bc35aecdc9",
+      "uploadedSha256": "c507da6e20297101c74fbca9c1f9c58e2b436214c3ed5ea8ecef34bc35aecdc9",
+      "modified": false
+    },
+    {
+      "path": "lesson-298.html",
+      "sourceBytes": 15106,
+      "uploadedBytes": 15106,
+      "sourceSha256": "c16d2662a23e58565b5d7e8ad1b86fb7c94166488ebe509d7c34098b166da030",
+      "uploadedSha256": "c16d2662a23e58565b5d7e8ad1b86fb7c94166488ebe509d7c34098b166da030",
+      "modified": false
+    },
+    {
+      "path": "lesson-299.html",
+      "sourceBytes": 15103,
+      "uploadedBytes": 15103,
+      "sourceSha256": "4796993c80499abbdf8210254024f4c253610c0e4c01b613b191e9cbdf4f1584",
+      "uploadedSha256": "4796993c80499abbdf8210254024f4c253610c0e4c01b613b191e9cbdf4f1584",
+      "modified": false
+    },
+    {
+      "path": "lesson-300.html",
+      "sourceBytes": 15316,
+      "uploadedBytes": 15316,
+      "sourceSha256": "d8951396885d90a5af2b502cd2d89e240ee5f70ab5cfea5620fca990d0b6ec1f",
+      "uploadedSha256": "d8951396885d90a5af2b502cd2d89e240ee5f70ab5cfea5620fca990d0b6ec1f",
+      "modified": false
+    },
+    {
+      "path": "lesson-301.html",
+      "sourceBytes": 15120,
+      "uploadedBytes": 15120,
+      "sourceSha256": "8a4678ebb0a9a400cf74808e4f926c530d7d15e63f819846be5da6aafe619eba",
+      "uploadedSha256": "8a4678ebb0a9a400cf74808e4f926c530d7d15e63f819846be5da6aafe619eba",
+      "modified": false
+    },
+    {
+      "path": "lesson-302.html",
+      "sourceBytes": 15128,
+      "uploadedBytes": 15128,
+      "sourceSha256": "81090496a29dd24e647ed0b978b0c90ace92db624971919c907d080d3a23c286",
+      "uploadedSha256": "81090496a29dd24e647ed0b978b0c90ace92db624971919c907d080d3a23c286",
+      "modified": false
+    },
+    {
+      "path": "lesson-303.html",
+      "sourceBytes": 15225,
+      "uploadedBytes": 15225,
+      "sourceSha256": "42ab23015e89dfd2268bb2dbede5fe0700172698654413339b6ee36e29bf3072",
+      "uploadedSha256": "42ab23015e89dfd2268bb2dbede5fe0700172698654413339b6ee36e29bf3072",
+      "modified": false
+    },
+    {
+      "path": "lesson-304.html",
+      "sourceBytes": 15142,
+      "uploadedBytes": 15142,
+      "sourceSha256": "6bf27883611e385e81bc904ce3bea756f8feced83ac67b059040a842dee202e6",
+      "uploadedSha256": "6bf27883611e385e81bc904ce3bea756f8feced83ac67b059040a842dee202e6",
+      "modified": false
+    },
+    {
+      "path": "lesson-305.html",
+      "sourceBytes": 15188,
+      "uploadedBytes": 15188,
+      "sourceSha256": "7285942507ca920288a021a3c0dc7de6837e21a0202bc3310ba96cd77a96374e",
+      "uploadedSha256": "7285942507ca920288a021a3c0dc7de6837e21a0202bc3310ba96cd77a96374e",
+      "modified": false
+    },
+    {
+      "path": "lesson-306.html",
+      "sourceBytes": 15158,
+      "uploadedBytes": 15158,
+      "sourceSha256": "2a67bfacb9cc6a88b402d8a4a5ec198b173b3633886e733271c994765a4004db",
+      "uploadedSha256": "2a67bfacb9cc6a88b402d8a4a5ec198b173b3633886e733271c994765a4004db",
+      "modified": false
+    },
+    {
+      "path": "lesson-307.html",
+      "sourceBytes": 15108,
+      "uploadedBytes": 15108,
+      "sourceSha256": "c6a997cab3ee06773f9e0af8f9edbe2e4dd04ccce490b918c3ee3a3520e09ba5",
+      "uploadedSha256": "c6a997cab3ee06773f9e0af8f9edbe2e4dd04ccce490b918c3ee3a3520e09ba5",
+      "modified": false
+    },
+    {
+      "path": "lesson-308.html",
+      "sourceBytes": 15087,
+      "uploadedBytes": 15087,
+      "sourceSha256": "c673259b359a36eacd9cd01d57059df57236899a5ad852afec6f5d3925406819",
+      "uploadedSha256": "c673259b359a36eacd9cd01d57059df57236899a5ad852afec6f5d3925406819",
+      "modified": false
+    },
+    {
+      "path": "lesson-309.html",
+      "sourceBytes": 15081,
+      "uploadedBytes": 15081,
+      "sourceSha256": "49d9fa5bcd7570985767089cc7ba5c1289b3cdd53e317ba8c7c4cdcd20f4788d",
+      "uploadedSha256": "49d9fa5bcd7570985767089cc7ba5c1289b3cdd53e317ba8c7c4cdcd20f4788d",
+      "modified": false
+    },
+    {
+      "path": "lesson-310.html",
+      "sourceBytes": 15130,
+      "uploadedBytes": 15130,
+      "sourceSha256": "a0be830642b5811ccdc9d6faa60105f021beffdeb7c3aff31530fb13f3b48d06",
+      "uploadedSha256": "a0be830642b5811ccdc9d6faa60105f021beffdeb7c3aff31530fb13f3b48d06",
+      "modified": false
+    },
+    {
+      "path": "lesson-311.html",
+      "sourceBytes": 15101,
+      "uploadedBytes": 15101,
+      "sourceSha256": "9a09700b774df0e0e683e983e414ff3a9c241e48e67723bfd47a2ecde56d71b1",
+      "uploadedSha256": "9a09700b774df0e0e683e983e414ff3a9c241e48e67723bfd47a2ecde56d71b1",
+      "modified": false
+    },
+    {
+      "path": "lesson-312.html",
+      "sourceBytes": 15186,
+      "uploadedBytes": 15186,
+      "sourceSha256": "6268d691f263182351ffa43968fc30165beb0462ea6b48994f3531842816143a",
+      "uploadedSha256": "6268d691f263182351ffa43968fc30165beb0462ea6b48994f3531842816143a",
+      "modified": false
+    },
+    {
+      "path": "lesson-313.html",
+      "sourceBytes": 15079,
+      "uploadedBytes": 15079,
+      "sourceSha256": "bae5a88a6b65fd35bce55e3bd0fa8239afa0e956db28a49abfb9087a6c9a28d7",
+      "uploadedSha256": "bae5a88a6b65fd35bce55e3bd0fa8239afa0e956db28a49abfb9087a6c9a28d7",
+      "modified": false
+    },
+    {
+      "path": "lesson-314.html",
+      "sourceBytes": 15125,
+      "uploadedBytes": 15125,
+      "sourceSha256": "c8bed5ea07b4c79480e9bd88a1ab8843190c741d590bb06fd6ef73d0c8ef4b34",
+      "uploadedSha256": "c8bed5ea07b4c79480e9bd88a1ab8843190c741d590bb06fd6ef73d0c8ef4b34",
+      "modified": false
+    },
+    {
+      "path": "lesson-315.html",
+      "sourceBytes": 14978,
+      "uploadedBytes": 14978,
+      "sourceSha256": "8853065b27d4fa6ca7dfb32a6b8e39bdd335cc8cf0b0e761ea44a6571cef6519",
+      "uploadedSha256": "8853065b27d4fa6ca7dfb32a6b8e39bdd335cc8cf0b0e761ea44a6571cef6519",
+      "modified": false
+    },
+    {
+      "path": "lesson-316.html",
+      "sourceBytes": 15112,
+      "uploadedBytes": 15112,
+      "sourceSha256": "52bc800b52f4af8432d495a1017c9df5420cb6481e260439075cc5f2409bd5d1",
+      "uploadedSha256": "52bc800b52f4af8432d495a1017c9df5420cb6481e260439075cc5f2409bd5d1",
+      "modified": false
+    },
+    {
+      "path": "lesson-317.html",
+      "sourceBytes": 15070,
+      "uploadedBytes": 15070,
+      "sourceSha256": "e7edf1df7b8c7cc53f5adc109f1dac9b36fd01751afcad56a8b1a72568f76bb4",
+      "uploadedSha256": "e7edf1df7b8c7cc53f5adc109f1dac9b36fd01751afcad56a8b1a72568f76bb4",
+      "modified": false
+    },
+    {
+      "path": "lesson-318.html",
+      "sourceBytes": 15000,
+      "uploadedBytes": 15000,
+      "sourceSha256": "6f9876d52741d4feb88ac163c25464e078b1df36aa750a1d9f9a9682415e6eb3",
+      "uploadedSha256": "6f9876d52741d4feb88ac163c25464e078b1df36aa750a1d9f9a9682415e6eb3",
+      "modified": false
+    },
+    {
+      "path": "lesson-319.html",
+      "sourceBytes": 15135,
+      "uploadedBytes": 15135,
+      "sourceSha256": "a1d62f71edad7ede5da4f5d9921601b5a054dfae5da96194944f5952b68de54c",
+      "uploadedSha256": "a1d62f71edad7ede5da4f5d9921601b5a054dfae5da96194944f5952b68de54c",
+      "modified": false
+    },
+    {
+      "path": "lesson-320.html",
+      "sourceBytes": 15051,
+      "uploadedBytes": 15051,
+      "sourceSha256": "a7411689585fa21108dbc5cc000887717e2bfb47e405edec8431b76a2ae00f21",
+      "uploadedSha256": "a7411689585fa21108dbc5cc000887717e2bfb47e405edec8431b76a2ae00f21",
+      "modified": false
+    },
+    {
+      "path": "lesson-321.html",
+      "sourceBytes": 15072,
+      "uploadedBytes": 15072,
+      "sourceSha256": "67ebe83eed029320374bfb291b7fa97183fd55f264eeea28f3968f0ab4b4d3f9",
+      "uploadedSha256": "67ebe83eed029320374bfb291b7fa97183fd55f264eeea28f3968f0ab4b4d3f9",
+      "modified": false
+    },
+    {
+      "path": "lesson-322.html",
+      "sourceBytes": 15026,
+      "uploadedBytes": 15026,
+      "sourceSha256": "8cc3f276fdddb1cf4120d6ad97d0a5c0764561426861809cac4aa9764429b2a8",
+      "uploadedSha256": "8cc3f276fdddb1cf4120d6ad97d0a5c0764561426861809cac4aa9764429b2a8",
+      "modified": false
+    },
+    {
+      "path": "lesson-323.html",
+      "sourceBytes": 15110,
+      "uploadedBytes": 15110,
+      "sourceSha256": "df3d49f5d7407c8035b0e7e5d39dee9cf1d58267f5823a361e941a11d2b78df3",
+      "uploadedSha256": "df3d49f5d7407c8035b0e7e5d39dee9cf1d58267f5823a361e941a11d2b78df3",
+      "modified": false
+    },
+    {
+      "path": "lesson-324.html",
+      "sourceBytes": 15031,
+      "uploadedBytes": 15031,
+      "sourceSha256": "144492c104bb4a3f1275d756d696128b234b3d673359f1a5ccb84ee9d70bc006",
+      "uploadedSha256": "144492c104bb4a3f1275d756d696128b234b3d673359f1a5ccb84ee9d70bc006",
+      "modified": false
+    },
+    {
+      "path": "lesson-325.html",
+      "sourceBytes": 15206,
+      "uploadedBytes": 15206,
+      "sourceSha256": "ad0a071549d6fe58e78b0e574c485b4be7314f433e0c31c8a6adc3a307d2b22d",
+      "uploadedSha256": "ad0a071549d6fe58e78b0e574c485b4be7314f433e0c31c8a6adc3a307d2b22d",
+      "modified": false
+    },
+    {
+      "path": "lesson-326.html",
+      "sourceBytes": 15131,
+      "uploadedBytes": 15131,
+      "sourceSha256": "6dddfd6ccbc4262e218e8e6346b52c3f38116ff927e09f4cb4b6e0503ef364a4",
+      "uploadedSha256": "6dddfd6ccbc4262e218e8e6346b52c3f38116ff927e09f4cb4b6e0503ef364a4",
+      "modified": false
+    },
+    {
+      "path": "lesson-327.html",
+      "sourceBytes": 15260,
+      "uploadedBytes": 15260,
+      "sourceSha256": "88a84c90f30b5c7485822988f16205ebce6271985143eec6c0a72cae472f9833",
+      "uploadedSha256": "88a84c90f30b5c7485822988f16205ebce6271985143eec6c0a72cae472f9833",
+      "modified": false
+    },
+    {
+      "path": "lesson-328.html",
+      "sourceBytes": 15160,
+      "uploadedBytes": 15160,
+      "sourceSha256": "3fc7f4957b9972626da4989b0bff24420e165c1a00f1caf9fe157e63c72fef83",
+      "uploadedSha256": "3fc7f4957b9972626da4989b0bff24420e165c1a00f1caf9fe157e63c72fef83",
+      "modified": false
+    },
+    {
+      "path": "lesson-329.html",
+      "sourceBytes": 15005,
+      "uploadedBytes": 15005,
+      "sourceSha256": "49b482211aa45b8ca0d1c7b902ca0fc7670dce7210a50139ab314ccd9c94e35f",
+      "uploadedSha256": "49b482211aa45b8ca0d1c7b902ca0fc7670dce7210a50139ab314ccd9c94e35f",
+      "modified": false
+    },
+    {
+      "path": "lesson-330.html",
+      "sourceBytes": 15156,
+      "uploadedBytes": 15156,
+      "sourceSha256": "238d3a8aff5629fa3bb190663db466c083bff44c392f230d11079b3d355d672b",
+      "uploadedSha256": "238d3a8aff5629fa3bb190663db466c083bff44c392f230d11079b3d355d672b",
+      "modified": false
+    },
+    {
+      "path": "lesson-331.html",
+      "sourceBytes": 15072,
+      "uploadedBytes": 15072,
+      "sourceSha256": "bbee18007849ca153dc8f1d8d310fad8ddda680502163c274883c297d6292ac4",
+      "uploadedSha256": "bbee18007849ca153dc8f1d8d310fad8ddda680502163c274883c297d6292ac4",
+      "modified": false
+    },
+    {
+      "path": "lesson-332.html",
+      "sourceBytes": 15165,
+      "uploadedBytes": 15165,
+      "sourceSha256": "9792a2e3abd8eaeab0a033c0aaae6212d8bcf93cb3c3c3ca985e692878e9b6ff",
+      "uploadedSha256": "9792a2e3abd8eaeab0a033c0aaae6212d8bcf93cb3c3c3ca985e692878e9b6ff",
+      "modified": false
+    },
+    {
+      "path": "lesson-333.html",
+      "sourceBytes": 15078,
+      "uploadedBytes": 15078,
+      "sourceSha256": "ae83a34e1ecd3b89e7866487e446dae38869dc3d22da7d6691930da83bfdf02e",
+      "uploadedSha256": "ae83a34e1ecd3b89e7866487e446dae38869dc3d22da7d6691930da83bfdf02e",
+      "modified": false
+    },
+    {
+      "path": "lesson-334.html",
+      "sourceBytes": 15239,
+      "uploadedBytes": 15239,
+      "sourceSha256": "6263ffb81b7bd65e3ca12f1a6c3016b61acfb50c0c7885908c3899aa241362e8",
+      "uploadedSha256": "6263ffb81b7bd65e3ca12f1a6c3016b61acfb50c0c7885908c3899aa241362e8",
+      "modified": false
+    },
+    {
+      "path": "lesson-335.html",
+      "sourceBytes": 15086,
+      "uploadedBytes": 15086,
+      "sourceSha256": "457dc92305c73be2e2b8b42485aa4f926f0655be3b198854b7fb34bca48d801b",
+      "uploadedSha256": "457dc92305c73be2e2b8b42485aa4f926f0655be3b198854b7fb34bca48d801b",
+      "modified": false
+    },
+    {
+      "path": "lesson-336.html",
+      "sourceBytes": 15147,
+      "uploadedBytes": 15147,
+      "sourceSha256": "b5103a5a305542669a064226f4dc9d05688bc2101ad3cea29c808883c53f822d",
+      "uploadedSha256": "b5103a5a305542669a064226f4dc9d05688bc2101ad3cea29c808883c53f822d",
+      "modified": false
+    },
+    {
+      "path": "lesson-337.html",
+      "sourceBytes": 15253,
+      "uploadedBytes": 15253,
+      "sourceSha256": "c15e32d7fb4acc1f3e4d261dafeb00672d725eb9ed7d1d83347a6c1b8b894d9e",
+      "uploadedSha256": "c15e32d7fb4acc1f3e4d261dafeb00672d725eb9ed7d1d83347a6c1b8b894d9e",
+      "modified": false
+    },
+    {
+      "path": "lesson-338.html",
+      "sourceBytes": 15066,
+      "uploadedBytes": 15066,
+      "sourceSha256": "74be3d526a26b9444579cfeb350dc97264ebab6969abfe4efe98805c2b040e7c",
+      "uploadedSha256": "74be3d526a26b9444579cfeb350dc97264ebab6969abfe4efe98805c2b040e7c",
+      "modified": false
+    },
+    {
+      "path": "lesson-339.html",
+      "sourceBytes": 15246,
+      "uploadedBytes": 15246,
+      "sourceSha256": "7ee30fb286a5e5f49e41f8f15299c64a5ee7d493ec378684c55cb75c62d5d1fb",
+      "uploadedSha256": "7ee30fb286a5e5f49e41f8f15299c64a5ee7d493ec378684c55cb75c62d5d1fb",
+      "modified": false
+    },
+    {
+      "path": "lesson-340.html",
+      "sourceBytes": 15080,
+      "uploadedBytes": 15080,
+      "sourceSha256": "0b1460b20fbe368452aa5c9612dd2c74d7a48c718fc856ae72cbdcd7c44541c8",
+      "uploadedSha256": "0b1460b20fbe368452aa5c9612dd2c74d7a48c718fc856ae72cbdcd7c44541c8",
+      "modified": false
+    },
+    {
+      "path": "lesson-341.html",
+      "sourceBytes": 15291,
+      "uploadedBytes": 15291,
+      "sourceSha256": "fe329fbbeab12aca09d694696cd84359a75da5be498502788fc1bc6c1c6571a2",
+      "uploadedSha256": "fe329fbbeab12aca09d694696cd84359a75da5be498502788fc1bc6c1c6571a2",
+      "modified": false
+    },
+    {
+      "path": "lesson-342.html",
+      "sourceBytes": 15226,
+      "uploadedBytes": 15226,
+      "sourceSha256": "ce703c506feb106dc2d337207204353f0b897fbf7c276357f6f4f504917f78a0",
+      "uploadedSha256": "ce703c506feb106dc2d337207204353f0b897fbf7c276357f6f4f504917f78a0",
+      "modified": false
+    },
+    {
+      "path": "lesson-343.html",
+      "sourceBytes": 15153,
+      "uploadedBytes": 15153,
+      "sourceSha256": "4151fe22ca2604850af95c7619d9aab37d0517b9efd34630c89cc23f140896aa",
+      "uploadedSha256": "4151fe22ca2604850af95c7619d9aab37d0517b9efd34630c89cc23f140896aa",
+      "modified": false
+    },
+    {
+      "path": "lesson-344.html",
+      "sourceBytes": 15118,
+      "uploadedBytes": 15118,
+      "sourceSha256": "4f339877fa48cb1020bcd5029c5fc21128f8978d32a8bf4d5d626196c3fba71e",
+      "uploadedSha256": "4f339877fa48cb1020bcd5029c5fc21128f8978d32a8bf4d5d626196c3fba71e",
+      "modified": false
+    },
+    {
+      "path": "lesson-345.html",
+      "sourceBytes": 15308,
+      "uploadedBytes": 15308,
+      "sourceSha256": "a8fba709f157dd9075f1660e7e8ff373d53487aa27bdb756beb74f5e676ef440",
+      "uploadedSha256": "a8fba709f157dd9075f1660e7e8ff373d53487aa27bdb756beb74f5e676ef440",
+      "modified": false
+    },
+    {
+      "path": "lesson-346.html",
+      "sourceBytes": 15133,
+      "uploadedBytes": 15133,
+      "sourceSha256": "867852cce9e48ff2060b17b656e8020d424264842fc83d79f187ea5dc2e80bfb",
+      "uploadedSha256": "867852cce9e48ff2060b17b656e8020d424264842fc83d79f187ea5dc2e80bfb",
+      "modified": false
+    },
+    {
+      "path": "lesson-347.html",
+      "sourceBytes": 15089,
+      "uploadedBytes": 15089,
+      "sourceSha256": "3f0c6765fd064deb50e3e100b8ba0aadf571c2a57965b10b7679ed29521356ae",
+      "uploadedSha256": "3f0c6765fd064deb50e3e100b8ba0aadf571c2a57965b10b7679ed29521356ae",
+      "modified": false
+    },
+    {
+      "path": "lesson-348.html",
+      "sourceBytes": 15087,
+      "uploadedBytes": 15087,
+      "sourceSha256": "f271524eaa0b7f6265fd5a0fb68b33e8fa55d99a3d339ea8dc33965d2d766c88",
+      "uploadedSha256": "f271524eaa0b7f6265fd5a0fb68b33e8fa55d99a3d339ea8dc33965d2d766c88",
+      "modified": false
+    },
+    {
+      "path": "lesson-349.html",
+      "sourceBytes": 15078,
+      "uploadedBytes": 15078,
+      "sourceSha256": "0a0976d5b8f5c5579a38a7dd52f26827df00e58d82ed235c3cb3e876dafab237",
+      "uploadedSha256": "0a0976d5b8f5c5579a38a7dd52f26827df00e58d82ed235c3cb3e876dafab237",
+      "modified": false
+    },
+    {
+      "path": "lesson-350.html",
+      "sourceBytes": 15282,
+      "uploadedBytes": 15282,
+      "sourceSha256": "b95869bf5ca4fbb8f28c62c9d66acbf03c12add708e7627b42267848257bba16",
+      "uploadedSha256": "b95869bf5ca4fbb8f28c62c9d66acbf03c12add708e7627b42267848257bba16",
+      "modified": false
+    },
+    {
+      "path": "lesson-351.html",
+      "sourceBytes": 15184,
+      "uploadedBytes": 15184,
+      "sourceSha256": "6ab35bf0fc864e80994e256e1fa7e5501624a8631acf29ad95a6bec1b79c65b6",
+      "uploadedSha256": "6ab35bf0fc864e80994e256e1fa7e5501624a8631acf29ad95a6bec1b79c65b6",
+      "modified": false
+    },
+    {
+      "path": "lesson-352.html",
+      "sourceBytes": 15189,
+      "uploadedBytes": 15189,
+      "sourceSha256": "d77dd5248b41dbbe25b7025c3155ab0dbad9aced050d12084a81ac8c861008e1",
+      "uploadedSha256": "d77dd5248b41dbbe25b7025c3155ab0dbad9aced050d12084a81ac8c861008e1",
+      "modified": false
+    },
+    {
+      "path": "lesson-353.html",
+      "sourceBytes": 15292,
+      "uploadedBytes": 15292,
+      "sourceSha256": "9fc147a3ed46f0e0593b74ef70596180fe60108cc07c5cd1d7263773470063eb",
+      "uploadedSha256": "9fc147a3ed46f0e0593b74ef70596180fe60108cc07c5cd1d7263773470063eb",
+      "modified": false
+    },
+    {
+      "path": "lesson-354.html",
+      "sourceBytes": 15205,
+      "uploadedBytes": 15205,
+      "sourceSha256": "e6f82acb3ef653cc9636218001b1985668715868a02570e158c7499fb8f21aa8",
+      "uploadedSha256": "e6f82acb3ef653cc9636218001b1985668715868a02570e158c7499fb8f21aa8",
+      "modified": false
+    },
+    {
+      "path": "lesson-355.html",
+      "sourceBytes": 15240,
+      "uploadedBytes": 15240,
+      "sourceSha256": "9c2869c191fac3c34e7d007fbaff2120c459f6539df09ab7bd9f080458d59c2e",
+      "uploadedSha256": "9c2869c191fac3c34e7d007fbaff2120c459f6539df09ab7bd9f080458d59c2e",
+      "modified": false
+    },
+    {
+      "path": "lesson-356.html",
+      "sourceBytes": 15235,
+      "uploadedBytes": 15235,
+      "sourceSha256": "64b8341ab2df6ce5e9c978d1dd3d29fb8e5da3e2905392e922aac4d64ce35077",
+      "uploadedSha256": "64b8341ab2df6ce5e9c978d1dd3d29fb8e5da3e2905392e922aac4d64ce35077",
+      "modified": false
+    },
+    {
+      "path": "lesson-357.html",
+      "sourceBytes": 15183,
+      "uploadedBytes": 15183,
+      "sourceSha256": "0cd015594f168343ac176c8a39ee284a71abfe1557d1cf63e3e3f2a1f739462c",
+      "uploadedSha256": "0cd015594f168343ac176c8a39ee284a71abfe1557d1cf63e3e3f2a1f739462c",
+      "modified": false
+    },
+    {
+      "path": "lesson-358.html",
+      "sourceBytes": 15164,
+      "uploadedBytes": 15164,
+      "sourceSha256": "ddad622287a5171a6ab7022583a5a53a8bb602d92f675e0d68faea17ebe689c6",
+      "uploadedSha256": "ddad622287a5171a6ab7022583a5a53a8bb602d92f675e0d68faea17ebe689c6",
+      "modified": false
+    },
+    {
+      "path": "lesson-359.html",
+      "sourceBytes": 15160,
+      "uploadedBytes": 15160,
+      "sourceSha256": "8f8c9f04b701e998f611570292067d9c1d612df39af96d5dbccda3a4ff75db92",
+      "uploadedSha256": "8f8c9f04b701e998f611570292067d9c1d612df39af96d5dbccda3a4ff75db92",
+      "modified": false
+    },
+    {
+      "path": "lesson-360.html",
+      "sourceBytes": 15210,
+      "uploadedBytes": 15210,
+      "sourceSha256": "a63b86bfc27367e9132aeacf13f9649f9d89442d3c1ef6facaa6854893231996",
+      "uploadedSha256": "a63b86bfc27367e9132aeacf13f9649f9d89442d3c1ef6facaa6854893231996",
+      "modified": false
+    },
+    {
+      "path": "lesson-361.html",
+      "sourceBytes": 15166,
+      "uploadedBytes": 15166,
+      "sourceSha256": "f02ba9e9cd73ebb6a820918145806bd5e566c7dee700aedd6d52af3d2a021550",
+      "uploadedSha256": "f02ba9e9cd73ebb6a820918145806bd5e566c7dee700aedd6d52af3d2a021550",
+      "modified": false
+    },
+    {
+      "path": "lesson-362.html",
+      "sourceBytes": 15263,
+      "uploadedBytes": 15263,
+      "sourceSha256": "2d1f8232fc68dc6cb4ff8b73bdf9ce585e0307c0887740e4db41625b0aadb7b9",
+      "uploadedSha256": "2d1f8232fc68dc6cb4ff8b73bdf9ce585e0307c0887740e4db41625b0aadb7b9",
+      "modified": false
+    },
+    {
+      "path": "lesson-363.html",
+      "sourceBytes": 15150,
+      "uploadedBytes": 15150,
+      "sourceSha256": "39af2666c1ee9be9f5ff734f02fd5a1a7021f24d6f7ce22800028bed2c78a30e",
+      "uploadedSha256": "39af2666c1ee9be9f5ff734f02fd5a1a7021f24d6f7ce22800028bed2c78a30e",
+      "modified": false
+    },
+    {
+      "path": "lesson-364.html",
+      "sourceBytes": 15199,
+      "uploadedBytes": 15199,
+      "sourceSha256": "31eb929591b9f6ea26518c0e3a36f5afb6b66b6cd88c12c2c096f9930ed2fbfd",
+      "uploadedSha256": "31eb929591b9f6ea26518c0e3a36f5afb6b66b6cd88c12c2c096f9930ed2fbfd",
+      "modified": false
+    },
+    {
+      "path": "lesson-365.html",
+      "sourceBytes": 15068,
+      "uploadedBytes": 15068,
+      "sourceSha256": "cb7aed8ebbef9d25896ecc90589aa6f25842a9c140fa6c78b510b4e0e30491de",
+      "uploadedSha256": "cb7aed8ebbef9d25896ecc90589aa6f25842a9c140fa6c78b510b4e0e30491de",
+      "modified": false
+    },
+    {
+      "path": "lesson-366.html",
+      "sourceBytes": 15179,
+      "uploadedBytes": 15179,
+      "sourceSha256": "31dc66ef6e467c28cc0b39baac2e908c0624347643cf767afb94a68403122138",
+      "uploadedSha256": "31dc66ef6e467c28cc0b39baac2e908c0624347643cf767afb94a68403122138",
+      "modified": false
+    },
+    {
+      "path": "lesson-367.html",
+      "sourceBytes": 15156,
+      "uploadedBytes": 15156,
+      "sourceSha256": "1854133b14ad0d0e67e2ac1ee50cad7944868629e4073a0b058c2342881e6786",
+      "uploadedSha256": "1854133b14ad0d0e67e2ac1ee50cad7944868629e4073a0b058c2342881e6786",
+      "modified": false
+    },
+    {
+      "path": "lesson-368.html",
+      "sourceBytes": 15079,
+      "uploadedBytes": 15079,
+      "sourceSha256": "8d85a19e94bbbbbeb66690b6dafab3ba0915646f983e60c257a401643b810141",
+      "uploadedSha256": "8d85a19e94bbbbbeb66690b6dafab3ba0915646f983e60c257a401643b810141",
+      "modified": false
+    },
+    {
+      "path": "lesson-369.html",
+      "sourceBytes": 15232,
+      "uploadedBytes": 15232,
+      "sourceSha256": "90540a378316c5f55876ea6419bc45557c65a771530d185516beff4c60c0b4ce",
+      "uploadedSha256": "90540a378316c5f55876ea6419bc45557c65a771530d185516beff4c60c0b4ce",
+      "modified": false
+    },
+    {
+      "path": "lesson-370.html",
+      "sourceBytes": 15143,
+      "uploadedBytes": 15143,
+      "sourceSha256": "0eee8ef5c30ba0331536c88fb53457bcb3c7c5fd4bfd3e3a64b716f5bb4d01bf",
+      "uploadedSha256": "0eee8ef5c30ba0331536c88fb53457bcb3c7c5fd4bfd3e3a64b716f5bb4d01bf",
+      "modified": false
+    },
+    {
+      "path": "lesson-371.html",
+      "sourceBytes": 15166,
+      "uploadedBytes": 15166,
+      "sourceSha256": "9ba74c333c8f3c31a02e1fa15e25d72703c842958e26abcd55099037903611ed",
+      "uploadedSha256": "9ba74c333c8f3c31a02e1fa15e25d72703c842958e26abcd55099037903611ed",
+      "modified": false
+    },
+    {
+      "path": "lesson-372.html",
+      "sourceBytes": 15106,
+      "uploadedBytes": 15106,
+      "sourceSha256": "af46f8d465bdeeca224ed4090880f90063fe2c60357521c256126dca94e862d8",
+      "uploadedSha256": "af46f8d465bdeeca224ed4090880f90063fe2c60357521c256126dca94e862d8",
+      "modified": false
+    },
+    {
+      "path": "lesson-373.html",
+      "sourceBytes": 15189,
+      "uploadedBytes": 15189,
+      "sourceSha256": "2c441c068d5fc1235040036fccf82b092906f42166147b9ef551ab7fb779f556",
+      "uploadedSha256": "2c441c068d5fc1235040036fccf82b092906f42166147b9ef551ab7fb779f556",
+      "modified": false
+    },
+    {
+      "path": "lesson-374.html",
+      "sourceBytes": 15102,
+      "uploadedBytes": 15102,
+      "sourceSha256": "c1eb0e327b38401fcd45d0925761be61936773e61e6d3d04948808e2968ea176",
+      "uploadedSha256": "c1eb0e327b38401fcd45d0925761be61936773e61e6d3d04948808e2968ea176",
+      "modified": false
+    },
+    {
+      "path": "lesson-375.html",
+      "sourceBytes": 15299,
+      "uploadedBytes": 15299,
+      "sourceSha256": "6565d455d97316974ed028f2a4d7e9fe12fd5b7121d9ba76687a1a7c59d3894c",
+      "uploadedSha256": "6565d455d97316974ed028f2a4d7e9fe12fd5b7121d9ba76687a1a7c59d3894c",
+      "modified": false
+    },
+    {
+      "path": "lesson-376.html",
+      "sourceBytes": 15191,
+      "uploadedBytes": 15191,
+      "sourceSha256": "205faf0a1cbefad0b418e8216790f54640fa85a0704fd8e7a05f3a60ffb3f19d",
+      "uploadedSha256": "205faf0a1cbefad0b418e8216790f54640fa85a0704fd8e7a05f3a60ffb3f19d",
+      "modified": false
+    },
+    {
+      "path": "lesson-377.html",
+      "sourceBytes": 15340,
+      "uploadedBytes": 15340,
+      "sourceSha256": "8516c00066ebd34a11791b6d0f6342752b8680419f204cefc21e0f64634b82a4",
+      "uploadedSha256": "8516c00066ebd34a11791b6d0f6342752b8680419f204cefc21e0f64634b82a4",
+      "modified": false
+    },
+    {
+      "path": "lesson-378.html",
+      "sourceBytes": 15252,
+      "uploadedBytes": 15252,
+      "sourceSha256": "93b1a470012b8c3d8948f2fe010ca4e20fb5483f2c3297aa63897818305ce5f3",
+      "uploadedSha256": "93b1a470012b8c3d8948f2fe010ca4e20fb5483f2c3297aa63897818305ce5f3",
+      "modified": false
+    },
+    {
+      "path": "lesson-379.html",
+      "sourceBytes": 15096,
+      "uploadedBytes": 15096,
+      "sourceSha256": "d778f1fbd795e73b6903c21e38a0f49e43532194f0cb187b2b1aec3146988d9c",
+      "uploadedSha256": "d778f1fbd795e73b6903c21e38a0f49e43532194f0cb187b2b1aec3146988d9c",
+      "modified": false
+    },
+    {
+      "path": "lesson-380.html",
+      "sourceBytes": 15237,
+      "uploadedBytes": 15237,
+      "sourceSha256": "884f124fbfe0c3645ec4ac12bd849f536d0dee7e0a9c8acf32ef9eca83d5ff4c",
+      "uploadedSha256": "884f124fbfe0c3645ec4ac12bd849f536d0dee7e0a9c8acf32ef9eca83d5ff4c",
+      "modified": false
+    },
+    {
+      "path": "lesson-381.html",
+      "sourceBytes": 15162,
+      "uploadedBytes": 15162,
+      "sourceSha256": "cf5d978bfc7b7a9c4bfe3183ef3583d83a7af6629cd62f78bd7926cb99784371",
+      "uploadedSha256": "cf5d978bfc7b7a9c4bfe3183ef3583d83a7af6629cd62f78bd7926cb99784371",
+      "modified": false
+    },
+    {
+      "path": "lesson-382.html",
+      "sourceBytes": 15254,
+      "uploadedBytes": 15254,
+      "sourceSha256": "864d527e23ef7e92d1dd0f313454f46d4a60e3b69bd1161c6b276f21ee02bba2",
+      "uploadedSha256": "864d527e23ef7e92d1dd0f313454f46d4a60e3b69bd1161c6b276f21ee02bba2",
+      "modified": false
+    },
+    {
+      "path": "lesson-383.html",
+      "sourceBytes": 15129,
+      "uploadedBytes": 15129,
+      "sourceSha256": "282d5d20c9c80445af64fa4906d704d1b787ea08381104315dd5390b266b15c9",
+      "uploadedSha256": "282d5d20c9c80445af64fa4906d704d1b787ea08381104315dd5390b266b15c9",
+      "modified": false
+    },
+    {
+      "path": "lesson-384.html",
+      "sourceBytes": 15308,
+      "uploadedBytes": 15308,
+      "sourceSha256": "4a063da871996c30c59f3af4fe1075720dc5ba0ed3e24dd755fafe105c09f788",
+      "uploadedSha256": "4a063da871996c30c59f3af4fe1075720dc5ba0ed3e24dd755fafe105c09f788",
+      "modified": false
+    },
+    {
+      "path": "lesson-385.html",
+      "sourceBytes": 15179,
+      "uploadedBytes": 15179,
+      "sourceSha256": "4722aaa5124187f68c3151ba08794785a6ac24403869a3d8b713c0f7004606fe",
+      "uploadedSha256": "4722aaa5124187f68c3151ba08794785a6ac24403869a3d8b713c0f7004606fe",
+      "modified": false
+    },
+    {
+      "path": "lesson-386.html",
+      "sourceBytes": 15207,
+      "uploadedBytes": 15207,
+      "sourceSha256": "11044d76b1b8789a216b6364ae63744db18aafc612a5d7c74efdedf9ff2a2050",
+      "uploadedSha256": "11044d76b1b8789a216b6364ae63744db18aafc612a5d7c74efdedf9ff2a2050",
+      "modified": false
+    },
+    {
+      "path": "lesson-387.html",
+      "sourceBytes": 15329,
+      "uploadedBytes": 15329,
+      "sourceSha256": "af5b6bc8d3deafbf0aca7a648d096fe4468663d3649d94d8173df650e7142192",
+      "uploadedSha256": "af5b6bc8d3deafbf0aca7a648d096fe4468663d3649d94d8173df650e7142192",
+      "modified": false
+    },
+    {
+      "path": "lesson-388.html",
+      "sourceBytes": 15138,
+      "uploadedBytes": 15138,
+      "sourceSha256": "ed5c814eb37f061ba7abba62a982433f8338c2c6aff6800c7af2f6ca0d13956d",
+      "uploadedSha256": "ed5c814eb37f061ba7abba62a982433f8338c2c6aff6800c7af2f6ca0d13956d",
+      "modified": false
+    },
+    {
+      "path": "lesson-389.html",
+      "sourceBytes": 15314,
+      "uploadedBytes": 15314,
+      "sourceSha256": "6a1fff42c25859153a2e0ab970fc2c9be88dd358998ad35e04f11bfdb858a22d",
+      "uploadedSha256": "6a1fff42c25859153a2e0ab970fc2c9be88dd358998ad35e04f11bfdb858a22d",
+      "modified": false
+    },
+    {
+      "path": "lesson-390.html",
+      "sourceBytes": 15158,
+      "uploadedBytes": 15158,
+      "sourceSha256": "f63b0593faa3a5358361abb92c8140b52f4d041b5569c8758f82178c1a37c1ec",
+      "uploadedSha256": "f63b0593faa3a5358361abb92c8140b52f4d041b5569c8758f82178c1a37c1ec",
+      "modified": false
+    },
+    {
+      "path": "lesson-391.html",
+      "sourceBytes": 15365,
+      "uploadedBytes": 15365,
+      "sourceSha256": "bd0de4e062c26df3bff5976bd0b6ed150ce8e520c16c1bdf4cfa9c4e5bf5b827",
+      "uploadedSha256": "bd0de4e062c26df3bff5976bd0b6ed150ce8e520c16c1bdf4cfa9c4e5bf5b827",
+      "modified": false
+    },
+    {
+      "path": "lesson-392.html",
+      "sourceBytes": 15320,
+      "uploadedBytes": 15320,
+      "sourceSha256": "aef5c75aef8508073f4bdbbfec938c35909ccfa0966f4c476ee91047c72fbc19",
+      "uploadedSha256": "aef5c75aef8508073f4bdbbfec938c35909ccfa0966f4c476ee91047c72fbc19",
+      "modified": false
+    },
+    {
+      "path": "lesson-393.html",
+      "sourceBytes": 15244,
+      "uploadedBytes": 15244,
+      "sourceSha256": "575f105a230a529befbcaa2c3754c092fd698e3dac197b74c05439d7b52d3420",
+      "uploadedSha256": "575f105a230a529befbcaa2c3754c092fd698e3dac197b74c05439d7b52d3420",
+      "modified": false
+    },
+    {
+      "path": "lesson-394.html",
+      "sourceBytes": 15200,
+      "uploadedBytes": 15200,
+      "sourceSha256": "04182bac3ab1b41b7707cd156d0b9583e67f40682f770de0aa94e834ed397a72",
+      "uploadedSha256": "04182bac3ab1b41b7707cd156d0b9583e67f40682f770de0aa94e834ed397a72",
+      "modified": false
+    },
+    {
+      "path": "lesson-395.html",
+      "sourceBytes": 15369,
+      "uploadedBytes": 15369,
+      "sourceSha256": "693d2333f15d63ec75b88658a3b637511ca14c3ad3b1e8ce9027f90a26284ece",
+      "uploadedSha256": "693d2333f15d63ec75b88658a3b637511ca14c3ad3b1e8ce9027f90a26284ece",
+      "modified": false
+    },
+    {
+      "path": "lesson-396.html",
+      "sourceBytes": 15201,
+      "uploadedBytes": 15201,
+      "sourceSha256": "166db35f3d5be54cfe9e656707c265ea67dcf72232c31e8d0a5b1016c6e65c22",
+      "uploadedSha256": "166db35f3d5be54cfe9e656707c265ea67dcf72232c31e8d0a5b1016c6e65c22",
+      "modified": false
+    },
+    {
+      "path": "lesson-397.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "195bee534e2199fb603396de9fe30acdad91484fd0769329eba395515d0dfe6b",
+      "uploadedSha256": "195bee534e2199fb603396de9fe30acdad91484fd0769329eba395515d0dfe6b",
+      "modified": false
+    },
+    {
+      "path": "lesson-398.html",
+      "sourceBytes": 15176,
+      "uploadedBytes": 15176,
+      "sourceSha256": "ae46b237ee541dfc65a8519382a0a6f3579956cf66018509bf6b5d5a886837e4",
+      "uploadedSha256": "ae46b237ee541dfc65a8519382a0a6f3579956cf66018509bf6b5d5a886837e4",
+      "modified": false
+    },
+    {
+      "path": "lesson-399.html",
+      "sourceBytes": 15167,
+      "uploadedBytes": 15167,
+      "sourceSha256": "0d1865e892a9759f6cc4fe52254862fa7c6be353ae9c0d2d49c68c79f6347be2",
+      "uploadedSha256": "0d1865e892a9759f6cc4fe52254862fa7c6be353ae9c0d2d49c68c79f6347be2",
+      "modified": false
+    },
+    {
+      "path": "lesson-400.html",
+      "sourceBytes": 15345,
+      "uploadedBytes": 15345,
+      "sourceSha256": "5ab89f282a0f7e3b603a409c8acbc9a7ceec1cf37f2f1d7daabcbedd59f9233e",
+      "uploadedSha256": "5ab89f282a0f7e3b603a409c8acbc9a7ceec1cf37f2f1d7daabcbedd59f9233e",
+      "modified": false
+    },
+    {
+      "path": "lesson-401.html",
+      "sourceBytes": 15215,
+      "uploadedBytes": 15215,
+      "sourceSha256": "7d1210cf4ced21168311eab719866f0c4710b3dbe2b80327258bb8c87d0b36ec",
+      "uploadedSha256": "7d1210cf4ced21168311eab719866f0c4710b3dbe2b80327258bb8c87d0b36ec",
+      "modified": false
+    },
+    {
+      "path": "lesson-402.html",
+      "sourceBytes": 15191,
+      "uploadedBytes": 15191,
+      "sourceSha256": "339f5744357dfe06b3e47f7f345c3be47e3fb758e7d998813d952a47eb67f14e",
+      "uploadedSha256": "339f5744357dfe06b3e47f7f345c3be47e3fb758e7d998813d952a47eb67f14e",
+      "modified": false
+    },
+    {
+      "path": "lesson-403.html",
+      "sourceBytes": 15331,
+      "uploadedBytes": 15331,
+      "sourceSha256": "eefef9768f9102d2a5054493e70156ece99c09b1792089e20f9d5566ca32bd84",
+      "uploadedSha256": "eefef9768f9102d2a5054493e70156ece99c09b1792089e20f9d5566ca32bd84",
+      "modified": false
+    },
+    {
+      "path": "lesson-404.html",
+      "sourceBytes": 15237,
+      "uploadedBytes": 15237,
+      "sourceSha256": "b36712d2d7a58fdbbfbd37378ccd327f6751f8229f486eac96bad4a84add9b7d",
+      "uploadedSha256": "b36712d2d7a58fdbbfbd37378ccd327f6751f8229f486eac96bad4a84add9b7d",
+      "modified": false
+    },
+    {
+      "path": "lesson-405.html",
+      "sourceBytes": 15284,
+      "uploadedBytes": 15284,
+      "sourceSha256": "f73124408f7b3497d2677f79e35d719b3238d978da0612ccd4209b3cda69378e",
+      "uploadedSha256": "f73124408f7b3497d2677f79e35d719b3238d978da0612ccd4209b3cda69378e",
+      "modified": false
+    },
+    {
+      "path": "lesson-406.html",
+      "sourceBytes": 15224,
+      "uploadedBytes": 15224,
+      "sourceSha256": "268a6e40e224db50e77a3af60214bc1e119f09f8ee919121058de00b9de207f5",
+      "uploadedSha256": "268a6e40e224db50e77a3af60214bc1e119f09f8ee919121058de00b9de207f5",
+      "modified": false
+    },
+    {
+      "path": "lesson-407.html",
+      "sourceBytes": 15184,
+      "uploadedBytes": 15184,
+      "sourceSha256": "9cc5ccce226b386cef00d9bac7a5cd7f6395e17f84d69c0c9b028226c8309784",
+      "uploadedSha256": "9cc5ccce226b386cef00d9bac7a5cd7f6395e17f84d69c0c9b028226c8309784",
+      "modified": false
+    },
+    {
+      "path": "lesson-408.html",
+      "sourceBytes": 15159,
+      "uploadedBytes": 15159,
+      "sourceSha256": "ccf940c7f417308fb9975840f94b83d72a61b80fc3e7ae2fd6ae01c90c6359e2",
+      "uploadedSha256": "ccf940c7f417308fb9975840f94b83d72a61b80fc3e7ae2fd6ae01c90c6359e2",
+      "modified": false
+    },
+    {
+      "path": "lesson-409.html",
+      "sourceBytes": 15173,
+      "uploadedBytes": 15173,
+      "sourceSha256": "40d849d5abf8020b2ae25277c578f7e6f32eebda49b50933c8c1e706902a21d3",
+      "uploadedSha256": "40d849d5abf8020b2ae25277c578f7e6f32eebda49b50933c8c1e706902a21d3",
+      "modified": false
+    },
+    {
+      "path": "lesson-410.html",
+      "sourceBytes": 15230,
+      "uploadedBytes": 15230,
+      "sourceSha256": "765677ce036f0c0a661eed0e806389792cd397fff40c2cfa94e869986731e970",
+      "uploadedSha256": "765677ce036f0c0a661eed0e806389792cd397fff40c2cfa94e869986731e970",
+      "modified": false
+    },
+    {
+      "path": "lesson-411.html",
+      "sourceBytes": 15200,
+      "uploadedBytes": 15200,
+      "sourceSha256": "a1dd04f1dc59023f77e721a20dbf46b147be04c5a9e562037cc5b8d93febbb8d",
+      "uploadedSha256": "a1dd04f1dc59023f77e721a20dbf46b147be04c5a9e562037cc5b8d93febbb8d",
+      "modified": false
+    },
+    {
+      "path": "lesson-412.html",
+      "sourceBytes": 15280,
+      "uploadedBytes": 15280,
+      "sourceSha256": "a62506a7cd67dac536ac74b171c7e871b0deef5a6e9ec9e1e05b37fd91b665c1",
+      "uploadedSha256": "a62506a7cd67dac536ac74b171c7e871b0deef5a6e9ec9e1e05b37fd91b665c1",
+      "modified": false
+    },
+    {
+      "path": "lesson-413.html",
+      "sourceBytes": 15177,
+      "uploadedBytes": 15177,
+      "sourceSha256": "e607c3b6e818ea3a07ea83d62bbb1702cb9936023535a97c1b77aa1b21ef13eb",
+      "uploadedSha256": "e607c3b6e818ea3a07ea83d62bbb1702cb9936023535a97c1b77aa1b21ef13eb",
+      "modified": false
+    },
+    {
+      "path": "lesson-414.html",
+      "sourceBytes": 15233,
+      "uploadedBytes": 15233,
+      "sourceSha256": "91fed3f7c73427fb931797418f9a04361321077dd95c85be0378623fb40b4a63",
+      "uploadedSha256": "91fed3f7c73427fb931797418f9a04361321077dd95c85be0378623fb40b4a63",
+      "modified": false
+    },
+    {
+      "path": "lesson-415.html",
+      "sourceBytes": 15074,
+      "uploadedBytes": 15074,
+      "sourceSha256": "475f0ccf10e847d5eab5d7a78782d046d1537225389c44c860aedec8e1dc31d7",
+      "uploadedSha256": "475f0ccf10e847d5eab5d7a78782d046d1537225389c44c860aedec8e1dc31d7",
+      "modified": false
+    },
+    {
+      "path": "lesson-416.html",
+      "sourceBytes": 15210,
+      "uploadedBytes": 15210,
+      "sourceSha256": "8e09d6595fa66aaacf92e821cf9d689cf9b9c48504fd482a143432a76ce41c36",
+      "uploadedSha256": "8e09d6595fa66aaacf92e821cf9d689cf9b9c48504fd482a143432a76ce41c36",
+      "modified": false
+    },
+    {
+      "path": "lesson-417.html",
+      "sourceBytes": 15190,
+      "uploadedBytes": 15190,
+      "sourceSha256": "85d67e0e8b8f05ada96d148d2c3c30c1960d8311c7e0c6e290ebacf5269262cc",
+      "uploadedSha256": "85d67e0e8b8f05ada96d148d2c3c30c1960d8311c7e0c6e290ebacf5269262cc",
+      "modified": false
+    },
+    {
+      "path": "lesson-418.html",
+      "sourceBytes": 15081,
+      "uploadedBytes": 15081,
+      "sourceSha256": "b7a2d4fbd92da9f907f267a6b3f0207c118548c5d90bed41ae65602fbdabd202",
+      "uploadedSha256": "b7a2d4fbd92da9f907f267a6b3f0207c118548c5d90bed41ae65602fbdabd202",
+      "modified": false
+    },
+    {
+      "path": "lesson-419.html",
+      "sourceBytes": 15256,
+      "uploadedBytes": 15256,
+      "sourceSha256": "34660f74de5e7ef992015c2759a500ce22e5a1227b404f4764a83cdf44e410c0",
+      "uploadedSha256": "34660f74de5e7ef992015c2759a500ce22e5a1227b404f4764a83cdf44e410c0",
+      "modified": false
+    },
+    {
+      "path": "lesson-420.html",
+      "sourceBytes": 15139,
+      "uploadedBytes": 15139,
+      "sourceSha256": "bd139164dc7dcaf6592eafb5abdab6963aec400e5af6962dee514d7981a557f7",
+      "uploadedSha256": "bd139164dc7dcaf6592eafb5abdab6963aec400e5af6962dee514d7981a557f7",
+      "modified": false
+    },
+    {
+      "path": "lesson-421.html",
+      "sourceBytes": 15184,
+      "uploadedBytes": 15184,
+      "sourceSha256": "3b86dcb8d9da954a5a74f40ba3b73394fbb1c6a677c1dda407774fde1e878e80",
+      "uploadedSha256": "3b86dcb8d9da954a5a74f40ba3b73394fbb1c6a677c1dda407774fde1e878e80",
+      "modified": false
+    },
+    {
+      "path": "lesson-422.html",
+      "sourceBytes": 15120,
+      "uploadedBytes": 15120,
+      "sourceSha256": "2bf0daa9d3168489062935c5dfd5111f360b255848c0bb228ff859f232f733e2",
+      "uploadedSha256": "2bf0daa9d3168489062935c5dfd5111f360b255848c0bb228ff859f232f733e2",
+      "modified": false
+    },
+    {
+      "path": "lesson-423.html",
+      "sourceBytes": 15203,
+      "uploadedBytes": 15203,
+      "sourceSha256": "5f016e8fb8d635b199e800d98b0ce21629cb14eb6454be80775a4b48cf95074d",
+      "uploadedSha256": "5f016e8fb8d635b199e800d98b0ce21629cb14eb6454be80775a4b48cf95074d",
+      "modified": false
+    },
+    {
+      "path": "lesson-424.html",
+      "sourceBytes": 15126,
+      "uploadedBytes": 15126,
+      "sourceSha256": "834053c12c9dd79d1b881c60e6595db39ef41dd9452eee09cc247de200cabfd6",
+      "uploadedSha256": "834053c12c9dd79d1b881c60e6595db39ef41dd9452eee09cc247de200cabfd6",
+      "modified": false
+    },
+    {
+      "path": "lesson-425.html",
+      "sourceBytes": 15290,
+      "uploadedBytes": 15290,
+      "sourceSha256": "17244b7c0a4ad679646707188ab30a382e602c59725075ae272d003521833f11",
+      "uploadedSha256": "17244b7c0a4ad679646707188ab30a382e602c59725075ae272d003521833f11",
+      "modified": false
+    },
+    {
+      "path": "lesson-426.html",
+      "sourceBytes": 15233,
+      "uploadedBytes": 15233,
+      "sourceSha256": "c53d56a0bdd8e583d991262ce1e123fa6051c1d3bccdb7012d82d124ca17f4a8",
+      "uploadedSha256": "c53d56a0bdd8e583d991262ce1e123fa6051c1d3bccdb7012d82d124ca17f4a8",
+      "modified": false
+    },
+    {
+      "path": "lesson-427.html",
+      "sourceBytes": 15363,
+      "uploadedBytes": 15363,
+      "sourceSha256": "2a387b55a18632e04f2185bb0bb664d21f12edbd32a21f21e901fa9808254f78",
+      "uploadedSha256": "2a387b55a18632e04f2185bb0bb664d21f12edbd32a21f21e901fa9808254f78",
+      "modified": false
+    },
+    {
+      "path": "lesson-428.html",
+      "sourceBytes": 15236,
+      "uploadedBytes": 15236,
+      "sourceSha256": "1b16c90ef554032beb73be81f77784440e9bf9028fa35f55c94289aee1d11235",
+      "uploadedSha256": "1b16c90ef554032beb73be81f77784440e9bf9028fa35f55c94289aee1d11235",
+      "modified": false
+    },
+    {
+      "path": "lesson-429.html",
+      "sourceBytes": 15139,
+      "uploadedBytes": 15139,
+      "sourceSha256": "0f2e59c8e46203b56a18c428de02c60ba4f4a1f99d900b3b8caa90f9e89f6762",
+      "uploadedSha256": "0f2e59c8e46203b56a18c428de02c60ba4f4a1f99d900b3b8caa90f9e89f6762",
+      "modified": false
+    },
+    {
+      "path": "lesson-430.html",
+      "sourceBytes": 15250,
+      "uploadedBytes": 15250,
+      "sourceSha256": "84f9ac3bdb15d7fe30561e84de039349e91a9f77164584d3d7b3e7f083f4ba5f",
+      "uploadedSha256": "84f9ac3bdb15d7fe30561e84de039349e91a9f77164584d3d7b3e7f083f4ba5f",
+      "modified": false
+    },
+    {
+      "path": "lesson-431.html",
+      "sourceBytes": 15178,
+      "uploadedBytes": 15178,
+      "sourceSha256": "d86a35906cba5f20e8a9f69227decd6ae3c134f262d540b99327e3ee53cde617",
+      "uploadedSha256": "d86a35906cba5f20e8a9f69227decd6ae3c134f262d540b99327e3ee53cde617",
+      "modified": false
+    },
+    {
+      "path": "lesson-432.html",
+      "sourceBytes": 15283,
+      "uploadedBytes": 15283,
+      "sourceSha256": "e840046b0992292fd6a96603d3538f14b74dd22e66df0a416e09d221492d5834",
+      "uploadedSha256": "e840046b0992292fd6a96603d3538f14b74dd22e66df0a416e09d221492d5834",
+      "modified": false
+    },
+    {
+      "path": "lesson-433.html",
+      "sourceBytes": 15178,
+      "uploadedBytes": 15178,
+      "sourceSha256": "62dc3db99741eb82acf643fb4405c043e8d84e74a07762d2f3b5302754b3d198",
+      "uploadedSha256": "62dc3db99741eb82acf643fb4405c043e8d84e74a07762d2f3b5302754b3d198",
+      "modified": false
+    },
+    {
+      "path": "lesson-434.html",
+      "sourceBytes": 15336,
+      "uploadedBytes": 15336,
+      "sourceSha256": "a30162a47740538fb72bc26073df071b40bcc0325b9e7f51bb592c38f3290a78",
+      "uploadedSha256": "a30162a47740538fb72bc26073df071b40bcc0325b9e7f51bb592c38f3290a78",
+      "modified": false
+    },
+    {
+      "path": "lesson-435.html",
+      "sourceBytes": 15176,
+      "uploadedBytes": 15176,
+      "sourceSha256": "4843c6f05cc5b9e023d5afea0fa3cd310e5e9604d09b41032dafc539b1f65c44",
+      "uploadedSha256": "4843c6f05cc5b9e023d5afea0fa3cd310e5e9604d09b41032dafc539b1f65c44",
+      "modified": false
+    },
+    {
+      "path": "lesson-436.html",
+      "sourceBytes": 15264,
+      "uploadedBytes": 15264,
+      "sourceSha256": "49ba1fbeb7aee6441f2f99fe4b76469f972d3f0428931e08db720ad1206dbae2",
+      "uploadedSha256": "49ba1fbeb7aee6441f2f99fe4b76469f972d3f0428931e08db720ad1206dbae2",
+      "modified": false
+    },
+    {
+      "path": "lesson-437.html",
+      "sourceBytes": 15346,
+      "uploadedBytes": 15346,
+      "sourceSha256": "198284cd1ce0038d8144164de3cd8324477b624a590e9bbf6e0e7524b95cd6da",
+      "uploadedSha256": "198284cd1ce0038d8144164de3cd8324477b624a590e9bbf6e0e7524b95cd6da",
+      "modified": false
+    },
+    {
+      "path": "lesson-438.html",
+      "sourceBytes": 15153,
+      "uploadedBytes": 15153,
+      "sourceSha256": "f3c9acce5913c5b863ea08ad433624cb1cf92ce94d77bf2ac4abda1b60df92b0",
+      "uploadedSha256": "f3c9acce5913c5b863ea08ad433624cb1cf92ce94d77bf2ac4abda1b60df92b0",
+      "modified": false
+    },
+    {
+      "path": "lesson-439.html",
+      "sourceBytes": 15341,
+      "uploadedBytes": 15341,
+      "sourceSha256": "31e12557a0bcc8f8a1cafdeca709e63940b4a6761b89297c048c40c418fb9af0",
+      "uploadedSha256": "31e12557a0bcc8f8a1cafdeca709e63940b4a6761b89297c048c40c418fb9af0",
+      "modified": false
+    },
+    {
+      "path": "lesson-440.html",
+      "sourceBytes": 15174,
+      "uploadedBytes": 15174,
+      "sourceSha256": "d65afd59e14a235799d025537aab345965ce9bd74052678a320e114e9bf62a6a",
+      "uploadedSha256": "d65afd59e14a235799d025537aab345965ce9bd74052678a320e114e9bf62a6a",
+      "modified": false
+    },
+    {
+      "path": "lesson-441.html",
+      "sourceBytes": 15408,
+      "uploadedBytes": 15408,
+      "sourceSha256": "61e77e54c705d772cd599f7960d3c2dc00a45053fdcd55dda1b5409984d2a572",
+      "uploadedSha256": "61e77e54c705d772cd599f7960d3c2dc00a45053fdcd55dda1b5409984d2a572",
+      "modified": false
+    },
+    {
+      "path": "lesson-442.html",
+      "sourceBytes": 15333,
+      "uploadedBytes": 15333,
+      "sourceSha256": "bbc88e4c60e47b561fcd87d0f537c1b227ace04ba673a75809e194fa089c95c0",
+      "uploadedSha256": "bbc88e4c60e47b561fcd87d0f537c1b227ace04ba673a75809e194fa089c95c0",
+      "modified": false
+    },
+    {
+      "path": "lesson-443.html",
+      "sourceBytes": 15246,
+      "uploadedBytes": 15246,
+      "sourceSha256": "0e62668a89034293b6c4dfc8c3f4f966404fdafad884511c0d35ccd1d6faf17c",
+      "uploadedSha256": "0e62668a89034293b6c4dfc8c3f4f966404fdafad884511c0d35ccd1d6faf17c",
+      "modified": false
+    },
+    {
+      "path": "lesson-444.html",
+      "sourceBytes": 15198,
+      "uploadedBytes": 15198,
+      "sourceSha256": "f98dd60f2ae1cf13832c457e0be71969a194a913467397080a7b347dc89ae1a6",
+      "uploadedSha256": "f98dd60f2ae1cf13832c457e0be71969a194a913467397080a7b347dc89ae1a6",
+      "modified": false
+    },
+    {
+      "path": "lesson-445.html",
+      "sourceBytes": 15411,
+      "uploadedBytes": 15411,
+      "sourceSha256": "033b0805fb9e4ccbb31fa147867340b64a9028de08f40ada64a087385d51da49",
+      "uploadedSha256": "033b0805fb9e4ccbb31fa147867340b64a9028de08f40ada64a087385d51da49",
+      "modified": false
+    },
+    {
+      "path": "lesson-446.html",
+      "sourceBytes": 15211,
+      "uploadedBytes": 15211,
+      "sourceSha256": "ebb213acbb362b6d4121922d0cd82da25017370d5e78ddea7a8529d7b1d7f344",
+      "uploadedSha256": "ebb213acbb362b6d4121922d0cd82da25017370d5e78ddea7a8529d7b1d7f344",
+      "modified": false
+    },
+    {
+      "path": "lesson-447.html",
+      "sourceBytes": 15216,
+      "uploadedBytes": 15216,
+      "sourceSha256": "252f04c70122809e5d81a47c32eef4847080b1e54282972374e4f7da7856bb4a",
+      "uploadedSha256": "252f04c70122809e5d81a47c32eef4847080b1e54282972374e4f7da7856bb4a",
+      "modified": false
+    },
+    {
+      "path": "lesson-448.html",
+      "sourceBytes": 15207,
+      "uploadedBytes": 15207,
+      "sourceSha256": "b7acb88c396d11b9c5d3d159a961f523f72946196914e792c395b8c45760128d",
+      "uploadedSha256": "b7acb88c396d11b9c5d3d159a961f523f72946196914e792c395b8c45760128d",
+      "modified": false
+    },
+    {
+      "path": "lesson-449.html",
+      "sourceBytes": 15178,
+      "uploadedBytes": 15178,
+      "sourceSha256": "85fb4af90a531e1c46204df7fc87f470816aeb3da34b568ba729df8eef2eb9f1",
+      "uploadedSha256": "85fb4af90a531e1c46204df7fc87f470816aeb3da34b568ba729df8eef2eb9f1",
+      "modified": false
+    },
+    {
+      "path": "lesson-450.html",
+      "sourceBytes": 15369,
+      "uploadedBytes": 15369,
+      "sourceSha256": "9efe63aeb885913dff8ab48736a1f3589599f3461cd0d999d0068e407f15173e",
+      "uploadedSha256": "9efe63aeb885913dff8ab48736a1f3589599f3461cd0d999d0068e407f15173e",
+      "modified": false
+    },
+    {
+      "path": "lesson-451.html",
+      "sourceBytes": 15193,
+      "uploadedBytes": 15193,
+      "sourceSha256": "105b19cf5efc7214c736159ff6ed17bfc7b4e2d8f79199ec538bde9bc0be29c0",
+      "uploadedSha256": "105b19cf5efc7214c736159ff6ed17bfc7b4e2d8f79199ec538bde9bc0be29c0",
+      "modified": false
+    },
+    {
+      "path": "lesson-452.html",
+      "sourceBytes": 15188,
+      "uploadedBytes": 15188,
+      "sourceSha256": "3be77f9e44e08e34183575abc3faafece66015f4e999dd12359c831c5ce6b979",
+      "uploadedSha256": "3be77f9e44e08e34183575abc3faafece66015f4e999dd12359c831c5ce6b979",
+      "modified": false
+    },
+    {
+      "path": "lesson-453.html",
+      "sourceBytes": 15289,
+      "uploadedBytes": 15289,
+      "sourceSha256": "043ecc457fd53adc1f79202ecfc535a50ce7f68b453e644509cf7672f4d1a298",
+      "uploadedSha256": "043ecc457fd53adc1f79202ecfc535a50ce7f68b453e644509cf7672f4d1a298",
+      "modified": false
+    },
+    {
+      "path": "lesson-454.html",
+      "sourceBytes": 15214,
+      "uploadedBytes": 15214,
+      "sourceSha256": "9836cba37ce5aac8abe2842e812baafeffb1c49889847e303e2d7b2aefc6c2c6",
+      "uploadedSha256": "9836cba37ce5aac8abe2842e812baafeffb1c49889847e303e2d7b2aefc6c2c6",
+      "modified": false
+    },
+    {
+      "path": "lesson-455.html",
+      "sourceBytes": 15258,
+      "uploadedBytes": 15258,
+      "sourceSha256": "5cb4a102642968ffb0173ae7e4f7ccc00dfe494f6fe09444d464dc0143c9c593",
+      "uploadedSha256": "5cb4a102642968ffb0173ae7e4f7ccc00dfe494f6fe09444d464dc0143c9c593",
+      "modified": false
+    },
+    {
+      "path": "lesson-456.html",
+      "sourceBytes": 15249,
+      "uploadedBytes": 15249,
+      "sourceSha256": "704b7654302453a8a89a9f639df73fe17ec18168a0401d3a7875ecf9a49f1edd",
+      "uploadedSha256": "704b7654302453a8a89a9f639df73fe17ec18168a0401d3a7875ecf9a49f1edd",
+      "modified": false
+    },
+    {
+      "path": "lesson-457.html",
+      "sourceBytes": 15178,
+      "uploadedBytes": 15178,
+      "sourceSha256": "86c988f18f2dce90780195e1a12a36dbe86138796447e190f007005a0f160912",
+      "uploadedSha256": "86c988f18f2dce90780195e1a12a36dbe86138796447e190f007005a0f160912",
+      "modified": false
+    },
+    {
+      "path": "lesson-458.html",
+      "sourceBytes": 15155,
+      "uploadedBytes": 15155,
+      "sourceSha256": "4e5ec74746d74c490163cd93da6e975f2cd779b66856b2ac912e2079446d5378",
+      "uploadedSha256": "4e5ec74746d74c490163cd93da6e975f2cd779b66856b2ac912e2079446d5378",
+      "modified": false
+    },
+    {
+      "path": "lesson-459.html",
+      "sourceBytes": 15144,
+      "uploadedBytes": 15144,
+      "sourceSha256": "b9909a639e0a68a3abfc74a6e3e99f3fb99d73c2abdc6969c45a44a0b6c350d0",
+      "uploadedSha256": "b9909a639e0a68a3abfc74a6e3e99f3fb99d73c2abdc6969c45a44a0b6c350d0",
+      "modified": false
+    },
+    {
+      "path": "lesson-460.html",
+      "sourceBytes": 15207,
+      "uploadedBytes": 15207,
+      "sourceSha256": "eec02f610b7a32da86f6be94d1670dab0fc54c97722c3c5614c947a8682cb0f1",
+      "uploadedSha256": "eec02f610b7a32da86f6be94d1670dab0fc54c97722c3c5614c947a8682cb0f1",
+      "modified": false
+    },
+    {
+      "path": "lesson-461.html",
+      "sourceBytes": 15169,
+      "uploadedBytes": 15169,
+      "sourceSha256": "da16cf80bd22ded5e178513663d03a71979d8fa54de8b4bb004d0ea978abc1a4",
+      "uploadedSha256": "da16cf80bd22ded5e178513663d03a71979d8fa54de8b4bb004d0ea978abc1a4",
+      "modified": false
+    },
+    {
+      "path": "lesson-462.html",
+      "sourceBytes": 15260,
+      "uploadedBytes": 15260,
+      "sourceSha256": "9dcfcfab121f4f376e4916e4c83164895a4aa769d7d0a38654292e4aec25ff96",
+      "uploadedSha256": "9dcfcfab121f4f376e4916e4c83164895a4aa769d7d0a38654292e4aec25ff96",
+      "modified": false
+    },
+    {
+      "path": "lesson-463.html",
+      "sourceBytes": 15145,
+      "uploadedBytes": 15145,
+      "sourceSha256": "f3c6f0c226781f742ee062f08f87b8c989c28051ddb6c2c45019ecaab7552b08",
+      "uploadedSha256": "f3c6f0c226781f742ee062f08f87b8c989c28051ddb6c2c45019ecaab7552b08",
+      "modified": false
+    },
+    {
+      "path": "lesson-464.html",
+      "sourceBytes": 15210,
+      "uploadedBytes": 15210,
+      "sourceSha256": "7b3fe09960d4c987edee10804047cb0aed57e079947d6b407375001b2234309f",
+      "uploadedSha256": "7b3fe09960d4c987edee10804047cb0aed57e079947d6b407375001b2234309f",
+      "modified": false
+    },
+    {
+      "path": "lesson-465.html",
+      "sourceBytes": 15048,
+      "uploadedBytes": 15048,
+      "sourceSha256": "66e309ff3c9c63c7713dbfcfda5eca72b80e03fb8536793f5095471119ec8192",
+      "uploadedSha256": "66e309ff3c9c63c7713dbfcfda5eca72b80e03fb8536793f5095471119ec8192",
+      "modified": false
+    },
+    {
+      "path": "lesson-466.html",
+      "sourceBytes": 15180,
+      "uploadedBytes": 15180,
+      "sourceSha256": "162ba38353f423b0dd32d5bf2a77d8dce188fe11efd89c5bf56c5dbac4e6b26e",
+      "uploadedSha256": "162ba38353f423b0dd32d5bf2a77d8dce188fe11efd89c5bf56c5dbac4e6b26e",
+      "modified": false
+    },
+    {
+      "path": "lesson-467.html",
+      "sourceBytes": 15152,
+      "uploadedBytes": 15152,
+      "sourceSha256": "63cc07d469dae96b55f430fc6be9d0b7529197d68bc37c4b00b3ed0d9aedfdf5",
+      "uploadedSha256": "63cc07d469dae96b55f430fc6be9d0b7529197d68bc37c4b00b3ed0d9aedfdf5",
+      "modified": false
+    },
+    {
+      "path": "lesson-468.html",
+      "sourceBytes": 15058,
+      "uploadedBytes": 15058,
+      "sourceSha256": "f1a036b44b07f03fc55e443992b4a28930d0cfb9e0504060c80e804adbd85a8e",
+      "uploadedSha256": "f1a036b44b07f03fc55e443992b4a28930d0cfb9e0504060c80e804adbd85a8e",
+      "modified": false
+    },
+    {
+      "path": "lesson-469.html",
+      "sourceBytes": 15233,
+      "uploadedBytes": 15233,
+      "sourceSha256": "f0831a102070c07b1b3c39aa763341d2afcf295f094a9ba3e76662d147b2e329",
+      "uploadedSha256": "f0831a102070c07b1b3c39aa763341d2afcf295f094a9ba3e76662d147b2e329",
+      "modified": false
+    },
+    {
+      "path": "lesson-470.html",
+      "sourceBytes": 15131,
+      "uploadedBytes": 15131,
+      "sourceSha256": "c6285cfd83c925c1a38a1b599b6c54822fcd8a6d4055d8eff8bc14f56cfb7506",
+      "uploadedSha256": "c6285cfd83c925c1a38a1b599b6c54822fcd8a6d4055d8eff8bc14f56cfb7506",
+      "modified": false
+    },
+    {
+      "path": "lesson-471.html",
+      "sourceBytes": 15150,
+      "uploadedBytes": 15150,
+      "sourceSha256": "9f991491f9326d7ba7163e5f169663a10fd5146ea1868f805b1ce53cfddab9a3",
+      "uploadedSha256": "9f991491f9326d7ba7163e5f169663a10fd5146ea1868f805b1ce53cfddab9a3",
+      "modified": false
+    },
+    {
+      "path": "lesson-472.html",
+      "sourceBytes": 15079,
+      "uploadedBytes": 15079,
+      "sourceSha256": "0ac5133e1b26bcd680a681f25e9d367505ddd4d1c2dc81983c97d383c932a22a",
+      "uploadedSha256": "0ac5133e1b26bcd680a681f25e9d367505ddd4d1c2dc81983c97d383c932a22a",
+      "modified": false
+    },
+    {
+      "path": "lesson-473.html",
+      "sourceBytes": 15196,
+      "uploadedBytes": 15196,
+      "sourceSha256": "21516407c300af02e5e4e5d204842a79780e4fe1e7610cba8c63bec561ca5798",
+      "uploadedSha256": "21516407c300af02e5e4e5d204842a79780e4fe1e7610cba8c63bec561ca5798",
+      "modified": false
+    },
+    {
+      "path": "lesson-474.html",
+      "sourceBytes": 15091,
+      "uploadedBytes": 15091,
+      "sourceSha256": "05623aa26cbe8f4f7c6bd14a66c64064ff2591830a240317b3c480054640479d",
+      "uploadedSha256": "05623aa26cbe8f4f7c6bd14a66c64064ff2591830a240317b3c480054640479d",
+      "modified": false
+    },
+    {
+      "path": "lesson-475.html",
+      "sourceBytes": 15319,
+      "uploadedBytes": 15319,
+      "sourceSha256": "139b688dfb5b98f77eda0b8546097998fbc9b22e59cb28df5aee26348daaf27b",
+      "uploadedSha256": "139b688dfb5b98f77eda0b8546097998fbc9b22e59cb28df5aee26348daaf27b",
+      "modified": false
+    },
+    {
+      "path": "lesson-476.html",
+      "sourceBytes": 15194,
+      "uploadedBytes": 15194,
+      "sourceSha256": "a0d30c39a8f4f6465f246ee958621f1b19a5750b0cbd97e5df091864c81aeabb",
+      "uploadedSha256": "a0d30c39a8f4f6465f246ee958621f1b19a5750b0cbd97e5df091864c81aeabb",
+      "modified": false
+    },
+    {
+      "path": "lesson-477.html",
+      "sourceBytes": 15355,
+      "uploadedBytes": 15355,
+      "sourceSha256": "195fc0f3fadc5aa3305e93fdaea846ff3ee0a5959f434692b6a86c8cfc177512",
+      "uploadedSha256": "195fc0f3fadc5aa3305e93fdaea846ff3ee0a5959f434692b6a86c8cfc177512",
+      "modified": false
+    },
+    {
+      "path": "lesson-478.html",
+      "sourceBytes": 15272,
+      "uploadedBytes": 15272,
+      "sourceSha256": "3ac73bc816de884465fc841e5c6dae328ae345207d1e146cbabe94435642a8c4",
+      "uploadedSha256": "3ac73bc816de884465fc841e5c6dae328ae345207d1e146cbabe94435642a8c4",
+      "modified": false
+    },
+    {
+      "path": "lesson-479.html",
+      "sourceBytes": 15072,
+      "uploadedBytes": 15072,
+      "sourceSha256": "c24d6f091d4698383c7b63936701897ab2c134a9318262c261491adc8b94fc6d",
+      "uploadedSha256": "c24d6f091d4698383c7b63936701897ab2c134a9318262c261491adc8b94fc6d",
+      "modified": false
+    },
+    {
+      "path": "lesson-480.html",
+      "sourceBytes": 15224,
+      "uploadedBytes": 15224,
+      "sourceSha256": "b31a0fec207c069c9aece21da70ef4a53d63989bf09720e49e605fe16900bc3a",
+      "uploadedSha256": "b31a0fec207c069c9aece21da70ef4a53d63989bf09720e49e605fe16900bc3a",
+      "modified": false
+    },
+    {
+      "path": "lesson-481.html",
+      "sourceBytes": 15138,
+      "uploadedBytes": 15138,
+      "sourceSha256": "03751ae22af47576a2babe8860cfe44a778bb3dfab2a1c300701679ba0ddd3d6",
+      "uploadedSha256": "03751ae22af47576a2babe8860cfe44a778bb3dfab2a1c300701679ba0ddd3d6",
+      "modified": false
+    },
+    {
+      "path": "lesson-482.html",
+      "sourceBytes": 15252,
+      "uploadedBytes": 15252,
+      "sourceSha256": "8401464c7cab4a08f4d55bccc116a35787054e1a98f7194ad44ab1c858088abe",
+      "uploadedSha256": "8401464c7cab4a08f4d55bccc116a35787054e1a98f7194ad44ab1c858088abe",
+      "modified": false
+    },
+    {
+      "path": "lesson-483.html",
+      "sourceBytes": 15133,
+      "uploadedBytes": 15133,
+      "sourceSha256": "3d988de022ce57ab369f0dabb74eb7baf4e580df7c001c354d171861120d3c1d",
+      "uploadedSha256": "3d988de022ce57ab369f0dabb74eb7baf4e580df7c001c354d171861120d3c1d",
+      "modified": false
+    },
+    {
+      "path": "lesson-484.html",
+      "sourceBytes": 15321,
+      "uploadedBytes": 15321,
+      "sourceSha256": "a2f835ae69dfeccfae0c4e5fbe07edb6e3063e6af01ee68ea8c1ac58e21de99f",
+      "uploadedSha256": "a2f835ae69dfeccfae0c4e5fbe07edb6e3063e6af01ee68ea8c1ac58e21de99f",
+      "modified": false
+    },
+    {
+      "path": "lesson-485.html",
+      "sourceBytes": 15173,
+      "uploadedBytes": 15173,
+      "sourceSha256": "3b61e31e036dc077b4a9c93d7b398e60560f3cc93d0f3bfba7470fe8bbebc8e7",
+      "uploadedSha256": "3b61e31e036dc077b4a9c93d7b398e60560f3cc93d0f3bfba7470fe8bbebc8e7",
+      "modified": false
+    },
+    {
+      "path": "lesson-486.html",
+      "sourceBytes": 15208,
+      "uploadedBytes": 15208,
+      "sourceSha256": "395baffe6ac446f343083bba22f4fe97a975bf648e12732b9145324d98213840",
+      "uploadedSha256": "395baffe6ac446f343083bba22f4fe97a975bf648e12732b9145324d98213840",
+      "modified": false
+    },
+    {
+      "path": "lesson-487.html",
+      "sourceBytes": 15363,
+      "uploadedBytes": 15363,
+      "sourceSha256": "93dfaa406b0626ca5d64da4ea3a570c7394385aca1ab825d099806b78029567f",
+      "uploadedSha256": "93dfaa406b0626ca5d64da4ea3a570c7394385aca1ab825d099806b78029567f",
+      "modified": false
+    },
+    {
+      "path": "lesson-488.html",
+      "sourceBytes": 15142,
+      "uploadedBytes": 15142,
+      "sourceSha256": "35af880d240d1543acfbb6e485f84ef283eb4bcc9957095102022eeba51ddd19",
+      "uploadedSha256": "35af880d240d1543acfbb6e485f84ef283eb4bcc9957095102022eeba51ddd19",
+      "modified": false
+    },
+    {
+      "path": "lesson-489.html",
+      "sourceBytes": 15342,
+      "uploadedBytes": 15342,
+      "sourceSha256": "5a725fc7c0c4ef0dd2822ec4c1c2a9fe546bd8781df8bd7351602ac58acf4030",
+      "uploadedSha256": "5a725fc7c0c4ef0dd2822ec4c1c2a9fe546bd8781df8bd7351602ac58acf4030",
+      "modified": false
+    },
+    {
+      "path": "lesson-490.html",
+      "sourceBytes": 15161,
+      "uploadedBytes": 15161,
+      "sourceSha256": "a51f6e5e80207c05229aff592be73172e224a31fcc8b399c2d042a29323d7045",
+      "uploadedSha256": "a51f6e5e80207c05229aff592be73172e224a31fcc8b399c2d042a29323d7045",
+      "modified": false
+    },
+    {
+      "path": "lesson-491.html",
+      "sourceBytes": 15397,
+      "uploadedBytes": 15397,
+      "sourceSha256": "cf013a38b94e93f3294b2f43ec38e4c63a2dde7718a75b4bde132c8f1896b6ab",
+      "uploadedSha256": "cf013a38b94e93f3294b2f43ec38e4c63a2dde7718a75b4bde132c8f1896b6ab",
+      "modified": false
+    },
+    {
+      "path": "lesson-492.html",
+      "sourceBytes": 15347,
+      "uploadedBytes": 15347,
+      "sourceSha256": "af5fb6741c43f37fdde068f311c2612b814f51922360d9a3ded8d63c888339c3",
+      "uploadedSha256": "af5fb6741c43f37fdde068f311c2612b814f51922360d9a3ded8d63c888339c3",
+      "modified": false
+    },
+    {
+      "path": "lesson-493.html",
+      "sourceBytes": 15254,
+      "uploadedBytes": 15254,
+      "sourceSha256": "1d3e1dd490f4a50d7a533b2642e815fa2b589d69188388c5cb3d9f719fffda74",
+      "uploadedSha256": "1d3e1dd490f4a50d7a533b2642e815fa2b589d69188388c5cb3d9f719fffda74",
+      "modified": false
+    },
+    {
+      "path": "lesson-494.html",
+      "sourceBytes": 15195,
+      "uploadedBytes": 15195,
+      "sourceSha256": "352aefd83dd4cea235cbb18562d7c8b4259d9046ddbc0147e9d978aecdb3d67f",
+      "uploadedSha256": "352aefd83dd4cea235cbb18562d7c8b4259d9046ddbc0147e9d978aecdb3d67f",
+      "modified": false
+    },
+    {
+      "path": "lesson-495.html",
+      "sourceBytes": 15411,
+      "uploadedBytes": 15411,
+      "sourceSha256": "7378222a2a22e8beedfece1f5a8823261cf39120a147e5f6f992d13f0717870e",
+      "uploadedSha256": "7378222a2a22e8beedfece1f5a8823261cf39120a147e5f6f992d13f0717870e",
+      "modified": false
+    },
+    {
+      "path": "lesson-496.html",
+      "sourceBytes": 15198,
+      "uploadedBytes": 15198,
+      "sourceSha256": "3f63f66422adb96ad83844450b7140aab85c3b8f8a356b608c13a9d6abdeaa95",
+      "uploadedSha256": "3f63f66422adb96ad83844450b7140aab85c3b8f8a356b608c13a9d6abdeaa95",
+      "modified": false
+    },
+    {
+      "path": "lesson-497.html",
+      "sourceBytes": 15154,
+      "uploadedBytes": 15154,
+      "sourceSha256": "d9a0efc31103b7465aa308743fa0599dec937aeb2cc51bc7723f21845d8d19b3",
+      "uploadedSha256": "d9a0efc31103b7465aa308743fa0599dec937aeb2cc51bc7723f21845d8d19b3",
+      "modified": false
+    },
+    {
+      "path": "lesson-498.html",
+      "sourceBytes": 15171,
+      "uploadedBytes": 15171,
+      "sourceSha256": "8417c9dac524dc27fdac484dde9891729ae46c837affb609cb95a62a4477e5f2",
+      "uploadedSha256": "8417c9dac524dc27fdac484dde9891729ae46c837affb609cb95a62a4477e5f2",
+      "modified": false
+    },
+    {
+      "path": "lesson-499.html",
+      "sourceBytes": 15164,
+      "uploadedBytes": 15164,
+      "sourceSha256": "a7feecdcc3f2ae3601d4a9bcebe152b94354306e2c9b4707bce4b980d2e8b3e3",
+      "uploadedSha256": "a7feecdcc3f2ae3601d4a9bcebe152b94354306e2c9b4707bce4b980d2e8b3e3",
+      "modified": false
+    },
+    {
+      "path": "lesson-500.html",
+      "sourceBytes": 15382,
+      "uploadedBytes": 15382,
+      "sourceSha256": "9c4b322839365f28a93efdcbc5e405a940dd1ca78b5ba0b795176116507fda08",
+      "uploadedSha256": "9c4b322839365f28a93efdcbc5e405a940dd1ca78b5ba0b795176116507fda08",
+      "modified": false
+    },
+    {
+      "path": "og.png",
+      "sourceBytes": 2422363,
+      "uploadedBytes": 2422363,
+      "sourceSha256": "3ad1dddf389c8720722c3140bc24916e1a0eeff4f8c8e78a36519508f217e37a",
+      "uploadedSha256": "3ad1dddf389c8720722c3140bc24916e1a0eeff4f8c8e78a36519508f217e37a",
+      "modified": false
+    },
+    {
+      "path": "package.json",
+      "sourceBytes": 203,
+      "uploadedBytes": 203,
+      "sourceSha256": "6be1e756e8e28eefd4d120d8b641283835cef0a9287da22f78f71ef89adfc029",
+      "uploadedSha256": "6be1e756e8e28eefd4d120d8b641283835cef0a9287da22f78f71ef89adfc029",
+      "modified": false
+    },
+    {
+      "path": "README.md",
+      "sourceBytes": 1214,
+      "uploadedBytes": 3637,
+      "sourceSha256": "cb09fc7ef6a3dd73bc8fb9eed295c864ca0013539e1540529b3e906c8118f06f",
+      "uploadedSha256": "1e8984808e7b127d90dc46eae9604bb1f686d715c87c5aebac6fa15dad1210da",
+      "modified": true
+    },
+    {
+      "path": "robots.txt",
+      "sourceBytes": 23,
+      "uploadedBytes": 23,
+      "sourceSha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "uploadedSha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "modified": false
+    },
+    {
+      "path": "tools/generate-site.mjs",
+      "sourceBytes": 65807,
+      "uploadedBytes": 65807,
+      "sourceSha256": "530606642d5c20e6340cd438697f6b4a3f4120b0e67c491fe6c6dec640f6ce4a",
+      "uploadedSha256": "530606642d5c20e6340cd438697f6b4a3f4120b0e67c491fe6c6dec640f6ce4a",
+      "modified": false
+    },
+    {
+      "path": "tools/validate-site.mjs",
+      "sourceBytes": 2712,
+      "uploadedBytes": 2712,
+      "sourceSha256": "b029d1c648b2dc6008b53e0ae0164b2a3747cb991f614dddaa5a17da1e3bfa00",
+      "uploadedSha256": "b029d1c648b2dc6008b53e0ae0164b2a3747cb991f614dddaa5a17da1e3bfa00",
+      "modified": false
+    }
+  ],
+  "publishingChanges": [
+    {
+      "path": "README.md",
+      "reason": "Added live site, collection directory, file inventory, publishing instructions, and protection details; retained original Markdown documentation when present."
+    }
+  ]
+}
