@@ -1,7 +1,7 @@
 {
   "sourceFolder": "positional",
-  "repository": "https://github.com/knightway8/chess9",
-  "website": "https://knightway8.github.io/chess9/",
+  "repository": "https://github.com/1d42c4/chess9",
+  "website": "https://1d42c4.github.io/chess9/",
   "originalFileCount": 509,
   "files": [
     {
@@ -4047,9 +4047,9 @@
     {
       "path": "README.md",
       "sourceBytes": 1214,
-      "uploadedBytes": 3637,
+      "uploadedBytes": 3662,
       "sourceSha256": "cb09fc7ef6a3dd73bc8fb9eed295c864ca0013539e1540529b3e906c8118f06f",
-      "uploadedSha256": "1e8984808e7b127d90dc46eae9604bb1f686d715c87c5aebac6fa15dad1210da",
+      "uploadedSha256": "12787e688f5bb799e8afec7d8b531184c751e56e85045d88d6b3cb103877a479",
       "modified": true
     },
     {
